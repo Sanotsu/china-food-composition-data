@@ -25,19 +25,19 @@
 
 将 pdf 版本的[《中国食物成分表标准版（第 6 版）》](https://www.pumpedu.com/home-shop/5514.html) 中“能量和食物一般营养成分”部分进行截图，并通过飞桨 OCR 转为 exel 文件，并进一步构建成指定格式的 json 文件。
 
-即多张同类食物能量和营养素的截图：
+即多张同类食物"能量"部分和"一般营养成分"部分的截图，如：
 
-禽肉类及其制品-鸡 1-energy:
+`禽肉类及其制品-鸡1-energy.png`:
 ![禽肉类及其制品-鸡1-energy.png](./_readme_pics/禽肉类及其制品-鸡1-energy.png)
 
-禽肉类及其制品-鸡 1-nutrient:
+`禽肉类及其制品-鸡1-nutrient.png`:
 ![禽肉类及其制品-鸡1-nutrient.png](./_readme_pics/禽肉类及其制品-鸡1-nutrient.png)
 
-禽肉类及其制品-鸡 2-energy:
+`禽肉类及其制品-鸡2-energy.png`:
 ![禽肉类及其制品-鸡2-energy.png](./_readme_pics/禽肉类及其制品-鸡2-energy.png)
 
-禽肉类及其制品-鸡 2-energy:
-![禽肉类及其制品-鸡2-nutrient.png](./_readme_pics/禽肉类及其制品-鸡2-energy.png)
+`禽肉类及其制品-鸡2-nutrient.png`:
+![禽肉类及其制品-鸡2-nutrient.png](./_readme_pics/禽肉类及其制品-鸡2-nutrient.png)
 
 转换为单个`merged-禽肉类及其制品-鸡.json`文件
 
@@ -93,9 +93,11 @@ nutrient 部分栏位中文名称:
 
 ![nutrient部分栏位中文名称](./_readme_pics/nutrient部分栏位中文名称.png)
 
-## run
+## 运行
 
-```
+**飞桨 OCR 模式**：
+
+```sh
 python3 index.py
 ```
 
@@ -105,6 +107,16 @@ python3 index.py
 截图ocr总耗时: 9119.207285642624秒
 ```
 
-## Note
+**视觉大模型 API 模式**(本人更推荐这种方式，配合好的视觉大模型效果更佳)：
+
+```sh
+python3 index_vision_llm_processor.py
+```
+
+有需要也可以直接使用`json_data_vision`文件夹中的 json 文件即可。
+
+- 具体使用方法参看 [README_index_vision_llm_processor](README_index_vision_llm_processor.md)
+
+## 注意事项
 
 **【注意】**: 不保证数据 OCR 识别的绝对一致；所有版权都归原作者所有，有任何必要的话请通知我删除此仓库。
