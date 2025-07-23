@@ -158,8 +158,21 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+.cursorignore
 
 # 截图ocr后转换的excel文件夹
 **/OUTPUTS/*
 **/少量测试_营养素截图/*
 **/少量测试_营养素OCR输出/*
+
+**/_self*
+**/*mock*
+**/*bak*
+
+# 临时和测试文件夹
+**/temp*
+**/temp_*
+**/test_*
+# 忽略所有 文件名中包含数字 的 JSON 文件（可能范围过大,游泳的json注意命名不要包含数字）
+**/*[0-9]*.json
+
