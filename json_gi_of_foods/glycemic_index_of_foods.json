@@ -1,0 +1,1352 @@
+[
+    {
+        "foodGroup": "糖类",
+        "list": [
+            {
+                "index": 1,
+                "foodName": "葡萄糖",
+                "GI": 100
+            },
+            {
+                "index": 2,
+                "foodName": "绵白糖",
+                "GI": 84
+            },
+            {
+                "index": 3,
+                "foodName": "蔗糖",
+                "GI": 65
+            },
+            {
+                "index": 4,
+                "foodName": "果糖",
+                "GI": 23
+            },
+            {
+                "index": 5,
+                "foodName": "乳糖",
+                "GI": 46
+            },
+            {
+                "index": 6,
+                "foodName": "麦芽糖",
+                "GI": 105
+            },
+            {
+                "index": 7,
+                "foodName": "蜂蜜",
+                "GI": 73
+            },
+            {
+                "index": 8,
+                "foodName": "胶质软糖",
+                "GI": 80
+            },
+            {
+                "index": 9,
+                "foodName": "巧克力",
+                "GI": 49
+            },
+            {
+                "index": 10,
+                "foodName": "MM 巧克力",
+                "GI": 32
+            },
+            {
+                "index": 11,
+                "foodName": "方糖",
+                "GI": 65
+            }
+        ]
+    },
+    {
+        "foodGroup": "谷类及制品",
+        "list": [
+            {
+                "index": 12,
+                "foodName": "* 小麦（整粒煮）",
+                "GI": 41
+            },
+            {
+                "index": 13,
+                "foodName": "* 粗麦粉（蒸）",
+                "GI": 65
+            },
+            {
+                "index": 14,
+                "foodName": "* 面条（强化蛋白质，细煮）",
+                "GI": 27
+            },
+            {
+                "index": 15,
+                "foodName": "* 面条（全麦粉，细）",
+                "GI": 37
+            },
+            {
+                "index": 16,
+                "foodName": "* 面条（白细，煮）",
+                "GI": 41
+            },
+            {
+                "index": 17,
+                "foodName": "* 面条（硬质小麦粉，细煮）",
+                "GI": 55
+            },
+            {
+                "index": 18,
+                "foodName": "* 线面条（实心，细）",
+                "GI": 35
+            },
+            {
+                "index": 19,
+                "foodName": "* 通心面（管状，粗）",
+                "GI": 45
+            },
+            {
+                "index": 20,
+                "foodName": "面条（小麦粉，硬，扁粗）",
+                "GI": 46
+            },
+            {
+                "index": 21,
+                "foodName": "面条（硬质小麦粉，加鸡蛋，粗）",
+                "GI": 49
+            },
+            {
+                "index": 22,
+                "foodName": "面条（硬质小麦粉，细）",
+                "GI": 55
+            },
+            {
+                "index": 23,
+                "foodName": "面条（挂面，全麦粉）",
+                "GI": 57
+            },
+            {
+                "index": 24,
+                "foodName": "苗条（挂面，精制小麦粉）",
+                "GI": 55
+            },
+            {
+                "index": 25,
+                "foodName": "馒头（全麦粉）",
+                "GI": 82
+            },
+            {
+                "index": 26,
+                "foodName": "馒头（精制小麦粉）",
+                "GI": 85
+            },
+            {
+                "index": 27,
+                "foodName": "馒头（富强粉）",
+                "GI": 88
+            },
+            {
+                "index": 28,
+                "foodName": "烙饼",
+                "GI": 80
+            },
+            {
+                "index": 29,
+                "foodName": "油条",
+                "GI": 75
+            },
+            {
+                "index": 30,
+                "foodName": "稻麸",
+                "GI": 19
+            },
+            {
+                "index": 31,
+                "foodName": "* 米粉",
+                "GI": 54
+            },
+            {
+                "index": 32,
+                "foodName": "大米粥",
+                "GI": 69
+            },
+            {
+                "index": 33,
+                "foodName": "大米饭（籼米，糙米）",
+                "GI": 71
+            },
+            {
+                "index": 34,
+                "foodName": "大米饭（粳米，糙米）",
+                "GI": 78
+            },
+            {
+                "index": 35,
+                "foodName": "大米饭（籼米，精米）",
+                "GI": 82
+            },
+            {
+                "index": 36,
+                "foodName": "大米饭（粳米，精米）",
+                "GI": 90
+            },
+            {
+                "index": 37,
+                "foodName": "* 黏米饭 / 含直链淀粉高，煮",
+                "GI": 50
+            },
+            {
+                "index": 38,
+                "foodName": "* 黏米饭 / 含直链淀粉低，煮",
+                "GI": 88
+            },
+            {
+                "index": 39,
+                "foodName": "黑米饭",
+                "GI": 55
+            },
+            {
+                "index": 40,
+                "foodName": "速冻米饭",
+                "GI": 87
+            },
+            {
+                "index": 41,
+                "foodName": "糯米饭",
+                "GI": 87
+            },
+            {
+                "index": 42,
+                "foodName": "大米糯米粥",
+                "GI": 65
+            },
+            {
+                "index": 43,
+                "foodName": "黑米粥",
+                "GI": 42
+            },
+            {
+                "index": 44,
+                "foodName": "大麦（整粒，煮）",
+                "GI": 25
+            },
+            {
+                "index": 45,
+                "foodName": "大麦粉",
+                "GI": 66
+            },
+            {
+                "index": 46,
+                "foodName": "黑麦（整粒，煮）",
+                "GI": 34
+            },
+            {
+                "index": 47,
+                "foodName": "玉米（甜，煮）",
+                "GI": 55
+            },
+            {
+                "index": 48,
+                "foodName": "玉米面（粗粉，煮）",
+                "GI": 68
+            },
+            {
+                "index": 49,
+                "foodName": "玉米面粥",
+                "GI": 50
+            },
+            {
+                "index": 50,
+                "foodName": "玉米糁粥",
+                "GI": 51
+            },
+            {
+                "index": 51,
+                "foodName": "玉米饼",
+                "GI": 46
+            },
+            {
+                "index": 52,
+                "foodName": "玉米片（市售）",
+                "GI": 79
+            },
+            {
+                "index": 53,
+                "foodName": "玉米片（高纤维，市售）",
+                "GI": 74
+            },
+            {
+                "index": 54,
+                "foodName": "小米（煮）",
+                "GI": 71
+            },
+            {
+                "index": 55,
+                "foodName": "小米粥",
+                "GI": 60
+            },
+            {
+                "index": 56,
+                "foodName": "米饼",
+                "GI": 82
+            },
+            {
+                "index": 57,
+                "foodName": "荞麦（黄）",
+                "GI": 54
+            },
+            {
+                "index": 58,
+                "foodName": "荞麦面条",
+                "GI": 59
+            },
+            {
+                "index": 59,
+                "foodName": "荞麦面馒头",
+                "GI": 67
+            },
+            {
+                "index": 60,
+                "foodName": "燕麦麸",
+                "GI": 55
+            },
+            {
+                "index": 61,
+                "foodName": "莜麦饭（整粒）",
+                "GI": 49
+            },
+            {
+                "index": 62,
+                "foodName": "糜子饭（整粒）",
+                "GI": 72
+            },
+            {
+                "index": 63,
+                "foodName": "燕麦饭（整粒）",
+                "GI": 42
+            },
+            {
+                "index": 64,
+                "foodName": "* 燕麦片粥",
+                "GI": 55
+            },
+            {
+                "index": 65,
+                "foodName": "* 即食燕麦粥",
+                "GI": 79
+            },
+            {
+                "index": 66,
+                "foodName": "白面包",
+                "GI": 75
+            },
+            {
+                "index": 67,
+                "foodName": "全麦（全麦面包）",
+                "GI": 74
+            },
+            {
+                "index": 68,
+                "foodName": "面包（未发酵小麦）",
+                "GI": 70
+            },
+            {
+                "index": 69,
+                "foodName": "印度卷饼",
+                "GI": 62
+            },
+            {
+                "index": 70,
+                "foodName": "薄煎饼（美式）",
+                "GI": 52
+            },
+            {
+                "index": 71,
+                "foodName": "意大利面（精制面粉）",
+                "GI": 49
+            },
+            {
+                "index": 72,
+                "foodName": "意大利面（全麦）",
+                "GI": 48
+            },
+            {
+                "index": 73,
+                "foodName": "乌冬面",
+                "GI": 55
+            },
+            {
+                "index": 74,
+                "foodName": "饼干（小麦片）",
+                "GI": 69
+            }
+        ]
+    },
+    {
+        "foodGroup": "薯类、淀粉及制品",
+        "list": [
+            {
+                "index": 75,
+                "foodName": "马铃薯",
+                "GI": 62
+            },
+            {
+                "index": 76,
+                "foodName": "马铃薯（蒸）",
+                "GI": 66
+            },
+            {
+                "index": 77,
+                "foodName": "* 马铃薯（烤）",
+                "GI": 60
+            },
+            {
+                "index": 78,
+                "foodName": "* 马铃薯（蒸）",
+                "GI": 65
+            },
+            {
+                "index": 79,
+                "foodName": "* 马铃薯（用微波炉烤）",
+                "GI": 82
+            },
+            {
+                "index": 80,
+                "foodName": "* 马铃薯（烧烤，无油脂）",
+                "GI": 85
+            },
+            {
+                "index": 81,
+                "foodName": "* 马铃薯泥",
+                "GI": 87
+            },
+            {
+                "index": 82,
+                "foodName": "马铃薯粉条",
+                "GI": 13.6
+            },
+            {
+                "index": 83,
+                "foodName": "马铃薯片（油炸）",
+                "GI": 60
+            },
+            {
+                "index": 84,
+                "foodName": "炸薯条",
+                "GI": 60
+            },
+            {
+                "index": 85,
+                "foodName": "甘薯（山芋）",
+                "GI": 54
+            },
+            {
+                "index": 86,
+                "foodName": "甘薯（红，煮）",
+                "GI": 77
+            },
+            {
+                "index": 87,
+                "foodName": "藕粉",
+                "GI": 33
+            },
+            {
+                "index": 88,
+                "foodName": "苕粉",
+                "GI": 35
+            },
+            {
+                "index": 89,
+                "foodName": "粉丝汤（豌豆）",
+                "GI": 32
+            }
+        ]
+    },
+    {
+        "foodGroup": "豆类及制品",
+        "list": [
+            {
+                "index": 90,
+                "foodName": "黄豆（浸泡）",
+                "GI": 18
+            },
+            {
+                "index": 91,
+                "foodName": "黄豆（罐头）",
+                "GI": 14
+            },
+            {
+                "index": 92,
+                "foodName": "黄豆挂面（有面粉）",
+                "GI": 67
+            },
+            {
+                "index": 93,
+                "foodName": "豆腐（炖）",
+                "GI": 32
+            },
+            {
+                "index": 94,
+                "foodName": "豆腐（冻）",
+                "GI": 22
+            },
+            {
+                "index": 95,
+                "foodName": "豆腐干",
+                "GI": 24
+            },
+            {
+                "index": 96,
+                "foodName": "绿豆",
+                "GI": 27
+            },
+            {
+                "index": 97,
+                "foodName": "绿豆挂面",
+                "GI": 33
+            },
+            {
+                "index": 98,
+                "foodName": "蚕豆（五香）",
+                "GI": 17
+            },
+            {
+                "index": 99,
+                "foodName": "扁豆",
+                "GI": 38
+            },
+            {
+                "index": 100,
+                "foodName": "扁豆（红，小）",
+                "GI": 26
+            },
+            {
+                "index": 101,
+                "foodName": "扁豆（绿，小）",
+                "GI": 30
+            },
+            {
+                "index": 102,
+                "foodName": "* 扁豆（绿，小，罐头）",
+                "GI": 52
+            },
+            {
+                "index": 103,
+                "foodName": "* 小扁豆汤（罐头）",
+                "GI": 44
+            },
+            {
+                "index": 104,
+                "foodName": "* 利马豆（棉豆）",
+                "GI": 31
+            },
+            {
+                "index": 105,
+                "foodName": "* 利马豆（加 5 克蔗糖）",
+                "GI": 30
+            },
+            {
+                "index": 106,
+                "foodName": "* 利马豆（加 10 克蔗糖）",
+                "GI": 31
+            },
+            {
+                "index": 107,
+                "foodName": "* 利马豆（嫩，冷冻）",
+                "GI": 32
+            },
+            {
+                "index": 108,
+                "foodName": "鹰嘴豆",
+                "GI": 33
+            },
+            {
+                "index": 109,
+                "foodName": "* 鹰嘴豆（罐头）",
+                "GI": 42
+            },
+            {
+                "index": 110,
+                "foodName": "* 咖喱鹰嘴豆（罐头）",
+                "GI": 41
+            },
+            {
+                "index": 111,
+                "foodName": "* 青刀豆",
+                "GI": 39
+            },
+            {
+                "index": 112,
+                "foodName": "青刀豆（罐头）",
+                "GI": 45
+            },
+            {
+                "index": 113,
+                "foodName": "* 豌豆",
+                "GI": 42
+            },
+            {
+                "index": 114,
+                "foodName": "黑马诺豆",
+                "GI": 46
+            },
+            {
+                "index": 115,
+                "foodName": "黑豆汤",
+                "GI": 46
+            },
+            {
+                "index": 116,
+                "foodName": "四季豆",
+                "GI": 27
+            },
+            {
+                "index": 117,
+                "foodName": "四季豆（高压处理）",
+                "GI": 34
+            },
+            {
+                "index": 118,
+                "foodName": "* 四季豆（罐头）",
+                "GI": 52
+            },
+            {
+                "index": 119,
+                "foodName": "* 芸豆",
+                "GI": 24
+            }
+        ]
+    },
+    {
+        "foodGroup": "蔬菜类",
+        "list": [
+            {
+                "index": 120,
+                "foodName": "* 甜菜",
+                "GI": 64
+            },
+            {
+                "index": 121,
+                "foodName": "胡萝卜（金笋）",
+                "GI": 71
+            },
+            {
+                "index": 122,
+                "foodName": "南瓜（倭瓜、番瓜）",
+                "GI": 75
+            },
+            {
+                "index": 123,
+                "foodName": "麝香瓜",
+                "GI": 65
+            },
+            {
+                "index": 124,
+                "foodName": "山药（薯蓣）",
+                "GI": 51
+            },
+            {
+                "index": 125,
+                "foodName": "雪魔芋",
+                "GI": 17
+            },
+            {
+                "index": 126,
+                "foodName": "芋头（蒸芋艿 / 毛芋）",
+                "GI": 48
+            },
+            {
+                "index": 127,
+                "foodName": "朝鲜笋",
+                "GI": 15
+            },
+            {
+                "index": 128,
+                "foodName": "芦笋",
+                "GI": 15
+            },
+            {
+                "index": 129,
+                "foodName": "绿菜花",
+                "GI": 15
+            },
+            {
+                "index": 130,
+                "foodName": "菜花",
+                "GI": 15
+            },
+            {
+                "index": 131,
+                "foodName": "芹菜",
+                "GI": 15
+            },
+            {
+                "index": 132,
+                "foodName": "黄瓜",
+                "GI": 15
+            },
+            {
+                "index": 133,
+                "foodName": "茄子",
+                "GI": 15
+            },
+            {
+                "index": 134,
+                "foodName": "鲜青豆",
+                "GI": 15
+            },
+            {
+                "index": 135,
+                "foodName": "莴笋（各种类型）",
+                "GI": 15
+            },
+            {
+                "index": 136,
+                "foodName": "生菜",
+                "GI": 15
+            },
+            {
+                "index": 137,
+                "foodName": "青椒",
+                "GI": 15
+            },
+            {
+                "index": 138,
+                "foodName": "西红柿",
+                "GI": 15
+            },
+            {
+                "index": 139,
+                "foodName": "菠菜",
+                "GI": 15
+            },
+            {
+                "index": 140,
+                "foodName": "* 胡萝卜（煮）",
+                "GI": 39
+            }
+        ]
+    },
+    {
+        "foodGroup": "水果类及制品",
+        "list": [
+            {
+                "index": 141,
+                "foodName": "苹果",
+                "GI": 36
+            },
+            {
+                "index": 142,
+                "foodName": "梨",
+                "GI": 36
+            },
+            {
+                "index": 143,
+                "foodName": "桃",
+                "GI": 28
+            },
+            {
+                "index": 144,
+                "foodName": "桃（罐头，含果汁）",
+                "GI": 30
+            },
+            {
+                "index": 145,
+                "foodName": "桃（罐头，含糖浓度低）",
+                "GI": 52
+            },
+            {
+                "index": 146,
+                "foodName": "桃（罐头，含糖浓度高）",
+                "GI": 58
+            },
+            {
+                "index": 147,
+                "foodName": "杏干",
+                "GI": 31
+            },
+            {
+                "index": 148,
+                "foodName": "杏罐头，含淡味果汁",
+                "GI": 64
+            },
+            {
+                "index": 149,
+                "foodName": "李子",
+                "GI": 24
+            },
+            {
+                "index": 150,
+                "foodName": "樱桃",
+                "GI": 22
+            },
+            {
+                "index": 151,
+                "foodName": "葡萄",
+                "GI": 43
+            },
+            {
+                "index": 152,
+                "foodName": "葡萄干",
+                "GI": 64
+            },
+            {
+                "index": 153,
+                "foodName": "葡萄（淡黄色，小，无核）",
+                "GI": 56
+            },
+            {
+                "index": 154,
+                "foodName": "猕猴桃",
+                "GI": 52
+            },
+            {
+                "index": 155,
+                "foodName": "柑（橘子）",
+                "GI": 43
+            },
+            {
+                "index": 156,
+                "foodName": "柚",
+                "GI": 25
+            },
+            {
+                "index": 157,
+                "foodName": "巴婆果",
+                "GI": 58
+            },
+            {
+                "index": 158,
+                "foodName": "菠萝",
+                "GI": 66
+            },
+            {
+                "index": 159,
+                "foodName": "芒果",
+                "GI": 55
+            },
+            {
+                "index": 160,
+                "foodName": "芭蕉（甘蔗板蕉）",
+                "GI": 53
+            },
+            {
+                "index": 161,
+                "foodName": "香蕉",
+                "GI": 52
+            },
+            {
+                "index": 162,
+                "foodName": "香蕉（生）",
+                "GI": 30
+            },
+            {
+                "index": 163,
+                "foodName": "西瓜",
+                "GI": 72
+            },
+            {
+                "index": 164,
+                "foodName": "哈密瓜",
+                "GI": 70
+            },
+            {
+                "index": 165,
+                "foodName": "枣",
+                "GI": 42
+            },
+            {
+                "index": 166,
+                "foodName": "* 草莓酱（果冻）",
+                "GI": 49
+            }
+        ]
+    },
+    {
+        "foodGroup": "种子类",
+        "list": [
+            {
+                "index": 167,
+                "foodName": "花生",
+                "GI": 14
+            },
+            {
+                "index": 168,
+                "foodName": "腰果",
+                "GI": 25
+            }
+        ]
+    },
+    {
+        "foodGroup": "乳及乳制品",
+        "list": [
+            {
+                "index": 169,
+                "foodName": "牛奶",
+                "GI": 27.6
+            },
+            {
+                "index": 170,
+                "foodName": "牛奶（加糖和巧克力）",
+                "GI": 34
+            },
+            {
+                "index": 171,
+                "foodName": "牛奶（加人工甜味剂和巧克力）",
+                "GI": 24
+            },
+            {
+                "index": 172,
+                "foodName": "全脂牛奶",
+                "GI": 27
+            },
+            {
+                "index": 173,
+                "foodName": "脱脂牛奶",
+                "GI": 32
+            },
+            {
+                "index": 174,
+                "foodName": "低脂奶粉",
+                "GI": 11.9
+            },
+            {
+                "index": 175,
+                "foodName": "降糖奶粉",
+                "GI": 26
+            },
+            {
+                "index": 176,
+                "foodName": "老年奶粉",
+                "GI": 40
+            },
+            {
+                "index": 177,
+                "foodName": "克糖奶粉",
+                "GI": 47.6
+            },
+            {
+                "index": 178,
+                "foodName": "酸奶（加糖）",
+                "GI": 48
+            },
+            {
+                "index": 179,
+                "foodName": "酸乳酪（普通）",
+                "GI": 36
+            },
+            {
+                "index": 180,
+                "foodName": "酸乳酪（低脂）",
+                "GI": 33
+            },
+            {
+                "index": 181,
+                "foodName": "酸乳酪（低脂，加人工甜味剂）",
+                "GI": 14
+            },
+            {
+                "index": 182,
+                "foodName": "豆奶",
+                "GI": 19
+            },
+            {
+                "index": 183,
+                "foodName": "冰淇淋",
+                "GI": 51
+            },
+            {
+                "index": 184,
+                "foodName": "酸奶（水果）",
+                "GI": 41
+            },
+            {
+                "index": 185,
+                "foodName": "豆奶",
+                "GI": 34
+            }
+        ]
+    },
+    {
+        "foodGroup": "速食食品",
+        "list": [
+            {
+                "index": 186,
+                "foodName": "大米（即食，煮 1 分钟）",
+                "GI": 46
+            },
+            {
+                "index": 187,
+                "foodName": "大米（即食，煮 6 分钟）",
+                "GI": 87
+            },
+            {
+                "index": 188,
+                "foodName": "小麦片",
+                "GI": 69
+            },
+            {
+                "index": 189,
+                "foodName": "燕麦片（混合）",
+                "GI": 83
+            },
+            {
+                "index": 190,
+                "foodName": "荞麦方便面",
+                "GI": 53
+            },
+            {
+                "index": 191,
+                "foodName": "即食羹",
+                "GI": 69
+            },
+            {
+                "index": 192,
+                "foodName": "营养饼",
+                "GI": 66
+            },
+            {
+                "index": 193,
+                "foodName": "* 全麦维（家乐氏）",
+                "GI": 42
+            },
+            {
+                "index": 194,
+                "foodName": "* 可可米（家乐氏）",
+                "GI": 77
+            },
+            {
+                "index": 195,
+                "foodName": "* 卜卜米（家乐氏）",
+                "GI": 88
+            },
+            {
+                "index": 196,
+                "foodName": "* 比萨饼（含乳酪）",
+                "GI": 60
+            },
+            {
+                "index": 197,
+                "foodName": "汉堡包",
+                "GI": 61
+            },
+            {
+                "index": 198,
+                "foodName": "白面包",
+                "GI": 88
+            },
+            {
+                "index": 199,
+                "foodName": "面包（全麦粉）",
+                "GI": 69
+            },
+            {
+                "index": 200,
+                "foodName": "面包（粗面粉）",
+                "GI": 64
+            },
+            {
+                "index": 201,
+                "foodName": "面包（黑麦粉）",
+                "GI": 65
+            },
+            {
+                "index": 202,
+                "foodName": "面包（小麦粉，高纤维）",
+                "GI": 68
+            },
+            {
+                "index": 203,
+                "foodName": "面包（小麦粉，去面筋）",
+                "GI": 70
+            },
+            {
+                "index": 204,
+                "foodName": "* 面包（小麦粉，含水果干）",
+                "GI": 47
+            },
+            {
+                "index": 205,
+                "foodName": "* 面包（50% ~ 80% 碎小麦粒）",
+                "GI": 52
+            },
+            {
+                "index": 206,
+                "foodName": "* 面包（75% ~ 80% 大麦粒）",
+                "GI": 34
+            },
+            {
+                "index": 207,
+                "foodName": "* 面包（50% 大麦粒）",
+                "GI": 46
+            },
+            {
+                "index": 208,
+                "foodName": "* 面包（80% ~ 100% 大麦粉）",
+                "GI": 66
+            },
+            {
+                "index": 209,
+                "foodName": "* 面包（黑麦粒）",
+                "GI": 50
+            },
+            {
+                "index": 210,
+                "foodName": "* 面包（45% ~ 50% 燕麦麸）",
+                "GI": 47
+            },
+            {
+                "index": 211,
+                "foodName": "* 面包（80% 燕麦粒）",
+                "GI": 65
+            },
+            {
+                "index": 212,
+                "foodName": "* 面包（混合谷物）",
+                "GI": 45
+            },
+            {
+                "index": 213,
+                "foodName": "新月形面包",
+                "GI": 67
+            },
+            {
+                "index": 214,
+                "foodName": "棍子面包",
+                "GI": 90
+            },
+            {
+                "index": 215,
+                "foodName": "燕麦粗粉饼干",
+                "GI": 55
+            },
+            {
+                "index": 216,
+                "foodName": "油酥脆饼干",
+                "GI": 64
+            },
+            {
+                "index": 217,
+                "foodName": "高纤维黑麦薄脆饼干",
+                "GI": 65
+            },
+            {
+                "index": 218,
+                "foodName": "竹芋粉饼干",
+                "GI": 66
+            },
+            {
+                "index": 219,
+                "foodName": "小麦饼干",
+                "GI": 70
+            },
+            {
+                "index": 220,
+                "foodName": "苏打饼干",
+                "GI": 72
+            },
+            {
+                "index": 221,
+                "foodName": "格雷厄姆华饼干",
+                "GI": 74
+            },
+            {
+                "index": 222,
+                "foodName": "华夫饼干",
+                "GI": 76
+            },
+            {
+                "index": 223,
+                "foodName": "香草华夫饼干",
+                "GI": 77
+            },
+            {
+                "index": 224,
+                "foodName": "膨化薄脆饼干",
+                "GI": 81
+            },
+            {
+                "index": 225,
+                "foodName": "闲趣饼干（达能）",
+                "GI": 47
+            },
+            {
+                "index": 226,
+                "foodName": "牛奶香脆饼干（达能）",
+                "GI": 39
+            },
+            {
+                "index": 227,
+                "foodName": "酥皮糕点",
+                "GI": 59
+            },
+            {
+                "index": 228,
+                "foodName": "爆玉米花",
+                "GI": 55
+            }
+        ]
+    },
+    {
+        "foodGroup": "饮料类",
+        "list": [
+            {
+                "index": 229,
+                "foodName": "苹果汁",
+                "GI": 41
+            },
+            {
+                "index": 230,
+                "foodName": "水蜜桃汁",
+                "GI": 33
+            },
+            {
+                "index": 231,
+                "foodName": "巴梨汁（罐头）",
+                "GI": 44
+            },
+            {
+                "index": 232,
+                "foodName": "菠萝汁（不加糖）",
+                "GI": 46
+            },
+            {
+                "index": 233,
+                "foodName": "柚子果汁（不加糖）",
+                "GI": 48
+            },
+            {
+                "index": 234,
+                "foodName": "橙汁（纯果汁）",
+                "GI": 50
+            },
+            {
+                "index": 235,
+                "foodName": "橘子汁",
+                "GI": 57
+            },
+            {
+                "index": 236,
+                "foodName": "可乐饮料",
+                "GI": 40
+            },
+            {
+                "index": 237,
+                "foodName": "芬达软饮料",
+                "GI": 68
+            },
+            {
+                "index": 238,
+                "foodName": "啤酒（澳大利亚产）",
+                "GI": 66
+            },
+            {
+                "index": 239,
+                "foodName": "冰淇淋",
+                "GI": 61
+            },
+            {
+                "index": 240,
+                "foodName": "冰淇淋 / 低脂",
+                "GI": 50
+            }
+        ]
+    },
+    {
+        "foodGroup": "混合膳及其他",
+        "list": [
+            {
+                "index": 241,
+                "foodName": "馒头 + 芹菜炒鸡蛋",
+                "GI": 49
+            },
+            {
+                "index": 242,
+                "foodName": "馒头 + 酱牛肉",
+                "GI": 49
+            },
+            {
+                "index": 243,
+                "foodName": "馒头 + 黄油",
+                "GI": 68
+            },
+            {
+                "index": 244,
+                "foodName": "饼 + 鸡蛋炒木耳",
+                "GI": 48
+            },
+            {
+                "index": 245,
+                "foodName": "饺子 / 三鲜",
+                "GI": 28
+            },
+            {
+                "index": 246,
+                "foodName": "包子 / 芹菜猪肉",
+                "GI": 39
+            },
+            {
+                "index": 247,
+                "foodName": "硬质小麦粉肉馅馄饨",
+                "GI": 39
+            },
+            {
+                "index": 248,
+                "foodName": "牛肉面",
+                "GI": 89
+            },
+            {
+                "index": 249,
+                "foodName": "米饭 + 鱼",
+                "GI": 37
+            },
+            {
+                "index": 250,
+                "foodName": "米饭 + 芹菜炒猪肉",
+                "GI": 57
+            },
+            {
+                "index": 251,
+                "foodName": "米饭 + 炒蒜苗",
+                "GI": 58
+            },
+            {
+                "index": 252,
+                "foodName": "米饭 + 蒜苗炒鸡蛋",
+                "GI": 68
+            },
+            {
+                "index": 253,
+                "foodName": "米饭 + 红烧猪肉",
+                "GI": 73
+            },
+            {
+                "index": 254,
+                "foodName": "玉米粉加入人造黄油 / 煮",
+                "GI": 69
+            },
+            {
+                "index": 255,
+                "foodName": "猪肉炖粉条",
+                "GI": 17
+            },
+            {
+                "index": 256,
+                "foodName": "西红柿汤",
+                "GI": 38
+            },
+            {
+                "index": 257,
+                "foodName": "二合面窝头 / 玉米面 + 面粉",
+                "GI": 65
+            },
+            {
+                "index": 258,
+                "foodName": "牛奶蛋糊 / 牛奶 + 淀粉 + 糖",
+                "GI": 43
+            },
+            {
+                "index": 259,
+                "foodName": "黑五类粉",
+                "GI": 58
+            }
+        ]
+    }
+]
