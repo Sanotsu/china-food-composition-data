@@ -4,12 +4,17 @@
 
 ---
 
-2025-12-06 经过 [issues3](https://github.com/Sanotsu/china-food-composition-data/issues/3) 的提醒，我重新看了一下截图和数据，发现婴幼儿食品能量和营养素的名称和其他 15 项不完全一样，且数据看起来都是一些品牌奶粉商品，不是通用数据，所以新的 json 数据中移除了“婴幼儿食品”的数据。
+2025-12-06 经过 [issues3](https://github.com/Sanotsu/china-food-composition-data/issues/3) 的提醒，我重新看了一下截图和数据，发现 **_婴幼儿食品能量和营养素的名称和其他 15 项不完全一样，且数据看起来都是一些品牌奶粉商品，不是通用数据_** ，所以新的 json 数据中移除了“婴幼儿食品”的数据。
 
-**最新版、不包含“婴幼儿食品”分类、视觉大模型识别的、json数据，在 [json_data_vision_251206_Qwen2-5-VL-72B-Instruct](./json_data_vision_251206_Qwen2-5-VL-72B-Instruct) 文件夹。** 共计 1677 条。
+**最新版、不包含“婴幼儿食品”分类、视觉大模型识别的 json 数据，在 [json_data_vision_251206_Qwen2-5-VL-72B-Instruct](./json_data_vision_251206_Qwen2-5-VL-72B-Instruct) 文件夹。**
 
-具体手动比较每个分类的数据量说明，参看[手动统计图片数据数量251204.md](手动统计图片数据数量251204.md)。
+食品数据共计 1677 条。数量应该没问题，识别准确率不敢保证。
 
+单单这个脚本识别表格图片内容来讲，在以下测试过的视觉理解模型中，效果最好的是`Qwen2.5-VL-72B-Instruct`效果最好，强过 Qwen3-VL 版本和 GLM4.5V。
+
+![测试过的视觉模型](./_readme_pics/测试过的视觉模型.png)
+
+具体手动比较每个分类的数据量说明，参看[手动统计图片数据数量 251204.md](手动统计图片数据数量251204.md)。
 
 ---
 
