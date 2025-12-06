@@ -10,7 +10,7 @@ import aiofiles
 import logging
 import argparse
 import re
-from openai import AsyncOpenAI
+import aiohttp
 from pathlib import Path
 from typing import List, Dict
 from datetime import datetime, timedelta
@@ -175,9 +175,10 @@ def sort_json_files_in_directory(directory: str):
 
 
 class ImageProcessor:
-    def __init__(self, input_dir: str, output_dir: str, max_workers: int = 3, 
+    def __init__(self, input_dir: str, output_dir: str, max_workers: int = 3,
                  api_key: str = None, api_base: str = None, max_retries: int = 3,
-                 model_name: str = None, max_tokens: int = None, temperature: float = None):
+                 model_name: str = None, max_tokens: int = None, temperature: float = None,
+                 enable_thinking: bool = None):
         """初始化图像处理器
 
         Args:
@@ -190,21 +191,26 @@ class ImageProcessor:
             model_name: 模型名称
             max_tokens: 最大响应token数
             temperature: 温度参数
+            enable_thinking: 是否启用思考模式（部分模型支持）
         """
         self.input_dir = Path(input_dir)
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(exist_ok=True, parents=True)
         self.max_workers = max_workers
         self.max_retries = max_retries
-        
+
         # 模型参数
         self.model_name = model_name or os.getenv("MODEL_NAME") or "Qwen/Qwen2.5-VL-72B-Instruct"
         self.max_tokens = int(max_tokens or os.getenv("MAX_TOKENS", "4000"))
         self.temperature = float(temperature or os.getenv("TEMPERATURE", "0.1"))
-        
+        # 新增思考模式参数
+        self.enable_thinking = enable_thinking if enable_thinking is not None else os.getenv("ENABLE_THINKING", "false").lower() == "true"
+
         ### 中间产物全都放到临时文件夹下
         ### 最终结果目录在merge_similar_categories()方法中
-        self.temp_dir = Path("temp")
+        path_name=re.sub(r'[^a-zA-Z0-9]+', '-', self.model_name)
+        timestamp = time.strftime("%Y%m%d", time.localtime())
+        self.temp_dir = Path(f"temp_{timestamp}_{path_name}")
         self.temp_dir.mkdir(exist_ok=True, parents=True)
 
         # 创建失败记录目录
@@ -219,12 +225,11 @@ class ImageProcessor:
         # 如果该分类有多对截图，到最后会合并成一个最终的json
         self.temp_middle_dir = self.temp_dir / "temp_middle_jsons"
         self.temp_middle_dir.mkdir(exist_ok=True)
-        
-        # 初始化API客户端
-        api_base = api_base or os.getenv("API_BASE") or "https://api.siliconflow.cn/v1"
-        api_key = api_key or os.getenv("API_KEY") or "your-key-here"
-        self.client = AsyncOpenAI(api_key=api_key, base_url=api_base)
-        
+
+        # 初始化API配置
+        self.api_base = api_base or os.getenv("API_BASE") or "https://api.siliconflow.cn/v1"
+        self.api_key = api_key or os.getenv("API_KEY") or "your-key-here"
+
         # 统计信息
         self.total_images = 0
         self.processed_images = 0
@@ -232,10 +237,10 @@ class ImageProcessor:
         self.start_time = 0
         self.successful_pairs = set()
         self.failed_pairs = set()
-        
+
         # 处理结果存储，用于最后合并
         self.results_by_category = defaultdict(list)
-        
+
         # 进度锁，防止多线程同时更新进度导致输出混乱
         self.progress_lock = asyncio.Lock()
     
@@ -318,16 +323,16 @@ class ImageProcessor:
         """
         # 获取图片base64编码
         image_base64 = await self.encode_image_from_url(image_path)
-        
+
         # 确定列名
         columns = energy_cols if is_energy else nutrient_cols
-        
+
         # 构建提示
         prompt = f"""
         请识别下面表格中的所有数据，并按照markdown表格格式输出。这是中国食物成分表中的数据。
-        
+
         表格列名为：{columns}
-        
+
         请注意:
         1. 表格中的"—"、"-"或"Tr"表示微量或未检测到，应当保留这些特殊值。
         2. 请保持数值的原始格式。
@@ -335,21 +340,29 @@ class ImageProcessor:
         4. 请使用标准的markdown表格格式输出，第一行为表头（列名），然后是分隔行，之后是数据行。
         5. 不要输出JSON格式，只需输出markdown表格数据。
         6. 不要在表格外添加任何额外的文本、代码块标记或解释。
-        
+
         例如:
         | foodCode | foodName | ... 其他列名 |
         | --- | --- | ... |
         | 121101 | 白条鱼（裸鱼） | ... 其他数据 |
         | 121102 | 草鱼 | ... 其他数据 |
         """
-        
+
         # 调用API进行图像理解
         # 这个操作故意不放在try catch中，为的就是报错后抛到上层process_image_with_retry触发重试
         # 然后在重试过程中如果成功了，就删除报错的日志文件。在所有重试结束后都失败了，才记录最后失败报错
         start_time = time.time()
-        completion = await self.client.chat.completions.create(
-            model=self.model_name,
-            messages=[
+
+        # 构建请求数据
+        headers = {
+            "Authorization": f"Bearer {self.api_key}",
+            "Content-Type": "application/json"
+        }
+
+        # 构建请求体
+        payload = {
+            "model": self.model_name,
+            "messages": [
                 {
                     "role": "user",
                     "content": [
@@ -358,15 +371,42 @@ class ImageProcessor:
                     ],
                 }
             ],
-            max_tokens=self.max_tokens,
-            temperature=self.temperature
-        )
-        
+            "max_tokens": self.max_tokens,
+            "temperature": self.temperature
+        }
+
+        # 添加思考模式参数（如果支持）
+        if self.enable_thinking:
+            # 某些API可能使用不同的参数名
+            payload["enable_thinking"] = True
+            # 也可以尝试其他可能的参数名
+            # payload["thinking_mode"] = "enabled"
+            # payload["reasoning"] = True
+        # else:
+            # payload["enable_thinking"] = False
+            # 也可以尝试其他可能的参数名
+            # payload["thinking_mode"] = "disabled"
+            # payload["reasoning"] = False
+
+        # 使用aiohttp发送请求
+        async with aiohttp.ClientSession() as session:
+            async with session.post(
+                f"{self.api_base}/chat/completions",
+                headers=headers,
+                json=payload,
+                timeout=aiohttp.ClientTimeout(total=300)  # 5分钟超时
+            ) as response:
+                if response.status != 200:
+                    error_text = await response.text()
+                    raise Exception(f"API请求失败，状态码: {response.status}, 错误: {error_text}")
+
+                response_data = await response.json()
+
         processing_time = time.time() - start_time
         logger.info(f"处理 {image_path.name} 用时 {processing_time:.2f}秒")
-        
+
         # 提取响应文本
-        response_text = completion.choices[0].message.content
+        response_text = response_data["choices"][0]["message"]["content"]
         response_text = extract_markdown_table(response_text)
 
         # 记录原始响应以便调试
@@ -374,22 +414,22 @@ class ImageProcessor:
         response_log_path.parent.mkdir(exist_ok=True)
         async with aiofiles.open(response_log_path, 'w', encoding='utf-8') as f:
             await f.write(response_text)
-        
+
         # 解析表格数据
         data = self.parse_markdown_table(response_text, columns)
-        
+
         # 验证数据
         if not data:
             logger.warning(f"{image_path.name} 未能提取到有效数据")
             raise ValueError(f"无法从 {image_path.name} 提取有效数据")
         else:
             logger.info(f"{image_path.name} 成功提取了 {len(data)} 行数据")
-            
+
             # 检查数据完整性
             for item in data:
                 if "foodCode" not in item or "foodName" not in item:
                     logger.warning(f"{image_path.name} 中有记录缺少foodCode或foodName: {item}")
-        
+
         return data
 
     def parse_markdown_table(self, text: str, columns: List[str]) -> List[Dict]:
@@ -726,9 +766,17 @@ class ImageProcessor:
             return match.group(1)
         return category
     
-    async def process_directory(self):
-        """处理整个目录中的图像"""
+    async def process_directory(self, ignore_prefixes=None):
+        """处理整个目录中的图像
+        
+        Args:
+            ignore_prefixes: 要忽略的文件名前缀列表，如 ["婴幼儿食品", "测试数据"]
+        """
         self.start_time = time.time()
+        
+        # 如果没有提供忽略前缀，初始化为空列表
+        if ignore_prefixes is None:
+            ignore_prefixes = []
         
         # 收集所有图像文件
         energy_files = {}
@@ -736,12 +784,42 @@ class ImageProcessor:
         
         # 递归查找所有图像文件
         for root, _, files in os.walk(self.input_dir):
+            # 检查当前文件夹路径是否包含忽略前缀
+            root_path = Path(root)
+            should_skip_dir = any(ignore_prefix.lower() in root_path.as_posix().lower() 
+                                for ignore_prefix in ignore_prefixes)
+            
+            if should_skip_dir:
+                logger.info(f"跳过目录: {root_path} (包含忽略前缀)")
+                continue
+            
             for file in files:
+                # 检查文件名是否包含忽略前缀
+                file_lower = file.lower()
+                should_skip_file = any(ignore_prefix.lower() in file_lower 
+                                    for ignore_prefix in ignore_prefixes)
+                
+                if should_skip_file:
+                    logger.info(f"跳过文件: {file} (包含忽略前缀)")
+                    continue
+                
                 if file.endswith('-energy.png'):
                     base_name = file.replace('-energy.png', '')
+                    # 再次检查基础名是否包含忽略前缀
+                    if any(ignore_prefix.lower() in base_name.lower() 
+                        for ignore_prefix in ignore_prefixes):
+                        logger.info(f"跳过文件: {file} (基础名包含忽略前缀)")
+                        continue
+                    
                     energy_files[base_name] = Path(root) / file
                 elif file.endswith('-nutrient.png'):
                     base_name = file.replace('-nutrient.png', '')
+                    # 再次检查基础名是否包含忽略前缀
+                    if any(ignore_prefix.lower() in base_name.lower() 
+                        for ignore_prefix in ignore_prefixes):
+                        logger.info(f"跳过文件: {file} (基础名包含忽略前缀)")
+                        continue
+                    
                     nutrient_files[base_name] = Path(root) / file
         
         # 找到所有匹配的对
@@ -749,12 +827,35 @@ class ImageProcessor:
         category_map = {}  # 存储每个base_name对应的类别
         
         for base_name in set(energy_files.keys()) & set(nutrient_files.keys()):
+            # 最终检查一次base_name是否包含忽略前缀（冗余检查，确保安全）
+            if any(ignore_prefix.lower() in base_name.lower() 
+                for ignore_prefix in ignore_prefixes):
+                logger.info(f"跳过图像对: {base_name} (基础名包含忽略前缀)")
+                continue
+            
             category = self.extract_category_from_filename(base_name)
+            
+            # 检查类别名是否包含忽略前缀
+            if any(ignore_prefix.lower() in category.lower() 
+                for ignore_prefix in ignore_prefixes):
+                logger.info(f"跳过图像对: {base_name} (类别名包含忽略前缀)")
+                continue
+            
             category_map[base_name] = category
             pairs.append((energy_files[base_name], nutrient_files[base_name], base_name))
         
+        # 记录忽略统计信息
+        if ignore_prefixes:
+            logger.info(f"已设置忽略前缀: {ignore_prefixes}")
+            logger.info(f"跳过后剩余 {len(pairs)} 对图像需要处理")
+        
         self.total_images = len(pairs) * 2
         logger.info(f"找到 {len(pairs)} 对图像，共 {self.total_images} 个文件需要处理")
+        
+        # 如果没有找到任何图像对
+        if not pairs:
+            logger.warning("没有找到需要处理的图像对！")
+            return
         
         # 统计类别信息
         categories = set(category_map.values())
@@ -785,6 +886,12 @@ class ImageProcessor:
         # 处理完成后，保存每个类别的结果
         for category, data in self.results_by_category.items():
             if data:
+                # 检查类别是否应该被忽略（虽然前面已经检查过，但这里再做一次保护）
+                if any(ignore_prefix.lower() in category.lower() 
+                    for ignore_prefix in ignore_prefixes):
+                    logger.info(f"跳过保存类别 {category} 的数据 (包含忽略前缀)")
+                    continue
+                    
                 output_path = self.temp_middle_dir / f"{category}.json"
                 await self.save_json(data, output_path)
                 logger.info(f"已将类别 {category} 的数据合并并保存")
@@ -895,6 +1002,7 @@ async def main():
     parser.add_argument("--model", default=os.getenv("MODEL_NAME"), help="模型名称")
     parser.add_argument("--max-tokens", type=int, default=int(os.getenv("MAX_TOKENS", "4000")), help="最大响应token数")
     parser.add_argument("--temperature", type=float, default=float(os.getenv("TEMPERATURE", "0.1")), help="温度参数")
+    parser.add_argument("--enable-thinking", action="store_true", help="启用思考模式（部分模型支持）")
     parser.add_argument("--sort-only", help="仅对指定目录中的JSON文件进行排序，不进行图片处理")
     args = parser.parse_args()
     
@@ -913,7 +1021,8 @@ async def main():
     logger.info(f"模型名称: {args.model}")
     logger.info(f"最大响应token数: {args.max_tokens}")
     logger.info(f"温度参数: {args.temperature}")
-    
+    logger.info(f"思考模式: {'启用' if args.enable_thinking else '禁用'}")
+
     # 创建处理器并运行
     processor = ImageProcessor(
         input_dir=args.input,
@@ -924,9 +1033,13 @@ async def main():
         max_retries=args.retries,
         model_name=args.model,
         max_tokens=args.max_tokens,
-        temperature=args.temperature
+        temperature=args.temperature,
+        enable_thinking=args.enable_thinking
     )
-    await processor.process_directory()
+
+    # await processor.process_directory()
+    # 2025-12-05，发现婴幼儿食品分类，energy和nutrition的名称和其他分类不太一样，所以忽略这个分类
+    await processor.process_directory(ignore_prefixes=["婴幼儿食品"])
 
 if __name__ == "__main__":
     asyncio.run(main()) 
