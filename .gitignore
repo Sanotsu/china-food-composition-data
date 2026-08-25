@@ -172,7 +172,20 @@ cython_debug/
 # 临时和测试文件夹
 **/temp*
 **/temp_*
+review_v3/
 **/test_*
 # 忽略所有 文件名中包含数字 的 JSON 文件（可能范围过大,游泳的json注意命名不要包含数字）
 **/*[0-9]*.json
+
+# ===== 方案三（v3）：需纳入版本管理的例外（后置规则，覆盖上方匹配）=====
+# 主配置（被上面 *[0-9]*.json 误伤——文件名 v3 含数字；密钥在 .env 中，无泄露风险）
+!v3_config.json
+# 处理链路测试脚本（被上面 **/test_* 忽略）
+!test_v3_output.py
+# 人工修正裁决文件（review_v3 其余为自动生成的 web 产物，保持忽略）
+!review_v3/
+review_v3/*
+!review_v3/corrections.json
+# temp_v3/ 整体保持忽略：raw 识别原始结果是本机API产物，仓库使用者应自行调用API识别
+# （直接复用会导致本仓库的识别错误传导给所有下游使用者）
 

@@ -1,0 +1,218 @@
+[
+  {
+    "issue_id": 55,
+    "category": "乳类及其制品-奶粉",
+    "foodCode": "102313",
+    "field": "Se",
+    "action": "update",
+    "value": "—",
+    "_comment": "[review#55] model_disagreement: 两模型字段值不一致（已按策略 model_b 取 kimi-k3 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 56,
+    "category": "乳类及其制品-液态乳",
+    "foodCode": "101127",
+    "field": "Se",
+    "action": "update",
+    "value": "-",
+    "_comment": "[review#56] model_disagreement: 两模型字段值不一致（已按策略 model_b 取 kimi-k3 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 57,
+    "category": "乳类及其制品-液态乳",
+    "foodCode": "101143",
+    "field": "Se",
+    "action": "update",
+    "value": "-",
+    "_comment": "[review#57] model_disagreement: 两模型字段值不一致（已按策略 model_b 取 kimi-k3 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 58,
+    "category": "其他类-其他",
+    "foodCode": "219030",
+    "field": "foodName",
+    "action": "update",
+    "value": "团螵蛸",
+    "_comment": "[review#58] model_disagreement: 两模型字段值不一致（已按策略 model_b 取 kimi-k3 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 59,
+    "category": "动物油脂类-动物油脂",
+    "foodCode": "191005",
+    "field": "vitaminA",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#59] model_disagreement: 两模型字段值不一致（已按策略 model_b 取 kimi-k3 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 60,
+    "category": "动物油脂类-动物油脂",
+    "foodCode": "191005",
+    "field": "retinol",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#60] model_disagreement: 两模型字段值不一致（已按策略 model_b 取 kimi-k3 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 61,
+    "category": "干豆类及其制品-大豆",
+    "foodCode": "031208",
+    "field": "foodName",
+    "action": "update",
+    "value": "豆奶粉（大磨牌）",
+    "_comment": "[review#61] model_disagreement: 两模型字段值不一致（已按策略 model_b 取 kimi-k3 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 62,
+    "category": "水果类及其制品-核果类",
+    "foodCode": "062104",
+    "field": "foodName",
+    "action": "update",
+    "value": "旱久保桃",
+    "_comment": "[review#62] model_disagreement: 两模型字段值不一致（已按策略 model_b 取 kimi-k3 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 63,
+    "category": "菌藻类-菌类",
+    "foodCode": "051045",
+    "field": "foodName",
+    "action": "update",
+    "value": "牛肝菌（鲜）［黄皮牛肝菌、黄皮疣柄牛肝菌、黄癞头］",
+    "_comment": "[review#63] model_disagreement: 两模型字段值不一致（已按策略 model_b 取 kimi-k3 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 64,
+    "category": "蔬菜类及其制品-嫩茎叶花菜类",
+    "foodCode": "045317",
+    "field": "foodName",
+    "action": "update",
+    "value": "香菜（鲜）［芫荽］",
+    "_comment": "[review#64] model_disagreement: 两模型字段值不一致（已按策略 model_b 取 kimi-k3 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 65,
+    "category": "蔬菜类及其制品-水生蔬菜类",
+    "foodCode": "046007",
+    "field": "foodName",
+    "action": "update",
+    "value": "茭白（鲜）［茭笋，茭粑］",
+    "_comment": "[review#65] model_disagreement: 两模型字段值不一致（已按策略 model_b 取 kimi-k3 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 66,
+    "category": "蔬菜类及其制品-薯芋类",
+    "foodCode": "047103",
+    "field": "Ca",
+    "action": "update",
+    "value": "-",
+    "_comment": "[review#66] model_disagreement: 两模型字段值不一致（已按策略 model_b 取 kimi-k3 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 67,
+    "category": "蔬菜类及其制品-薯芋类",
+    "foodCode": "047103",
+    "field": "P",
+    "action": "update",
+    "value": "48",
+    "_comment": "[review#67] model_disagreement: 两模型字段值不一致（已按策略 model_b 取 kimi-k3 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 68,
+    "category": "蔬菜类及其制品-薯芋类",
+    "foodCode": "047103",
+    "field": "K",
+    "action": "update",
+    "value": "Tr",
+    "_comment": "[review#68] model_disagreement: 两模型字段值不一致（已按策略 model_b 取 kimi-k3 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 69,
+    "category": "蔬菜类及其制品-薯芋类",
+    "foodCode": "047103",
+    "field": "Mg",
+    "action": "update",
+    "value": "-",
+    "_comment": "[review#69] model_disagreement: 两模型字段值不一致（已按策略 model_b 取 kimi-k3 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 70,
+    "category": "蔬菜类及其制品-薯芋类",
+    "foodCode": "047103",
+    "field": "Fe",
+    "action": "update",
+    "value": "1.3",
+    "_comment": "[review#70] model_disagreement: 两模型字段值不一致（已按策略 model_b 取 kimi-k3 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 71,
+    "category": "蔬菜类及其制品-薯芋类",
+    "foodCode": "047103",
+    "field": "Zn",
+    "action": "update",
+    "value": "-",
+    "_comment": "[review#71] model_disagreement: 两模型字段值不一致（已按策略 model_b 取 kimi-k3 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 72,
+    "category": "蔬菜类及其制品-薯芋类",
+    "foodCode": "047103",
+    "field": "Se",
+    "action": "update",
+    "value": "1.22",
+    "_comment": "[review#72] model_disagreement: 两模型字段值不一致（已按策略 model_b 取 kimi-k3 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 73,
+    "category": "蔬菜类及其制品-薯芋类",
+    "foodCode": "047103",
+    "field": "Cu",
+    "action": "update",
+    "value": "-",
+    "_comment": "[review#73] model_disagreement: 两模型字段值不一致（已按策略 model_b 取 kimi-k3 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 74,
+    "category": "蔬菜类及其制品-薯芋类",
+    "foodCode": "047103",
+    "field": "Mn",
+    "action": "update",
+    "value": "0.20",
+    "_comment": "[review#74] model_disagreement: 两模型字段值不一致（已按策略 model_b 取 kimi-k3 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 75,
+    "category": "蔬菜类及其制品-野生蔬菜类",
+    "foodCode": "048004",
+    "field": "riboflavin",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#75] model_disagreement: 两模型字段值不一致（已按策略 model_b 取 kimi-k3 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 76,
+    "category": "蔬菜类及其制品-野生蔬菜类",
+    "foodCode": "048070",
+    "field": "foodName",
+    "action": "update",
+    "value": "苣荬菜（尖叶）［取荬菜，苦麻子］",
+    "_comment": "[review#76] model_disagreement: 两模型字段值不一致（已按策略 model_b 取 kimi-k3 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 77,
+    "category": "蔬菜类及其制品-鲜豆类",
+    "foodCode": "042102",
+    "field": "foodName",
+    "action": "update",
+    "value": "蚕豆（鲜）",
+    "_comment": "[review#77] model_disagreement: 两模型字段值不一致（已按策略 model_b 取 kimi-k3 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 78,
+    "category": "谷类及其制品-稻米",
+    "foodCode": "012107",
+    "field": "foodName",
+    "action": "update",
+    "value": "粳米（西域王米）",
+    "_comment": "[review#78] model_disagreement: 两模型字段值不一致（已按策略 model_b 取 kimi-k3 的值，请人工裁决）"
+  }
+]
