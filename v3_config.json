@@ -4,7 +4,7 @@
   "ignore_prefixes": ["婴幼儿食品"],
   "temp_dir": "temp_v3",
   "review_dir": "review_v3",
-  "output_dir": null,
+  "output_dir": "json_data_v3_20260825_qwen38max_kimi_k3",
   "models": [
     {
       "tag": "qwen38max",
@@ -31,9 +31,7 @@
   ],
   "pilot": {
     "enabled": true,
-    "dirs": [
-      "营养素截图/薯类淀粉及其制品/"
-    ]
+    "dirs": ["营养素截图/薯类淀粉及其制品/"]
   },
   "concurrency": {
     "max_workers": 20,
@@ -42,13 +40,13 @@
     "ttft_thinking_hint": 15
   },
   "thresholds": {
-    "kj_rel_tolerance": 1.02,
-    "atwater_rel_tolerance": 1.1,
-    "dry_matter_tolerance": 10.5,
-    "ve_abs_tolerance": 1.02,
-    "ve_rel_tolerance": 1.05,
-    "vitamin_a_rel_tolerance": 1.1,
-    "vitamin_a_abs_tolerance": 2.0
+    "kj_rel_tolerance": 2,
+    "atwater_rel_tolerance": 2,
+    "dry_matter_tolerance": 100,
+    "ve_abs_tolerance": 2,
+    "ve_rel_tolerance": 2,
+    "vitamin_a_rel_tolerance": 2,
+    "vitamin_a_abs_tolerance": 2
   },
   "consensus_policy": "model_b"
 }

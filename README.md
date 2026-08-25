@@ -2,19 +2,25 @@
 
 此处的测试数据，主要为了[Sanotsu/free-fitness](https://github.com/Sanotsu/free-fitness) 项目的食物导入功能的测试。
 
+将 pdf 版本的[《中国食物成分表标准版（第 6 版）》](https://www.pumpedu.com/home-shop/5514.html) 中"能量和食物一般营养成分"部分进行截图，通过 python 脚本构建为指定格式的 json 文件。
+
 ---
 
-2025-12-06 经过 [issues3](https://github.com/Sanotsu/china-food-composition-data/issues/3) 的提醒，我重新看了一下截图和数据，发现 **_婴幼儿食品能量和营养素的名称和其他 15 项不完全一样，且数据看起来都是一些品牌奶粉商品，不是通用数据_** ，所以新的 json 数据中移除了“婴幼儿食品”的数据。
+2026-08-25 更新
 
-**最新版、不包含“婴幼儿食品”分类、视觉大模型识别的 json 数据，在 [json_data_vision_251206_Qwen2-5-VL-72B-Instruct](./json_data_vision_251206_Qwen2-5-VL-72B-Instruct) 文件夹。**
+**最新版数据**：[json_data_v3_20260825_qwen38max_kimi_k3](./json_data_v3_20260825_qwen38max_kimi_k3) 文件夹。
 
-食品数据共计 1677 条。数量应该没问题，识别准确率不敢保证。
+- 食品数据共计 **1677 条**，61 个类别文件，可直接使用
+- 先由两个视觉大模型（`qwen3.8-max` 与 `kimi-k3`）交叉识别
+- 再本地自动校验（恒等式/值域/行数/双模型共识）
+- 然后经人工定点复核修正生成(我只处理了两个模型识别不一致的地方)
+  - **目前可能数据出错就是 qwen3.8-max 和 kimi-k3 的视觉识别都错了，还错成一样了**
+- `apply_log.json` 记录人工修正与重校验结果
+- 约 11.4 万个单元格的处理链路已经 [test_v3_output.py](./test_v3_output.py) 独立重放验证零偏差
 
-单单这个脚本识别表格图片内容来讲，在以下测试过的视觉理解模型中，效果最好的是`Qwen2.5-VL-72B-Instruct`效果最好，强过 Qwen3-VL 版本和 GLM4.5V。
+"婴幼儿食品"分类的表格栏位与其他分类不同，且数据多为品牌奶粉商品而非通用数据，流水线通过配置 `ignore_prefixes` 跳过，数据中不包含该分类。
 
-![测试过的视觉模型](./_readme_pics/测试过的视觉模型.png)
-
-具体手动比较每个分类的数据量说明，参看[手动统计图片数据数量 251204.md](手动统计图片数据数量251204.md)。
+我的两个基准大模型API构建的原始json数据，可查看 [https://cfcd.pages.dev/](https://cfcd.pages.dev/)
 
 ---
 
@@ -22,46 +28,34 @@
 
 ---
 
-将 pdf 版本的[《中国食物成分表标准版（第 6 版）》](https://www.pumpedu.com/home-shop/5514.html) 中“能量和食物一般营养成分”部分进行截图，通过 python 脚本构建为指定格式的 json 文件。
-
-- 2025-07-23 第二版 `index_vision_llm_processor.py`:
-  - 先调用视觉理解大模型 API(需要自行在`.env`配置)，将图片识别为 markdown 表格格式，再构建为 json 文件
-    - 具体使用方法参看 [README_index_vision_llm_processor](README_index_vision_llm_processor.md)
-  - 数据在 [json_data_vision](./json_data_vision) 文件夹
-    - 这个数据是使用阿里百炼平台的`通义千问2.5-VL-72B`模式识别的
-    - 效果比`通义千问VL-Plus`、`GLM-4.1V-9B-Thinking`好得多
-    - 可以自行使用更高级的视觉大模型来识别，视觉推理模型应该非常耗时，但效果不确定
-- 第一版 `index.py`:
-  - 先通过[飞桨 OCR](https://github.com/PaddlePaddle/PaddleOCR) 转为 exel 文件，再构建为 json 文件
-  - 数据在 [json_data](./json_data) 文件夹
-
----
-
 ## 脚本说明
 
-将截图通过飞桨 OCR 转为 exel 文件(第一版 `index.py`)，或调用视觉大模型 API 识别为 markdown 表格代码(第二版`index_vision_llm_processor.py`)，并进一步构建成指定格式的 json 文件。
+将同类食物"能量"部分和"一般营养成分"部分的成对截图，  
+调用两个视觉大模型 API 识别为JSON 结构化数据（字段显式命名、数值原文保真），  
+按 foodCode 配对合并、双模型交叉校验，  
+再经人工复核修正，构建成指定格式的 json 文件。
 
 即多张同类食物"能量"部分和"一般营养成分"部分的截图，如：
 
 `禽肉类及其制品-鸡1-energy.png`:
-![禽肉类及其制品-鸡1-energy.png](./_readme_pics/禽肉类及其制品-鸡1-energy.png)
+![禽肉类及其制品-鸡1-energy.png](./docs/_readme_pics/禽肉类及其制品-鸡1-energy.png)
 
 `禽肉类及其制品-鸡1-nutrient.png`:
-![禽肉类及其制品-鸡1-nutrient.png](./_readme_pics/禽肉类及其制品-鸡1-nutrient.png)
+![禽肉类及其制品-鸡1-nutrient.png](./docs/_readme_pics/禽肉类及其制品-鸡1-nutrient.png)
 
 `禽肉类及其制品-鸡2-energy.png`:
-![禽肉类及其制品-鸡2-energy.png](./_readme_pics/禽肉类及其制品-鸡2-energy.png)
+![禽肉类及其制品-鸡2-energy.png](./docs/_readme_pics/禽肉类及其制品-鸡2-energy.png)
 
 `禽肉类及其制品-鸡2-nutrient.png`:
-![禽肉类及其制品-鸡2-nutrient.png](./_readme_pics/禽肉类及其制品-鸡2-nutrient.png)
+![禽肉类及其制品-鸡2-nutrient.png](./docs/_readme_pics/禽肉类及其制品-鸡2-nutrient.png)
 
-转换为单个`merged-禽肉类及其制品-鸡.json`文件
+转换为单个`merged_禽肉类及其制品-鸡.json`文件
 
 ```json
 [
   {
     "foodCode": "091101x",
-    "foodName": "鸡 (代表值)",
+    "foodName": "鸡（代表值）",
     "edible": "63",
     "water": "70.5",
     "energyKCal": "145",
@@ -103,37 +97,64 @@
 
 energy 部分栏位中文名称:
 
-![energy部分栏位中文名称](./_readme_pics/energy部分栏位中文名称.png)
+![energy部分栏位中文名称](./docs/_readme_pics/energy部分栏位中文名称.png)
 
 nutrient 部分栏位中文名称:
 
-![nutrient部分栏位中文名称](./_readme_pics/nutrient部分栏位中文名称.png)
+![nutrient部分栏位中文名称](./docs/_readme_pics/nutrient部分栏位中文名称.png)
 
 ## 运行
 
-**飞桨 OCR 模式**：
-
 ```sh
-python3 index.py
+pip install -r requirements.txt   # openai / aiofiles / python-dotenv
+
+# 1. 在 .env 配置两个视觉大模型的 API 密钥（参考 .env.example）
+# 2. 按需调整 v3_config.json（模型清单、试点范围等）
+# 3. 跑流水线（识别 + 解析合并 + 校验 + 复核报告）
+python index_v3_pipeline.py --stage all
+# 4. 浏览器打开 review_v3/index.html 人工核对
+# 5. 需要修正时：
+cp review_v3/corrections_template.json review_v3/corrections.json
+#    编辑 corrections.json（action: update/delete/insert）
+python index_v3_pipeline.py --stage apply
+
+# 验证处理链路（可选，零 API 调用）
+python test_v3_output.py
 ```
 
-测试执行转换花费了两个多小时，所以有需要直接使用`json_data`文件夹中的 json 文件即可；也可以按照个人需求修改脚本，自定义输出内容。
+也可以直接使用 `json_data_v3_20260825_qwen38max_kimi_k3` 文件夹中的 json 文件。
 
-```sh
-# 在 i5-4460 CPU 和 GT710 独显下 Windows7 系统中使用 VBox7 装的 Ubuntu22 虚拟机中的测试结果
-截图ocr总耗时: 9119.207285642624秒
-```
-
-**视觉大模型 API 模式**(本人更推荐这种方式，配合好的视觉大模型效果更佳)：
-
-```sh
-python3 index_vision_llm_processor.py
-```
-
-有需要也可以直接使用`json_data_vision`文件夹中的 json 文件即可。
-
-- 具体使用方法参看 [README_index_vision_llm_processor](README_index_vision_llm_processor.md)
+具体使用方法参看[V3流水线详细说明](docs/V3_README.md)。
 
 ## 注意事项
 
-**【注意】**: 不保证数据 OCR 识别的绝对一致；所有版权都归原作者所有，有任何必要的话请通知我删除此仓库。
+### 数据可能存在逻辑问题，但是这可能就是原书籍就是这样
+
+- **比如原书中 `蔬菜类及其制品-野生蔬菜类`，能量 kcal 和 kJ 数值明显是标反了的**
+  - 为了保持和书籍一致，json文件并未修正，请严肃注意
+- 比如 `畜肉类及其制品-牛 · 082115 牛肉（胸部肉）［牛胸］`
+  - 水分 + 蛋白质 + 脂肪 + 碳水 + 灰分 =58.8+16.6+28.8+0.8= 105.0 ，远超100
+  - 这个显得不合理，而且这样的数据非常多
+- 目前我将 `v3_config.json` 中的 `thresholds` 配置得极大，忽略了这些内容
+- 同样的还有微量元素的值，也在[v3_support/validation.py](v3_support/validation.py) 的 `RANGES` 中配置得很宽
+  - 实际数据需要专业人员判断，这里优先保证识别的结果和书上原文一致
+
+### 不保证数据识别的绝对一致
+
+- 虽然经过双模型交叉 + 自动校验 + 人工复核后，可疑单元格均已定点核对过；
+- 目前可能数据出错就是 qwen3.8-max 和 kimi-k3 的视觉识别都错了，还错得一样
+- 若有余力可自行逐行校对，或者使用其他模型测试
+  - 个人花了不少费用进行测试，**仅针对当前这个项目的需求**，对应的视觉大模型的识别效果:
+  - kimi-k3 > qwen3.8-max > kimi-k2.7-code > [minimax-m3, qwen3.8-2.4t-a95b, qwen3.8-27b, qwen3.7-max-2026-06-08]
+    - 后面那几个效果都比较差
+
+### 迭代记录
+
+- 2023-12-30 飞桨 OCR 路线（第一版）
+- 2025-07-23 单视觉大模型 markdown 表格转录（第二版）
+- 2025-12-06 更新了视觉大模型处理结果，移除了结构不一致的 婴幼儿食品部分，手动添加了GI数据
+- 2026-08-25 双模型交叉 + 自动校验 + 人工复核验证（第三版）
+
+### 版权声明
+
+所有版权都归原作者所有，脚本仅用于个人学习研究，有任何必要的话请通知我删除此仓库。

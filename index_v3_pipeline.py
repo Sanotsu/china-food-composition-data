@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""方案三主入口：识别 + 自动校验 + 定点人工复核 流水线
+"""主入口：双模型交叉识别 + 自动校验 + 定点人工复核 流水线
 
 用法：
   python index_v3_pipeline.py --stage all                    # 识别->解析合并->校验->生成复核报告
@@ -29,7 +29,7 @@ STAGES = ("recognize", "merge", "validate", "report", "apply", "all")
 
 
 def main():
-    parser = argparse.ArgumentParser(description="方案三：双模型交叉识别 + 自动校验 + 定点人工复核")
+    parser = argparse.ArgumentParser(description="双模型交叉识别 + 自动校验 + 定点人工复核")
     parser.add_argument("--config", default="v3_config.json", help="配置文件路径")
     parser.add_argument("--stage", required=True, choices=STAGES, help="执行阶段")
     parser.add_argument("--force", action="store_true", help="识别阶段强制重跑（忽略已有JSON）")

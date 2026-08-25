@@ -3,7 +3,7 @@
 """阶段5：人工修正回写模块
 
 读取人工填写好的 corrections.json，应用到共识版数据，重新校验后
-输出最终 JSON 到 output_dir（字段结构与方案一/二完全一致）。
+输出最终 JSON 到 output_dir。
 
 corrections.json 条目格式：
 {
@@ -80,6 +80,14 @@ def run_apply(cfg: AppConfig, corrections_path: Path) -> Dict:
     consensus_files = sorted(cfg.consensus_dir.glob("merged_*.json"))
     if not consensus_files:
         raise FileNotFoundError(f"共识版数据目录为空: {cfg.consensus_dir}")
+
+    # 清理输出目录中不属于本次共识版的过时类别文件
+    # （output_dir 固定复用时，旧轮次已消失类别的 merged_*.json 不会被动覆盖，需主动剔除）
+    consensus_names = {f.name for f in consensus_files}
+    for stale in cfg.output_dir.glob("merged_*.json"):
+        if stale.name not in consensus_names:
+            stale.unlink()
+            log.append(f"[清理] 过时文件 {stale.name}")
 
     # 按类别把修正分组后逐文件应用
     by_cat: Dict[str, List[Dict]] = {}

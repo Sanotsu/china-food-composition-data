@@ -1,5 +1,5 @@
 {
-  "applied_at": "2026-08-25T10:37:46.503039",
+  "applied_at": "2026-08-25T15:13:10.858296",
   "corrections_file": "review_v3/corrections.json",
   "total_corrections": 24,
   "log": [
@@ -30,204 +30,12 @@
   ],
   "remaining_after_revalidate": {
     "error": 0,
-    "warning": 20,
+    "warning": 7,
     "review": 0
   },
   "remaining_issues": [
     {
       "id": 1,
-      "level": "warning",
-      "type": "range",
-      "model": "final",
-      "category": "其他类-其他",
-      "foodCode": "219029",
-      "foodName": "乌梢蛇",
-      "field": "Ca",
-      "value": "7345",
-      "value_b": "",
-      "image": "",
-      "images": [],
-      "fields": {},
-      "detail": "字段 Ca 数值 7345.0 超出合理范围 [0, 3000]（疑为原书极端值）"
-    },
-    {
-      "id": 2,
-      "level": "warning",
-      "type": "range",
-      "model": "final",
-      "category": "其他类-其他",
-      "foodCode": "219029",
-      "foodName": "乌梢蛇",
-      "field": "Mg",
-      "value": "2637",
-      "value_b": "",
-      "image": "",
-      "images": [],
-      "fields": {},
-      "detail": "字段 Mg 数值 2637.0 超出合理范围 [0, 2000]（疑为原书极端值）"
-    },
-    {
-      "id": 3,
-      "level": "warning",
-      "type": "range",
-      "model": "final",
-      "category": "其他类-其他",
-      "foodCode": "219032",
-      "foodName": "珍珠",
-      "field": "ash",
-      "value": "95.0",
-      "value_b": "",
-      "image": "",
-      "images": [],
-      "fields": {},
-      "detail": "字段 ash 数值 95.0 超出合理范围 [0, 40]（疑为原书极端值）"
-    },
-    {
-      "id": 4,
-      "level": "warning",
-      "type": "range",
-      "model": "final",
-      "category": "其他类-其他",
-      "foodCode": "219033",
-      "foodName": "牛黄",
-      "field": "Mn",
-      "value": "111.16",
-      "value_b": "",
-      "image": "",
-      "images": [],
-      "fields": {},
-      "detail": "字段 Mn 数值 111.16 超出合理范围 [0, 100]（疑为原书极端值）"
-    },
-    {
-      "id": 5,
-      "level": "warning",
-      "type": "range",
-      "model": "final",
-      "category": "其他类-其他",
-      "foodCode": "219034",
-      "foodName": "马鹿胎（粉）",
-      "field": "Ca",
-      "value": "8787",
-      "value_b": "",
-      "image": "",
-      "images": [],
-      "fields": {},
-      "detail": "字段 Ca 数值 8787.0 超出合理范围 [0, 3000]（疑为原书极端值）"
-    },
-    {
-      "id": 6,
-      "level": "warning",
-      "type": "range",
-      "model": "final",
-      "category": "其他类-其他",
-      "foodCode": "219035",
-      "foodName": "蛤蚧",
-      "field": "Ca",
-      "value": "4497",
-      "value_b": "",
-      "image": "",
-      "images": [],
-      "fields": {},
-      "detail": "字段 Ca 数值 4497.0 超出合理范围 [0, 3000]（疑为原书极端值）"
-    },
-    {
-      "id": 7,
-      "level": "warning",
-      "type": "range",
-      "model": "final",
-      "category": "其他类-其他",
-      "foodCode": "219039",
-      "foodName": "龟甲",
-      "field": "ash",
-      "value": "63.1",
-      "value_b": "",
-      "image": "",
-      "images": [],
-      "fields": {},
-      "detail": "字段 ash 数值 63.1 超出合理范围 [0, 40]（疑为原书极端值）"
-    },
-    {
-      "id": 8,
-      "level": "warning",
-      "type": "range",
-      "model": "final",
-      "category": "其他类-其他",
-      "foodCode": "219039",
-      "foodName": "龟甲",
-      "field": "P",
-      "value": "10000",
-      "value_b": "",
-      "image": "",
-      "images": [],
-      "fields": {},
-      "detail": "字段 P 数值 10000.0 超出合理范围 [0, 5000]（疑为原书极端值）"
-    },
-    {
-      "id": 9,
-      "level": "warning",
-      "type": "range",
-      "model": "final",
-      "category": "水果类及其制品-核果类",
-      "foodCode": "062901",
-      "foodName": "酸枣",
-      "field": "vitaminC",
-      "value": "900.0",
-      "value_b": "",
-      "image": "",
-      "images": [],
-      "fields": {},
-      "detail": "字段 vitaminC 数值 900.0 超出合理范围 [0, 700]（疑为原书极端值）"
-    },
-    {
-      "id": 10,
-      "level": "warning",
-      "type": "range",
-      "model": "final",
-      "category": "水果类及其制品-热带亚热带水果",
-      "foodCode": "065004",
-      "foodName": "刺梨［茨梨，木梨子］",
-      "field": "vitaminC",
-      "value": "2585.0",
-      "value_b": "",
-      "image": "",
-      "images": [],
-      "fields": {},
-      "detail": "字段 vitaminC 数值 2585.0 超出合理范围 [0, 700]（疑为原书极端值）"
-    },
-    {
-      "id": 11,
-      "level": "warning",
-      "type": "range",
-      "model": "final",
-      "category": "菌藻类-菌类",
-      "foodCode": "051054",
-      "foodName": "竹荪（干）［竹笙、竹参］",
-      "field": "K",
-      "value": "11882",
-      "value_b": "",
-      "image": "",
-      "images": [],
-      "fields": {},
-      "detail": "字段 K 数值 11882.0 超出合理范围 [0, 10000]（疑为原书极端值）"
-    },
-    {
-      "id": 12,
-      "level": "warning",
-      "type": "range",
-      "model": "final",
-      "category": "蔬菜类及其制品-茄果瓜菜类",
-      "foodCode": "043112",
-      "foodName": "甜椒（脱水）",
-      "field": "vitaminC",
-      "value": "846.0",
-      "value_b": "",
-      "image": "",
-      "images": [],
-      "fields": {},
-      "detail": "字段 vitaminC 数值 846.0 超出合理范围 [0, 700]（疑为原书极端值）"
-    },
-    {
-      "id": 13,
       "level": "warning",
       "type": "range",
       "model": "final",
@@ -243,7 +51,7 @@
       "detail": "字段 energyKCal 数值 1722.0 超出合理范围 [0, 900]（疑为原书极端值）"
     },
     {
-      "id": 14,
+      "id": 2,
       "level": "warning",
       "type": "range",
       "model": "final",
@@ -259,7 +67,7 @@
       "detail": "字段 energyKCal 数值 1535.0 超出合理范围 [0, 900]（疑为原书极端值）"
     },
     {
-      "id": 15,
+      "id": 3,
       "level": "warning",
       "type": "range",
       "model": "final",
@@ -275,7 +83,7 @@
       "detail": "字段 energyKCal 数值 1459.0 超出合理范围 [0, 900]（疑为原书极端值）"
     },
     {
-      "id": 16,
+      "id": 4,
       "level": "warning",
       "type": "range",
       "model": "final",
@@ -291,7 +99,7 @@
       "detail": "字段 energyKCal 数值 2341.0 超出合理范围 [0, 900]（疑为原书极端值）"
     },
     {
-      "id": 17,
+      "id": 5,
       "level": "warning",
       "type": "range",
       "model": "final",
@@ -307,7 +115,7 @@
       "detail": "字段 energyKCal 数值 1501.0 超出合理范围 [0, 900]（疑为原书极端值）"
     },
     {
-      "id": 18,
+      "id": 6,
       "level": "warning",
       "type": "range",
       "model": "final",
@@ -323,7 +131,7 @@
       "detail": "字段 energyKCal 数值 1265.0 超出合理范围 [0, 900]（疑为原书极端值）"
     },
     {
-      "id": 19,
+      "id": 7,
       "level": "warning",
       "type": "range",
       "model": "final",
@@ -337,46 +145,9 @@
       "images": [],
       "fields": {},
       "detail": "字段 energyKCal 数值 1492.0 超出合理范围 [0, 900]（疑为原书极端值）"
-    },
-    {
-      "id": 20,
-      "level": "warning",
-      "type": "dry_matter",
-      "model": "final",
-      "category": "鱼虾蟹贝类-其他",
-      "foodCode": "129018",
-      "foodName": "鱼翅（干）",
-      "field": "water",
-      "value": "25.3",
-      "value_b": "",
-      "image": "",
-      "images": [],
-      "fields": {
-        "water": {
-          "a": "25.3",
-          "b": ""
-        },
-        "protein": {
-          "a": "88.4",
-          "b": ""
-        },
-        "fat": {
-          "a": "0.9",
-          "b": ""
-        },
-        "CHO": {
-          "a": "0.0",
-          "b": ""
-        },
-        "ash": {
-          "a": "1.9",
-          "b": ""
-        }
-      },
-      "detail": "water+protein+fat+CHO+ash = 116.5 超过 100+10.5"
     }
   ],
-  "output_dir": "json_data_v3_20260825_qwen38max+kimi-k3",
+  "output_dir": "json_data_v3_20260825_qwen38max_kimi_k3",
   "output_files": [
     "merged_乳类及其制品-其他.json",
     "merged_乳类及其制品-奶油.json",

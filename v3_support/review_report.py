@@ -38,12 +38,12 @@ INDEX_HTML = """<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>方案三 数据复核</title>
+<title>数据复核</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <header>
-  <h1>方案三 数据复核（识别 + 自动校验 + 定点人工复核）</h1>
+  <h1>数据复核（识别 + 自动校验 + 定点人工复核）</h1>
   <div class="sub" id="sub"></div>
 </header>
 <nav>

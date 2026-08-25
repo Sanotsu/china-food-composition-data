@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""方案三配置加载模块
+"""配置加载模块
 
 v3_config.json 中的 API 密钥通过 *_env 字段引用 .env 中的环境变量名，
 避免密钥明文写入仓库配置文件。
@@ -32,7 +32,7 @@ NUTRIENT_COLS = [
     "Ca", "P", "K", "Na", "Mg", "Fe", "Zn", "Se", "Cu", "Mn", "remark",
 ]
 
-# 合并后的完整字段顺序（输出JSON的字段结构，与方案一/二保持一致）
+# 合并后的完整字段顺序（输出JSON的字段结构）
 MERGED_FIELD_ORDER = ENERGY_COLS + [c for c in NUTRIENT_COLS if c not in ("foodCode", "foodName")]
 
 DEFAULT_THRESHOLDS = {
@@ -153,7 +153,7 @@ def load_app_config(config_path: str = "v3_config.json") -> AppConfig:
 
     models = [_load_model_cfg(m) for m in raw.get("models", [])]
     if len(models) < 2:
-        raise ConfigError("方案三需要至少配置 2 个交叉识别模型")
+        raise ConfigError("需要至少配置 2 个交叉识别模型")
 
     pilot = raw.get("pilot") or {}
     pilot_enabled = bool(pilot.get("enabled", False))

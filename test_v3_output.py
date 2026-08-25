@@ -33,7 +33,7 @@
   .venv/bin/python test_v3_output.py \
       --temp temp_v3 --tags "qwen38max,kimi-k3" --policy model_b \
       --corrections review_v3/corrections.json \
-      --output json_data_v3_20260825_qwen38max+kimi-k3
+      --output json_data_v3_20260825_qwen38max_kimi_k3
 """
 import argparse
 import json
@@ -59,21 +59,9 @@ FOOD_CODE_RE = re.compile(r"^\d{6}[a-zA-Z]?$")
 SPECIAL_VALUES = {"Tr", "—", "(0)", "*", "un", "X", ""}
 DASH_VARIANTS = {"-", "–", "―", "――", "——", "一"}
 
-# 值域表（独立硬编码副本，与 validation.py 的 RANGES 对数值；若生产改表需同步此处）
-RANGES = {
-    "edible": (0, 100), "water": (0, 100),
-    "energyKCal": (0, 900), "energyKJ": (0, 3800),
-    "protein": (0, 100), "fat": (0, 100), "CHO": (0, 100),
-    "dietaryFiber": (0, 90), "cholesterol": (0, 3100), "ash": (0, 40),
-    "vitaminA": (0, 30000), "carotene": (0, 60000), "retinol": (0, 30000),
-    "thiamin": (0, 20), "riboflavin": (0, 20), "niacin": (0, 150),
-    "vitaminC": (0, 700),
-    "vitaminETotal": (0, 300), "vitaminE1": (0, 300),
-    "vitaminE2": (0, 300), "vitaminE3": (0, 300),
-    "Ca": (0, 3000), "P": (0, 5000), "K": (0, 10000), "Na": (0, 12000),
-    "Mg": (0, 2000), "Fe": (0, 300), "Zn": (0, 300),
-    "Se": (0, 2000), "Cu": (0, 100), "Mn": (0, 100),
-}
+# 值域表从 validation 导入（数据常量表须与生产同步——用户会按数据特性放宽 RANGES，
+# 硬编码副本会随调整失配导致 S2 误报；S2 的独立性体现在重算逻辑本身）
+from v3_support.validation import RANGES  # noqa: E402
 
 
 def _trunc(x, n=180):
@@ -572,12 +560,22 @@ def main():
     if args.output:
         out_dir = Path(args.output)
     else:
-        cands = sorted((p for p in ROOT.glob("json_data_v3_*") if (p / "apply_log.json").exists()),
-                       key=lambda p: p.stat().st_mtime)
-        if not cands:
-            print("未找到含 apply_log.json 的 json_data_v3_* 目录，请用 --output 指定")
-            sys.exit(2)
-        out_dir = cands[-1]
+        # 默认发现顺序：配置的固定 output_dir（已有 apply_log）> 最新的 json_data_v3_*
+        out_dir = None
+        cfg_out = cfg_raw.get("output_dir")
+        if cfg_out:
+            p = Path(cfg_out)
+            if not p.is_absolute():
+                p = ROOT / p
+            if (p / "apply_log.json").exists():
+                out_dir = p
+        if out_dir is None:
+            cands = sorted((p for p in ROOT.glob("json_data_v3_*") if (p / "apply_log.json").exists()),
+                           key=lambda p: p.stat().st_mtime)
+            if not cands:
+                print("未找到含 apply_log.json 的 json_data_v3_* 目录，请用 --output 指定")
+                sys.exit(2)
+            out_dir = cands[-1]
     corrections_path = (Path(args.corrections) if args.corrections
                         else review_dir / "corrections.json")
 
