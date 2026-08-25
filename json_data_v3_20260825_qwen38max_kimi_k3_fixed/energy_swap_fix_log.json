@@ -1,0 +1,906 @@
+{
+  "total_fixes": 68,
+  "fixes": [
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048004",
+      "foodName": "白沙蒿（鲜）［沙蒿］",
+      "before": {
+        "energyKCal": "232",
+        "energyKJ": "56"
+      },
+      "after": {
+        "energyKCal": "56",
+        "energyKJ": "232"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048005",
+      "foodName": "白沙蒿子（干）［沙蒿子］",
+      "before": {
+        "energyKCal": "1722",
+        "energyKJ": "412"
+      },
+      "after": {
+        "energyKCal": "412",
+        "energyKJ": "1722"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048006",
+      "foodName": "白薯叶（鲜）［甘薯叶］",
+      "before": {
+        "energyKCal": "249",
+        "energyKJ": "60"
+      },
+      "after": {
+        "energyKCal": "60",
+        "energyKJ": "249"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048008",
+      "foodName": "败酱（鲜）［胭脂麻］",
+      "before": {
+        "energyKCal": "290",
+        "energyKJ": "69"
+      },
+      "after": {
+        "energyKCal": "69",
+        "energyKJ": "290"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048009",
+      "foodName": "扁蓄菜（鲜）［竹节草］",
+      "before": {
+        "energyKCal": "313",
+        "energyKJ": "75"
+      },
+      "after": {
+        "energyKCal": "75",
+        "energyKJ": "313"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048010",
+      "foodName": "朝鲜蓟（鲜）",
+      "before": {
+        "energyKCal": "226",
+        "energyKJ": "54"
+      },
+      "after": {
+        "energyKCal": "54",
+        "energyKJ": "226"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048011",
+      "foodName": "刺儿菜（鲜）［小蓟，蓟蓟菜］",
+      "before": {
+        "energyKCal": "174",
+        "energyKJ": "42"
+      },
+      "after": {
+        "energyKCal": "42",
+        "energyKJ": "174"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048013",
+      "foodName": "达乌里胡枝子（鲜）［牛枝子，豆豆苗］",
+      "before": {
+        "energyKCal": "491",
+        "energyKJ": "117"
+      },
+      "after": {
+        "energyKCal": "117",
+        "energyKJ": "491"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048014",
+      "foodName": "达乌里胡枝子子（鲜）［牛枝子子，豆豆苗子］",
+      "before": {
+        "energyKCal": "1535",
+        "energyKJ": "367"
+      },
+      "after": {
+        "energyKCal": "367",
+        "energyKJ": "1535"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048015",
+      "foodName": "大玻璃草叶（鲜）［大车前］",
+      "before": {
+        "energyKCal": "206",
+        "energyKJ": "49"
+      },
+      "after": {
+        "energyKCal": "49",
+        "energyKJ": "206"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048016",
+      "foodName": "大巢菜（鲜）［野苕子，野豌豆］",
+      "before": {
+        "energyKCal": "264",
+        "energyKJ": "63"
+      },
+      "after": {
+        "energyKCal": "63",
+        "energyKJ": "264"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048017",
+      "foodName": "大蓟叶（鲜）［飞廉叶］",
+      "before": {
+        "energyKCal": "158",
+        "energyKJ": "38"
+      },
+      "after": {
+        "energyKCal": "38",
+        "energyKJ": "158"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048018",
+      "foodName": "地肤（鲜）［益明，扫帚苗］",
+      "before": {
+        "energyKCal": "273",
+        "energyKJ": "65"
+      },
+      "after": {
+        "energyKCal": "65",
+        "energyKJ": "273"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048019",
+      "foodName": "地笋（鲜）［地古牛，地瓜儿苗叶］",
+      "before": {
+        "energyKCal": "288",
+        "energyKJ": "69"
+      },
+      "after": {
+        "energyKCal": "69",
+        "energyKJ": "288"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048021",
+      "foodName": "独行菜（鲜）",
+      "before": {
+        "energyKCal": "75",
+        "energyKJ": "19"
+      },
+      "after": {
+        "energyKCal": "19",
+        "energyKJ": "75"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048024",
+      "foodName": "胡枝子（鲜）［山豆子］",
+      "before": {
+        "energyKCal": "579",
+        "energyKJ": "138"
+      },
+      "after": {
+        "energyKCal": "138",
+        "energyKJ": "579"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048025",
+      "foodName": "槐花（鲜）［洋槐花，豆槐花］",
+      "before": {
+        "energyKCal": "344",
+        "energyKJ": "82"
+      },
+      "after": {
+        "energyKCal": "82",
+        "energyKJ": "344"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048026",
+      "foodName": "黄麻叶（鲜）",
+      "before": {
+        "energyKCal": "177",
+        "energyKJ": "42"
+      },
+      "after": {
+        "energyKCal": "42",
+        "energyKJ": "177"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048027",
+      "foodName": "碱蓬（鲜）［棉蓬，猪毛菜］",
+      "before": {
+        "energyKCal": "138",
+        "energyKJ": "33"
+      },
+      "after": {
+        "energyKCal": "33",
+        "energyKJ": "138"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048028",
+      "foodName": "苦苦菜（鲜）",
+      "before": {
+        "energyKCal": "174",
+        "energyKJ": "42"
+      },
+      "after": {
+        "energyKCal": "42",
+        "energyKJ": "174"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048030",
+      "foodName": "罗勒［兰香］",
+      "before": {
+        "energyKCal": "108",
+        "energyKJ": "26"
+      },
+      "after": {
+        "energyKCal": "26",
+        "energyKJ": "108"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048031",
+      "foodName": "马齿苋（鲜）［长寿菜，瓜子菜］",
+      "before": {
+        "energyKCal": "117",
+        "energyKJ": "28"
+      },
+      "after": {
+        "energyKCal": "28",
+        "energyKJ": "117"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048032",
+      "foodName": "马兰头（鲜）［马兰，鸡儿肠，路边菊］",
+      "before": {
+        "energyKCal": "119",
+        "energyKJ": "28"
+      },
+      "after": {
+        "energyKCal": "28",
+        "energyKJ": "119"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048033",
+      "foodName": "麦瓶草（鲜）［米瓦罐］",
+      "before": {
+        "energyKCal": "159",
+        "energyKJ": "38"
+      },
+      "after": {
+        "energyKCal": "38",
+        "energyKJ": "159"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048035",
+      "foodName": "牛蒡叶（鲜）",
+      "before": {
+        "energyKCal": "174",
+        "energyKJ": "42"
+      },
+      "after": {
+        "energyKCal": "42",
+        "energyKJ": "174"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048036",
+      "foodName": "爬景天（鲜）［石头菜］",
+      "before": {
+        "energyKCal": "87",
+        "energyKJ": "21"
+      },
+      "after": {
+        "energyKCal": "21",
+        "energyKJ": "87"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048040",
+      "foodName": "蒲公英叶（鲜）［黄花苗叶，孛孛丁叶］",
+      "before": {
+        "energyKCal": "221",
+        "energyKJ": "53"
+      },
+      "after": {
+        "energyKCal": "53",
+        "energyKJ": "221"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048041",
+      "foodName": "掐不齐（鲜）［鸡眼草，牛黄草］",
+      "before": {
+        "energyKCal": "462",
+        "energyKJ": "110"
+      },
+      "after": {
+        "energyKCal": "110",
+        "energyKJ": "462"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048042",
+      "foodName": "清明菜（鲜）［鼠曲菜］",
+      "before": {
+        "energyKCal": "206",
+        "energyKJ": "49"
+      },
+      "after": {
+        "energyKCal": "49",
+        "energyKJ": "206"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048044",
+      "foodName": "沙参叶（鲜）［白参］",
+      "before": {
+        "energyKCal": "390",
+        "energyKJ": "93"
+      },
+      "after": {
+        "energyKCal": "93",
+        "energyKJ": "390"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048045",
+      "foodName": "沙蓬子（鲜）［沙米］",
+      "before": {
+        "energyKCal": "1459",
+        "energyKJ": "349"
+      },
+      "after": {
+        "energyKCal": "349",
+        "energyKJ": "1459"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048046",
+      "foodName": "山苦荬叶（鲜）［启明菜叶］",
+      "before": {
+        "energyKCal": "139",
+        "energyKJ": "33"
+      },
+      "after": {
+        "energyKCal": "33",
+        "energyKJ": "139"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048047",
+      "foodName": "食用大黄（鲜）",
+      "before": {
+        "energyKCal": "39",
+        "energyKJ": "9"
+      },
+      "after": {
+        "energyKCal": "9",
+        "energyKJ": "39"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048048",
+      "foodName": "食用黄麻",
+      "before": {
+        "energyKCal": "94",
+        "energyKJ": "22"
+      },
+      "after": {
+        "energyKCal": "22",
+        "energyKJ": "94"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048049",
+      "foodName": "酸模（鲜）",
+      "before": {
+        "energyKCal": "72",
+        "energyKJ": "17"
+      },
+      "after": {
+        "energyKCal": "17",
+        "energyKJ": "72"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048050",
+      "foodName": "汤菜（鲜）",
+      "before": {
+        "energyKCal": "99",
+        "energyKJ": "24"
+      },
+      "after": {
+        "energyKCal": "24",
+        "energyKJ": "99"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048051",
+      "foodName": "土三七（鲜）［景天三七］",
+      "before": {
+        "energyKCal": "200",
+        "energyKJ": "48"
+      },
+      "after": {
+        "energyKCal": "48",
+        "energyKJ": "200"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048052",
+      "foodName": "歪头菜（鲜）［草豆，二叶萩］",
+      "before": {
+        "energyKCal": "308",
+        "energyKJ": "74"
+      },
+      "after": {
+        "energyKCal": "74",
+        "energyKJ": "308"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048053",
+      "foodName": "梧桐子（鲜）［瓢儿果］",
+      "before": {
+        "energyKCal": "2341",
+        "energyKJ": "560"
+      },
+      "after": {
+        "energyKCal": "560",
+        "energyKJ": "2341"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048054",
+      "foodName": "夏枯草（鲜）［铁色草］",
+      "before": {
+        "energyKCal": "265",
+        "energyKJ": "63"
+      },
+      "after": {
+        "energyKCal": "63",
+        "energyKJ": "265"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048055",
+      "foodName": "香椿（鲜）［香椿芽］",
+      "before": {
+        "energyKCal": "211",
+        "energyKJ": "50"
+      },
+      "after": {
+        "energyKCal": "50",
+        "energyKJ": "211"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048056",
+      "foodName": "香茅",
+      "before": {
+        "energyKCal": "72",
+        "energyKJ": "17"
+      },
+      "after": {
+        "energyKCal": "17",
+        "energyKJ": "72"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048057",
+      "foodName": "小旋花（鲜）［狗儿蔓］",
+      "before": {
+        "energyKCal": "251",
+        "energyKJ": "60"
+      },
+      "after": {
+        "energyKCal": "60",
+        "energyKJ": "251"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048058",
+      "foodName": "鸭跖草（鲜）［竹叶菜，淡竹叶］",
+      "before": {
+        "energyKCal": "144",
+        "energyKJ": "34"
+      },
+      "after": {
+        "energyKCal": "34",
+        "energyKJ": "144"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048059",
+      "foodName": "野葱（鲜）［沙葱，麦葱］",
+      "before": {
+        "energyKCal": "152",
+        "energyKJ": "36"
+      },
+      "after": {
+        "energyKCal": "36",
+        "energyKJ": "152"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048060",
+      "foodName": "野韭菜（鲜）［山韭］",
+      "before": {
+        "energyKCal": "182",
+        "energyKJ": "44"
+      },
+      "after": {
+        "energyKCal": "44",
+        "energyKJ": "182"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048061",
+      "foodName": "野菊（鲜）",
+      "before": {
+        "energyKCal": "195",
+        "energyKJ": "46"
+      },
+      "after": {
+        "energyKCal": "46",
+        "energyKJ": "195"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048062",
+      "foodName": "野蒜（鲜）［小蒜，野葱］",
+      "before": {
+        "energyKCal": "144",
+        "energyKJ": "34"
+      },
+      "after": {
+        "energyKCal": "34",
+        "energyKJ": "144"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048063",
+      "foodName": "野苋菜（鲜）［假苋菜］",
+      "before": {
+        "energyKCal": "260",
+        "energyKJ": "62"
+      },
+      "after": {
+        "energyKCal": "62",
+        "energyKJ": "260"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048064",
+      "foodName": "茵陈蒿（鲜）［茵陈］",
+      "before": {
+        "energyKCal": "273",
+        "energyKJ": "65"
+      },
+      "after": {
+        "energyKCal": "65",
+        "energyKJ": "273"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048065",
+      "foodName": "榆钱（鲜）",
+      "before": {
+        "energyKCal": "187",
+        "energyKJ": "45"
+      },
+      "after": {
+        "energyKCal": "45",
+        "energyKJ": "187"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048067",
+      "foodName": "珍珠花菜",
+      "before": {
+        "energyKCal": "72",
+        "energyKJ": "17"
+      },
+      "after": {
+        "energyKCal": "17",
+        "energyKJ": "72"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048068",
+      "foodName": "紫花桔梗",
+      "before": {
+        "energyKCal": "94",
+        "energyKJ": "22"
+      },
+      "after": {
+        "energyKCal": "22",
+        "energyKJ": "94"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048069",
+      "foodName": "紫萼香茶菜",
+      "before": {
+        "energyKCal": "72",
+        "energyKJ": "17"
+      },
+      "after": {
+        "energyKCal": "17",
+        "energyKJ": "72"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048070",
+      "foodName": "苣荬菜（尖叶）［取荬菜，苦麻子］",
+      "before": {
+        "energyKCal": "75",
+        "energyKJ": "19"
+      },
+      "after": {
+        "energyKCal": "19",
+        "energyKJ": "75"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048072",
+      "foodName": "苜蓿子（干）［紫苜蓿子］",
+      "before": {
+        "energyKCal": "1501",
+        "energyKJ": "359"
+      },
+      "after": {
+        "energyKCal": "359",
+        "energyKJ": "1501"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048073",
+      "foodName": "茴芹（鲜）",
+      "before": {
+        "energyKCal": "94",
+        "energyKJ": "22"
+      },
+      "after": {
+        "energyKCal": "22",
+        "energyKJ": "94"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048074",
+      "foodName": "荠菜（鲜）［野荠］",
+      "before": {
+        "energyKCal": "54",
+        "energyKJ": "13"
+      },
+      "after": {
+        "energyKCal": "13",
+        "energyKJ": "54"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048075",
+      "foodName": "蒌蒿（鲜）",
+      "before": {
+        "energyKCal": "239",
+        "energyKJ": "57"
+      },
+      "after": {
+        "energyKCal": "57",
+        "energyKJ": "239"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048076",
+      "foodName": "蕨菜（鲜）［龙头菜，如意菜］",
+      "before": {
+        "energyKCal": "177",
+        "energyKJ": "42"
+      },
+      "after": {
+        "energyKCal": "42",
+        "energyKJ": "177"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048077",
+      "foodName": "蕨菜（脱水）",
+      "before": {
+        "energyKCal": "1265",
+        "energyKJ": "302"
+      },
+      "after": {
+        "energyKCal": "302",
+        "energyKJ": "1265"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048078",
+      "foodName": "蕨麻（干）［鹅绒委陵菜］",
+      "before": {
+        "energyKCal": "1492",
+        "energyKJ": "357"
+      },
+      "after": {
+        "energyKCal": "357",
+        "energyKJ": "1492"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048079",
+      "foodName": "枸杞菜（鲜）［枸杞，地骨］",
+      "before": {
+        "energyKCal": "197",
+        "energyKJ": "47"
+      },
+      "after": {
+        "energyKCal": "47",
+        "energyKJ": "197"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048080",
+      "foodName": "酢浆草（鲜）［酸酸草，酸溜溜］",
+      "before": {
+        "energyKCal": "278",
+        "energyKJ": "66"
+      },
+      "after": {
+        "energyKCal": "66",
+        "energyKJ": "278"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048081",
+      "foodName": "苦苣菜［苦菜，天精菜］",
+      "before": {
+        "energyKCal": "136",
+        "energyKJ": "32"
+      },
+      "after": {
+        "energyKCal": "32",
+        "energyKJ": "136"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048082",
+      "foodName": "苜蓿［草头，金花菜］",
+      "before": {
+        "energyKCal": "148",
+        "energyKJ": "35"
+      },
+      "after": {
+        "energyKCal": "35",
+        "energyKJ": "148"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048083",
+      "foodName": "鱼腥草（叶）［蕺菜，臭菜］",
+      "before": {
+        "energyKCal": "131",
+        "energyKJ": "32"
+      },
+      "after": {
+        "energyKCal": "32",
+        "energyKJ": "131"
+      }
+    },
+    {
+      "file": "merged_蔬菜类及其制品-野生蔬菜类.json",
+      "foodCode": "048084",
+      "foodName": "鱼腥草（根）",
+      "before": {
+        "energyKCal": "261",
+        "energyKJ": "63"
+      },
+      "after": {
+        "energyKCal": "63",
+        "energyKJ": "261"
+      }
+    }
+  ],
+  "isolated_not_fixed": [],
+  "gray_manual_review": [
+    {
+      "file": "merged_水果类及其制品-核果类.json",
+      "foodCode": "062101x",
+      "foodName": "桃（代表值）",
+      "energyKCal": "42",
+      "energyKJ": "212"
+    },
+    {
+      "file": "merged_水果类及其制品-瓜果类.json",
+      "foodCode": "066201x",
+      "foodName": "西瓜（代表值）",
+      "energyKCal": "31",
+      "energyKJ": "108"
+    }
+  ]
+}

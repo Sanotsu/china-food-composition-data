@@ -8,7 +8,12 @@
 
 2026-08-25 更新
 
-**最新版数据**：[json_data_v3_20260825_qwen38max_kimi_k3](./json_data_v3_20260825_qwen38max_kimi_k3) 文件夹。
+**最新版数据**在以下文件夹：
+
+- 原书识别版：[json_data_v3_20260825_qwen38max_kimi_k3](./json_data_v3_20260825_qwen38max_kimi_k3)
+- 手动矫正版：[json_data_v3_20260825_qwen38max_kimi_k3_fixed](./json_data_v3_20260825_qwen38max_kimi_k3_fixed)
+
+识别说明：
 
 - 食品数据共计 **1677 条**，61 个类别文件，可直接使用
 - 先由两个视觉大模型（`qwen3.8-max` 与 `kimi-k3`）交叉识别
@@ -17,6 +22,11 @@
   - **目前可能数据出错就是 qwen3.8-max 和 kimi-k3 的视觉识别都错了，还错成一样了**
 - `apply_log.json` 记录人工修正与重校验结果
 - 约 11.4 万个单元格的处理链路已经 `test_v3_output.py` 独立重放验证零偏差
+
+校对说明：
+
+- 原书中 `蔬菜类及其制品-野生蔬菜类`（048004~048084），能量 kcal 和 kJ 数值明显是标反了的
+- 这部分可以确认的，手动调整为正确的值（而识别版优先数据和原书一致，错也错一样）
 
 "婴幼儿食品"分类的表格栏位与其他分类不同，且数据多为品牌奶粉商品而非通用数据，流水线通过配置 `ignore_prefixes` 跳过，数据中不包含该分类。
 
@@ -120,9 +130,14 @@ python index_v3_pipeline.py --stage apply
 
 # 验证处理链路（可选，零 API 调用）
 python test_v3_output.py
+
+# 生成矫正版（可选）：修复原书能量 kcal/kJ 整列互换（野生蔬菜类 68 条）
+python fix_energy_swap.py            # dry-run：仅报告
+python fix_energy_swap.py --apply    # 生成/重建 {output_dir}_fixed/
 ```
 
-也可以直接使用 `json_data_v3_20260825_qwen38max_kimi_k3` 文件夹中的 json 文件。
+也可以直接使用 `json_data_v3_20260825_qwen38max_kimi_k3`（1:1 识别版，与原书一致）
+或 `json_data_v3_20260825_qwen38max_kimi_k3_fixed`（能量矫正版）文件夹中的 json 文件。
 
 具体使用方法参看[V3版本方案说明](docs/V3_README.md)。
 
@@ -130,13 +145,17 @@ python test_v3_output.py
 
 ### 数据可能存在逻辑问题，但是这可能就是原书籍就是这样
 
-- **比如原书中 `蔬菜类及其制品-野生蔬菜类`，能量 kcal 和 kJ 数值明显是标反了的**
-  - 为了保持和书籍一致，json文件并未修正，请严肃注意
+- **比如原书中 `蔬菜类及其制品-野生蔬菜类`（048004~048084），能量 kcal 和 kJ 数值明显是标反了的**
+  - 为了保持和书籍一致，识别版 `json_data_v3_20260825_qwen38max_kimi_k3` 未修正，请严肃注意
+  - 矫正版 `json_data_v3_20260825_qwen38max_kimi_k3_fixed` 已将两列交换
+    - 68 条，`fix_energy_swap.py` 生成，明细见其中的 `energy_swap_fix_log.json`
+- 比如 062101x 桃（代表值）kcal=42/kJ=212、066201x 西瓜（代表值）kcal=31/kJ=108
+  - 经核对原书确实如此（比值不满足 4.184 换算），未做修改，使用时注意
 - 比如 `畜肉类及其制品-牛 · 082115 牛肉（胸部肉）［牛胸］`
   - 水分 + 蛋白质 + 脂肪 + 碳水 + 灰分 =58.8+16.6+28.8+0.8= 105.0 ，远超100
   - 这个显得不合理，而且这样的数据非常多
 - 目前我将 `v3_config.json` 中的 `thresholds` 配置得极大，忽略了这些内容
-- 同样的还有微量元素的值，也在[v3_support/validation.py](v3_support/validation.py) 的 `RANGES` 中配置得很宽
+- 同样的还有微量元素的值，也在`v3_support/validation.py` 的 `RANGES` 中配置得很宽
   - 实际数据需要专业人员判断，这里优先保证识别的结果和书上原文一致
 
 ### 不保证数据识别的绝对一致
