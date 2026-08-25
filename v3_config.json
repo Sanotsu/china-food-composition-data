@@ -4,6 +4,7 @@
   "ignore_prefixes": ["婴幼儿食品"],
   "temp_dir": "temp_v3",
   "review_dir": "review_v3",
+  "review_image_base": "https://cdn.jsdelivr.net/gh/Sanotsu/china-food-composition-data@main",
   "output_dir": "json_data_v3_20260825_qwen38max_kimi_k3",
   "models": [
     {

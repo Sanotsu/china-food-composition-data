@@ -303,9 +303,18 @@ function render() {
 
 
 def _rel_img_from_review(cfg: AppConfig, rel_img_path: str) -> str:
-    """计算 review/index.html 到原图的相对路径"""
+    """计算 review/index.html 到原图的路径
+
+    review_image_base 配置生效时返回 URL（图片相对路径拼接到该前缀后，
+    用于部署到 Cloudflare Pages 等静态站点时引用 GitHub 仓库中的截图）；
+    未配置时返回本地相对路径（file:// 直接打开可用）。
+    """
     if not rel_img_path:
         return ""
+    if cfg.review_image_base:
+        # URL前缀模式：rel_img_path 相对 input_dir，需拼上 input_dir 目录名
+        input_dir_name = cfg.input_dir.resolve().name
+        return cfg.review_image_base.rstrip("/") + "/" + input_dir_name + "/" + rel_img_path
     img_abs = (cfg.input_dir / rel_img_path).resolve()
     try:
         return os.path.relpath(img_abs, cfg.review_dir.resolve())

@@ -71,6 +71,7 @@ class AppConfig:
     temp_dir: Path
     output_dir: Path
     review_dir: Path
+    review_image_base: str          # 复核页图片URL前缀（空=本地相对路径）
     models: List[ModelConfig]
     pilot_enabled: bool
     pilot_base_names: List[str]
@@ -176,6 +177,10 @@ def load_app_config(config_path: str = "v3_config.json") -> AppConfig:
 
     # review web项目输出目录：固定独立目录（不随 temp_dir 变化），每次执行自动覆盖更新
     review_dir = Path(raw.get("review_dir", "review_v3"))
+    # 复核页图片URL前缀：部署到静态站点（如 Cloudflare Pages）时截图不在站点内，
+    # 可指向 GitHub 仓库（jsDelivr CDN 或 raw.githubusercontent）；
+    # 留空/缺省 = 使用本地相对路径（file:// 直接打开可用）
+    review_image_base = str(raw.get("review_image_base", "") or "")
 
     concurrency = raw.get("concurrency") or {}
     concurrency_defaults = {"max_workers": 4, "max_retries": 3,
@@ -188,6 +193,7 @@ def load_app_config(config_path: str = "v3_config.json") -> AppConfig:
         temp_dir=temp_dir,
         output_dir=output_dir,
         review_dir=review_dir,
+        review_image_base=review_image_base,
         models=models,
         pilot_enabled=pilot_enabled,
         pilot_base_names=pilot_base_names,
