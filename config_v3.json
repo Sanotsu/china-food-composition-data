@@ -1,6 +1,6 @@
 {
   "input_dir": "营养素截图",
-  "manual_counts_md": "手动统计图片数据数量251204.md",
+  "manual_counts_md": "docs/手动统计图片数据数量251204.md",
   "ignore_prefixes": ["婴幼儿食品"],
   "temp_dir": "temp_v3",
   "review_dir": "review_v3",

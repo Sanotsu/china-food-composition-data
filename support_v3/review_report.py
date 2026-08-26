@@ -141,7 +141,7 @@ APP_JS = """
   s.onload = function () { render(); };
   s.onerror = function () {
     document.getElementById('data-body').textContent =
-      'js/data.js 加载失败：请先执行 python index_v3_pipeline.py --stage report 生成数据';
+      'js/data.js 加载失败：请先执行 python index_v3.py --stage report 生成数据';
   };
   document.head.appendChild(s);
 })();

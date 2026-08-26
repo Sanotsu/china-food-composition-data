@@ -21,7 +21,7 @@
   --temp          中间目录（raw/{模型tag}/ 识别原始值 + parsed/consensus 中间产物）
   --corrections   手动填写的修正文件
   --output        最终 merge JSON 输出目录
-三者均可省略，默认读 v3_config.json（temp_dir/review_dir/模型顺序/共识策略/阈值），
+三者均可省略，默认读 config_v3.json（temp_dir/review_dir/模型顺序/共识策略/阈值），
 无配置文件时按约定目录约定发现。
 
 覆盖范围说明：本脚本证明"识别之后的处理链路"确定且无错；若两模型对同一
@@ -29,7 +29,7 @@
 重算的统计可提供旁证）。
 
 用法:
-  .venv/bin/python test_v3_output.py                       # 全默认（读 v3_config.json）
+  .venv/bin/python test_v3_output.py                       # 全默认（读 config_v3.json）
   .venv/bin/python test_v3_output.py \
       --temp temp_v3 --tags "qwen38max,kimi-k3" --policy model_b \
       --corrections review_v3/corrections.json \
@@ -42,16 +42,16 @@ import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent   # 项目根（本脚本位于 utils_v3/ 下）
 sys.path.insert(0, str(ROOT))
 
-from v3_support.config import (
+from support_v3.config import (
     DEFAULT_THRESHOLDS, ENERGY_COLS, MERGED_FIELD_ORDER, NUTRIENT_COLS,
     canonicalize_name, extract_base_category, normalize_name,
 )
-from v3_support.parsing import normalize_cell, sort_by_food_code
-from v3_support.recognition import strip_json_fences
-from v3_support.validation import parse_manual_counts
+from support_v3.parsing import normalize_cell, sort_by_food_code
+from support_v3.recognition import strip_json_fences
+from support_v3.validation import parse_manual_counts
 
 # 与生产同源的常量（结构定义，非逻辑）
 NUMERIC_FIELDS = [c for c in MERGED_FIELD_ORDER if c not in ("foodCode", "foodName", "remark")]
@@ -61,7 +61,7 @@ DASH_VARIANTS = {"-", "–", "―", "――", "——", "一"}
 
 # 值域表从 validation 导入（数据常量表须与生产同步——用户会按数据特性放宽 RANGES，
 # 硬编码副本会随调整失配导致 S2 误报；S2 的独立性体现在重算逻辑本身）
-from v3_support.validation import RANGES  # noqa: E402
+from support_v3.validation import RANGES  # noqa: E402
 
 
 def _trunc(x, n=180):
@@ -520,26 +520,26 @@ def check_s2(out_dir: Path, thresholds):
 def main():
     ap = argparse.ArgumentParser(description="交叉验证 raw识别原始值 + corrections + 最终merge输出")
     ap.add_argument("--temp", default=None,
-                    help="中间目录（含 raw/{tag}/ 与 parsed/{tag}/；默认 v3_config.json 的 temp_dir，无配置则为 temp_v3）")
+                    help="中间目录（含 raw/{tag}/ 与 parsed/{tag}/；默认 config_v3.json 的 temp_dir，无配置则为 temp_v3）")
     ap.add_argument("--tags", default=None,
-                    help='两个模型tag逗号分隔，顺序=模型A,模型B（默认 v3_config.json models 顺序；'
+                    help='两个模型tag逗号分隔，顺序=模型A,模型B（默认 config_v3.json models 顺序；'
                          "再缺失则按 raw/ 子目录名自动发现，此时A/B顺序为字典序，"
                          "若与实际流水线不一致 L3 会失败，请显式指定）")
     ap.add_argument("--policy", default=None, choices=("model_a", "model_b"),
-                    help="共识策略（默认 v3_config.json 的 consensus_policy，缺省 model_a）")
+                    help="共识策略（默认 config_v3.json 的 consensus_policy，缺省 model_a）")
     ap.add_argument("--output", default=None,
                     help="最终输出目录（默认取最新的含 apply_log.json 的 json_data_v3_*）")
     ap.add_argument("--corrections", default=None,
-                    help="corrections.json 路径（默认 v3_config.json 的 review_dir 下 corrections.json）")
+                    help="corrections.json 路径（默认 config_v3.json 的 review_dir 下 corrections.json）")
     args = ap.parse_args()
 
-    cfg_path = ROOT / "v3_config.json"
+    cfg_path = ROOT / "config_v3.json"
     cfg_raw = json.loads(cfg_path.read_text(encoding="utf-8")) if cfg_path.exists() else {}
 
     temp_dir = Path(args.temp) if args.temp else ROOT / cfg_raw.get("temp_dir", "temp_v3")
     thresholds = dict(DEFAULT_THRESHOLDS)
     thresholds.update(cfg_raw.get("thresholds") or {})
-    manual_md = ROOT / cfg_raw.get("manual_counts_md", "手动统计图片数据数量251204.md")
+    manual_md = ROOT / cfg_raw.get("manual_counts_md", "docs/手动统计图片数据数量251204.md")
     review_dir = ROOT / cfg_raw.get("review_dir", "review_v3")
     policy = args.policy or cfg_raw.get("consensus_policy", "model_a")
 
@@ -554,7 +554,7 @@ def main():
             print(f"（自动发现 raw/ 模型目录: A={tags[0]} B={tags[1]} —— 字典序假设，"
                   f"若与实际流水线不一致 L3 会失败，请用 --tags 显式指定）")
         else:
-            print("需要恰好 2 个模型 tag：用 --tags 指定，或在 v3_config.json models 中配置")
+            print("需要恰好 2 个模型 tag：用 --tags 指定，或在 config_v3.json models 中配置")
             sys.exit(2)
 
     if args.output:

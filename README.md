@@ -21,7 +21,7 @@
 - 然后经人工定点复核修正生成(我只处理了两个模型识别不一致的地方)
   - **目前可能数据出错就是 qwen3.8-max 和 kimi-k3 的视觉识别都错了，还错成一样了**
 - `apply_log.json` 记录人工修正与重校验结果
-- 约 11.4 万个单元格的处理链路已经 `test_v3_output.py` 独立重放验证零偏差
+- 约 11.4 万个单元格的处理链路已经 `utils_v3/test_v3_output.py` 独立重放验证零偏差
 
 校对说明：
 
@@ -119,27 +119,27 @@ nutrient 部分栏位中文名称:
 pip install -r requirements.txt   # openai / aiofiles / python-dotenv
 
 # 1. 在 .env 配置两个视觉大模型的 API 密钥（参考 .env.example）
-# 2. 按需调整 v3_config.json（模型清单、试点范围等）
+# 2. 按需调整 config_v3.json（模型清单、试点范围等）
 # 3. 跑流水线（识别 + 解析合并 + 校验 + 复核报告）
-python index_v3_pipeline.py --stage all
+python index_v3.py --stage all
 # 4. 浏览器打开 review_v3/index.html 人工核对
 # 5. 需要修正时：
 cp review_v3/corrections_template.json review_v3/corrections.json
 #    编辑 corrections.json（action: update/delete/insert）
-python index_v3_pipeline.py --stage apply
+python index_v3.py --stage apply
 
 # 验证处理链路（可选，零 API 调用）
-python test_v3_output.py
+python utils_v3/test_v3_output.py
 
 # 生成矫正版（可选）：修复原书能量 kcal/kJ 整列互换（野生蔬菜类 68 条）
-python fix_energy_swap.py            # dry-run：仅报告
-python fix_energy_swap.py --apply    # 生成/重建 {output_dir}_fixed/
+python utils_v3/fix_energy_swap.py            # dry-run：仅报告
+python utils_v3/fix_energy_swap.py --apply    # 生成/重建 {output_dir}_fixed/
 ```
 
 也可以直接使用 `json_data_v3_20260825_qwen38max_kimi_k3`（1:1 识别版，与原书一致）
 或 `json_data_v3_20260825_qwen38max_kimi_k3_fixed`（能量矫正版）文件夹中的 json 文件。
 
-具体使用方法参看[V3版本方案说明](docs/V3_README.md)。
+具体使用方法参看[V3版本方案说明](docs/README_V3.md)。
 
 ## 注意事项
 
@@ -148,14 +148,14 @@ python fix_energy_swap.py --apply    # 生成/重建 {output_dir}_fixed/
 - **比如原书中 `蔬菜类及其制品-野生蔬菜类`（048004~048084），能量 kcal 和 kJ 数值明显是标反了的**
   - 为了保持和书籍一致，识别版 `json_data_v3_20260825_qwen38max_kimi_k3` 未修正，请严肃注意
   - 矫正版 `json_data_v3_20260825_qwen38max_kimi_k3_fixed` 已将两列交换
-    - 68 条，`fix_energy_swap.py` 生成，明细见其中的 `energy_swap_fix_log.json`
+    - 68 条，`utils_v3/fix_energy_swap.py` 生成，明细见其中的 `energy_swap_fix_log.json`
 - 比如 062101x 桃（代表值）kcal=42/kJ=212、066201x 西瓜（代表值）kcal=31/kJ=108
   - 经核对原书确实如此（比值不满足 4.184 换算），未做修改，使用时注意
 - 比如 `畜肉类及其制品-牛 · 082115 牛肉（胸部肉）［牛胸］`
   - 水分 + 蛋白质 + 脂肪 + 碳水 + 灰分 =58.8+16.6+28.8+0.8= 105.0 ，远超100
   - 这个显得不合理，而且这样的数据非常多
-- 目前我将 `v3_config.json` 中的 `thresholds` 配置得极大，忽略了这些内容
-- 同样的还有微量元素的值，也在`v3_support/validation.py` 的 `RANGES` 中配置得很宽
+- 目前我将 `config_v3.json` 中的 `thresholds` 配置得极大，忽略了这些内容
+- 同样的还有微量元素的值，也在`support_v3/validation.py` 的 `RANGES` 中配置得很宽
   - 实际数据需要专业人员判断，这里优先保证识别的结果和书上原文一致
 
 ### 不保证数据识别的绝对一致

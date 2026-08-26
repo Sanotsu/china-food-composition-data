@@ -15,8 +15,8 @@
      （那是识别错位的特征，不是原书印刷错误的特征）
 
 用法：
-  python fix_energy_swap.py            # dry-run：仅报告
-  python fix_energy_swap.py --apply    # 生成/重建 {output_dir}_fixed/
+  python utils_v3/fix_energy_swap.py            # dry-run：仅报告
+  python utils_v3/fix_energy_swap.py --apply    # 生成/重建 {output_dir}_fixed/
 """
 import argparse
 import json
@@ -93,11 +93,12 @@ def find_swap_blocks(records):
 
 
 def run(apply: bool):
-    cfg = json.loads(Path("v3_config.json").read_text(encoding="utf-8"))
+    ROOT = Path(__file__).resolve().parent.parent   # 项目根（本脚本位于 utils_v3/ 下）
+    cfg = json.loads((ROOT / "config_v3.json").read_text(encoding="utf-8"))
     src = Path(cfg["output_dir"])
     dst = src.parent / f"{src.name}_fixed"
     if not src.is_dir():
-        raise SystemExit(f"源目录不存在: {src}（v3_config.json output_dir）")
+        raise SystemExit(f"源目录不存在: {src}（config_v3.json output_dir）")
 
     fix_log, gray, isolated_all = [], [], []
     n_files = n_auto = 0
@@ -133,7 +134,7 @@ def run(apply: bool):
         print("无需修改，不生成矫正目录。")
         return
     if not apply:
-        print("\n这是 dry-run。确认无误后执行: python fix_energy_swap.py --apply")
+        print("\n这是 dry-run。确认无误后执行: python utils_v3/fix_energy_swap.py --apply")
         return
 
     dst.mkdir(parents=True, exist_ok=True)

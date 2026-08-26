@@ -48,15 +48,15 @@
 | 双模型完全一致图片对    | 112/127（88%）                                     |
 | 最终重校验              | error=0，warning=20（原书极端值/干物质，数据特性） |
 
-## v3_config.json 配置详解
+## config_v3.json 配置详解
 
-完整配置示例（带注释版可直接对照 `v3_config.json` 修改）：
+完整配置示例（带注释版可直接对照 `config_v3.json` 修改）：
 
 ```jsonc
 {
   // ===== 输入 =====
   "input_dir": "营养素截图", // 图片根目录，脚本递归扫描子目录
-  "manual_counts_md": "手动统计图片数据数量251204.md", // 人工逐图统计的行数md（早期版本遗留的人工基准），
+  "manual_counts_md": "docs/手动统计图片数据数量251204.md", // 人工逐图统计的行数md（早期版本遗留的人工基准），
   //   用于阶段3行数校验——唯一能检出"双模型同时漏行/多行"的规则；
   //   不想用可指向不存在的文件（该检查自动跳过）
   "ignore_prefixes": ["婴幼儿食品"], // 跳过文件名/目录包含这些前缀的图片（该分类表格栏位不同，无法处理）
@@ -144,11 +144,11 @@
 
 ### 密钥配置（.env）
 
-API 密钥不写在 `v3_config.json`（避免误提交仓库），而是在 `.env` 中定义，
+API 密钥不写在 `config_v3.json`（避免误提交仓库），而是在 `.env` 中定义，
 模型配置通过 `api_base_env` / `api_key_env` 引用变量名：
 
 ```sh
-### 双模型交叉识别配置（被 v3_config.json 引用）
+### 双模型交叉识别配置（被 config_v3.json 引用）
 V3_DASHSCOPE_API_BASE=https://dashscope.aliyuncs.com/compatible-mode/v1
 V3_DASHSCOPE_API_KEY=sk-xxxxxxxx          # 阿里云百炼（qwen3.8-max / kimi-k3 三方直供）
 V3_SILICONFLOW_API_BASE=https://api.siliconflow.cn/v1
@@ -158,7 +158,7 @@ V3_SILICONFLOW_API_KEY=sk-xxxxxxxx        # 硅基流动（备用）
 新增平台/模型三步：
 
 1. `.env` 加一对 `V3_XXX_API_BASE` / `V3_XXX_API_KEY`
-2. `v3_config.json` 的 `models` 数组加一项（tag/model_name/两个env名/参数）
+2. `config_v3.json` 的 `models` 数组加一项（tag/model_name/两个env名/参数）
 3. 需要隔离数据时只改 `temp_dir`（避免覆盖旧识别缓存）
 
 ### 关闭思考模式速查（extra_payload）
@@ -200,7 +200,7 @@ V3_SILICONFLOW_API_KEY=sk-xxxxxxxx        # 硅基流动（备用）
     foodCode/foodName 为空拒绝该行（error）、非法 JSON 报错（多为截断）
 11. 数值保真：解析使用 `parse_float=str`/`parse_int=str`，数值 token 原文保留（"2.50"不会变"2.5"、前导零写法不丢）；null 转 ""；横线变体归一为 "—"；"tr"→"Tr"
 
-阈值均可在 `v3_config.json` 的 `thresholds` 中调整。
+阈值均可在 `config_v3.json` 的 `thresholds` 中调整。
 
 ### 自动处理（不进问题清单）
 
@@ -214,27 +214,27 @@ V3_SILICONFLOW_API_KEY=sk-xxxxxxxx        # 硅基流动（备用）
 
 ```sh
 # 试点（pilot.enabled=true 时只识别 base_names + dirs 并集范围的图片）
-python index_v3_pipeline.py --stage all
+python index_v3.py --stage all
 
 # 全量（pilot.enabled 改为 false）
-python index_v3_pipeline.py --stage all
+python index_v3.py --stage all
 
 # 单独重跑某阶段（阶段1支持断点续跑，已有JSON自动跳过、零API调用）
-python index_v3_pipeline.py --stage recognize          # 只补缺失的
-python index_v3_pipeline.py --stage recognize --force  # 强制全部重识别（慎用）
-python index_v3_pipeline.py --stage merge
-python index_v3_pipeline.py --stage validate
-python index_v3_pipeline.py --stage report
+python index_v3.py --stage recognize          # 只补缺失的
+python index_v3.py --stage recognize --force  # 强制全部重识别（慎用）
+python index_v3.py --stage merge
+python index_v3.py --stage validate
+python index_v3.py --stage report
 
 # 重跑某几张图：删除 temp_v3/raw/{模型tag}/图片名.json（和.meta.json）后 --stage recognize
 # 人工复核后回写
 cp review_v3/corrections_template.json review_v3/corrections.json
-python index_v3_pipeline.py --stage apply
+python index_v3.py --stage apply
 # apply 阶段也可指定修正文件路径
-python index_v3_pipeline.py --stage apply --corrections review_v3/corrections.json
+python index_v3.py --stage apply --corrections review_v3/corrections.json
 
 # 验证处理链路正确性（独立重放，见下节；重跑 apply/改 corrections 后随时复验）
-python test_v3_output.py
+python utils_v3/test_v3_output.py
 ```
 
 ### 分批识别工作流（识别范围与合并范围分离）
@@ -244,11 +244,11 @@ python test_v3_output.py
 
 ```sh
 # 第一批：只识别畜肉类
-#   v3_config.json: pilot.dirs = ["营养素截图/畜肉类及其制品/"]
-python index_v3_pipeline.py --stage all
+#   config_v3.json: pilot.dirs = ["营养素截图/畜肉类及其制品/"]
+python index_v3.py --stage all
 # 第二批：改为蛋类（畜肉类的识别结果保留在 temp_v3/raw/，不会重复调用API）
-#   v3_config.json: pilot.dirs = ["营养素截图/蛋类及其制品/"]
-python index_v3_pipeline.py --stage all
+#   config_v3.json: pilot.dirs = ["营养素截图/蛋类及其制品/"]
+python index_v3.py --stage all
 # 此时 阶段2~5 的输出自动包含两批全部数据：
 #   temp_v3/parsed/{tag}/{类别}.json          各模型按类别合并（牛1/牛2/牛3 归并为"畜肉类及其制品-牛"）
 #   temp_v3/consensus/merged_{类别}.json      双模型共识版（对应最终类别json）
@@ -296,7 +296,7 @@ python index_v3_pipeline.py --stage all
 **apply 是幂等的**：每次都从共识版重新应用全部修正，不会叠加污染；改了 corrections.json
 直接重跑即可。日志会回放全部条目（包括确认类无变化条目），属正常行为。
 
-## 处理链路测试（test_v3_output.py）
+## 处理链路测试（utils_v3/test_v3_output.py）
 
 不调用生产主流程，而是从最原始材料（`raw/` 识别 JSON + `corrections.json`）用**独立最小实现**
 重放整条处理链，逐层对比实际产物——能证明"识别之后的处理"完全确定且无错：
@@ -318,13 +318,13 @@ python index_v3_pipeline.py --stage all
   识别原始结果，使用者自行调用 API）；全流程零 API 调用
 
 ```sh
-python test_v3_output.py                       # 全默认（读 v3_config.json，自动选最新输出）
-python test_v3_output.py \
+python utils_v3/test_v3_output.py                       # 全默认（读 config_v3.json，自动选最新输出）
+python utils_v3/test_v3_output.py \
     --temp temp_v3 --tags "qwen38max,kimi-k3" --policy model_b \
     --corrections review_v3/corrections.json --output json_data_v3_xxx   # 全显式
 ```
 
-## 能量列互换矫正（fix_energy_swap.py）
+## 能量列互换矫正（utils_v3/fix_energy_swap.py）
 
 《中国食物成分表》第6版 蔬菜类及其制品-野生蔬菜类（048004~048084）原书能量两列数值
 **整列印刷互换**（如 048004 白沙蒿 kcal=232/kJ=56，交换后 56kcal=234kJ 才满足 4.184 换算）。
@@ -336,8 +336,8 @@ python test_v3_output.py \
   `energy_swap_fix_log.json`
 
 ```sh
-python fix_energy_swap.py            # dry-run：全库扫描，品类汇总 + 灰色清单
-python fix_energy_swap.py --apply    # 生成/重建 {output_dir}_fixed/（幂等，由识别版全量重建）
+python utils_v3/fix_energy_swap.py            # dry-run：全库扫描，品类汇总 + 灰色清单
+python utils_v3/fix_energy_swap.py --apply    # 生成/重建 {output_dir}_fixed/（幂等，由识别版全量重建）
 ```
 
 判定规则（三层）：
@@ -355,7 +355,7 @@ energyKCal>900 归 0（识别版 7 条该 warning 全源于此）。灰色 2 条
 ## 复核报告（review_v3/ 静态web项目，自动更新）
 
 ```
-review_v3/                        ← 固定目录（v3_config.json 的 review_dir），不随 temp_dir 变化
+review_v3/                        ← 固定目录（config_v3.json 的 review_dir），不随 temp_dir 变化
   index.html    页面骨架（固定）
   css/style.css 样式（固定）
   js/app.js     渲染逻辑（固定；动态加载 data.js 并带时间戳防缓存）
@@ -378,6 +378,12 @@ review_v3/                        ← 固定目录（v3_config.json 的 review_d
 ## 目录结构
 
 ```
+index_v3.py                        主入口（唯一顶层脚本）：--stage recognize|merge|validate|report|apply|all
+config_v3.json                     主配置（模型清单/路径/阈值/共识策略）
+support_v3/                        生产流水线包：config / recognition / parsing / validation /
+                                   review_report / apply_corrections
+utils_v3/                          非生产工具：test_v3_output.py（处理链路测试，见上节）、
+                                   fix_energy_swap.py（能量列互换矫正，见上节）
 营养素截图/                        输入：energy/nutrient 成对表格截图（按类别分目录）
 json_data_v3_{日期}_{模型A}+{模型B}/   最终输出（可直接使用）：
                                    merged_{类别}.json 61个 + apply_log.json（修正日志+重校验）
@@ -387,13 +393,12 @@ temp_v3/
   parsed/{model_tag}/*.json        各模型类别合并中间JSON（+ parse_report.json 解析问题清单）
   consensus/merged_*.json          双模型共识版（分歧已按 consensus_policy 取值）
   validation/validation_report.json  全部校验问题清单
-review_v3/                        静态web复核项目（自动生成，保持忽略；仅 corrections.json 纳入git）
-test_v3_output.py                 处理链路测试（见上节）
+review_v3/                         静态web复核项目（自动生成，保持忽略；仅 corrections.json 纳入git）
 
 git 管理范围：代码/配置/文档/截图/最终输出 json_data_v3_*/ 与 corrections.json 纳入版本管理；
 temp_v3/（含 raw 识别原始结果）与 review_v3 其余内容保持忽略——识别原始结果是
 本机API产物，仓库使用者应自行调用 API 识别（直接复用会让本仓库的识别错误
-传导给下游），跑完后可用 test_v3_output.py 对自己的三项产物做同样的交叉验证。
+传导给下游），跑完后可用 utils_v3/test_v3_output.py 对自己的三项产物做同样的交叉验证。
 ```
 
 ## 注意

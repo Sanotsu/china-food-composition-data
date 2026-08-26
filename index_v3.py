@@ -3,14 +3,14 @@
 """主入口：双模型交叉识别 + 自动校验 + 定点人工复核 流水线
 
 用法：
-  python index_v3_pipeline.py --stage all                    # 识别->解析合并->校验->生成复核报告
-  python index_v3_pipeline.py --stage recognize              # 仅阶段1（支持断点续跑）
-  python index_v3_pipeline.py --stage recognize --force      # 强制重新识别
-  python index_v3_pipeline.py --stage merge                  # 仅阶段2
-  python index_v3_pipeline.py --stage validate               # 仅阶段3（依赖阶段2产物）
-  python index_v3_pipeline.py --stage report                 # 仅阶段4（依赖阶段3产物）
-  python index_v3_pipeline.py --stage apply                  # 阶段5：应用人工修正并输出最终JSON
-  python index_v3_pipeline.py --stage apply --corrections review_v3/corrections.json
+  python index_v3.py --stage all                    # 识别->解析合并->校验->生成复核报告
+  python index_v3.py --stage recognize              # 仅阶段1（支持断点续跑）
+  python index_v3.py --stage recognize --force      # 强制重新识别
+  python index_v3.py --stage merge                  # 仅阶段2
+  python index_v3.py --stage validate               # 仅阶段3（依赖阶段2产物）
+  python index_v3.py --stage report                 # 仅阶段4（依赖阶段3产物）
+  python index_v3.py --stage apply                  # 阶段5：应用人工修正并输出最终JSON
+  python index_v3.py --stage apply --corrections review_v3/corrections.json
 """
 import argparse
 import asyncio
@@ -18,19 +18,19 @@ import json
 import sys
 from pathlib import Path
 
-from v3_support.config import load_app_config
-from v3_support.recognition import run_recognition
-from v3_support.parsing import run_merge
-from v3_support.validation import run_validation
-from v3_support.review_report import run_report
-from v3_support.apply_corrections import run_apply
+from support_v3.config import load_app_config
+from support_v3.recognition import run_recognition
+from support_v3.parsing import run_merge
+from support_v3.validation import run_validation
+from support_v3.review_report import run_report
+from support_v3.apply_corrections import run_apply
 
 STAGES = ("recognize", "merge", "validate", "report", "apply", "all")
 
 
 def main():
     parser = argparse.ArgumentParser(description="双模型交叉识别 + 自动校验 + 定点人工复核")
-    parser.add_argument("--config", default="v3_config.json", help="配置文件路径")
+    parser.add_argument("--config", default="config_v3.json", help="配置文件路径")
     parser.add_argument("--stage", required=True, choices=STAGES, help="执行阶段")
     parser.add_argument("--force", action="store_true", help="识别阶段强制重跑（忽略已有JSON）")
     parser.add_argument("--corrections", default=None,

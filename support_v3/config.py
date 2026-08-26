@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """配置加载模块
 
-v3_config.json 中的 API 密钥通过 *_env 字段引用 .env 中的环境变量名，
+config_v3.json 中的 API 密钥通过 *_env 字段引用 .env 中的环境变量名，
 避免密钥明文写入仓库配置文件。
 """
 import json
@@ -139,8 +139,8 @@ def _load_model_cfg(raw: Dict[str, Any]) -> ModelConfig:
     )
 
 
-def load_app_config(config_path: str = "v3_config.json") -> AppConfig:
-    """加载 v3_config.json 并解析为 AppConfig
+def load_app_config(config_path: str = "config_v3.json") -> AppConfig:
+    """加载 config_v3.json 并解析为 AppConfig
 
     Raises:
         ConfigError: 配置文件缺失/格式错误/环境变量缺失
@@ -188,7 +188,7 @@ def load_app_config(config_path: str = "v3_config.json") -> AppConfig:
 
     return AppConfig(
         input_dir=Path(raw.get("input_dir", "营养素截图")),
-        manual_counts_md=Path(raw.get("manual_counts_md", "手动统计图片数据数量251204.md")),
+        manual_counts_md=Path(raw.get("manual_counts_md", "docs/手动统计图片数据数量251204.md")),
         ignore_prefixes=list(raw.get("ignore_prefixes", [])),
         temp_dir=temp_dir,
         output_dir=output_dir,
