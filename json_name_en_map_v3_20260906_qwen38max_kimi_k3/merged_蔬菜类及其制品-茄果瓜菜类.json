@@ -1,0 +1,237 @@
+[
+  {
+    "foodCode": "043101x",
+    "foodName": "茄子（代表值）",
+    "englishName": "Eggplant"
+  },
+  {
+    "foodCode": "043102",
+    "foodName": "茄子（绿皮）",
+    "englishName": "Eggplant, long, pale green skin"
+  },
+  {
+    "foodCode": "043103",
+    "foodName": "茄子（圆）",
+    "englishName": "Eggplant, round"
+  },
+  {
+    "foodCode": "043106",
+    "foodName": "番茄（整个，罐头）",
+    "englishName": "Tomato, whole, canned"
+  },
+  {
+    "foodCode": "043107",
+    "foodName": "奶柿子［西红柿］",
+    "englishName": "Tomato, oval"
+  },
+  {
+    "foodCode": "043108",
+    "foodName": "辣椒（红，尖，干）",
+    "englishName": "Hot pepper, red, sharp top, dried"
+  },
+  {
+    "foodCode": "043109",
+    "foodName": "辣椒（红，小）",
+    "englishName": "Hot pepper, red, small"
+  },
+  {
+    "foodCode": "043112",
+    "foodName": "甜椒（脱水）",
+    "englishName": "Sweet pepper, dehydrated"
+  },
+  {
+    "foodCode": "043113",
+    "foodName": "葫子",
+    "englishName": "Hispid bottle gourd"
+  },
+  {
+    "foodCode": "043115",
+    "foodName": "茄子（白皮、长）",
+    "englishName": "Eggplant, long, white skin, raw"
+  },
+  {
+    "foodCode": "043116",
+    "foodName": "茄子（紫皮、长）",
+    "englishName": "Eggplant, long, dark purple skin, raw"
+  },
+  {
+    "foodCode": "043117",
+    "foodName": "茄子（紫皮、圆）",
+    "englishName": "Eggplant, round, dark purple skin, raw"
+  },
+  {
+    "foodCode": "043118",
+    "foodName": "香瓜茄",
+    "englishName": "Pepino, raw"
+  },
+  {
+    "foodCode": "043119",
+    "foodName": "番茄西红柿］",
+    "englishName": "Tomato, raw"
+  },
+  {
+    "foodCode": "043120",
+    "foodName": "樱桃番茄［小西红柿］",
+    "englishName": "Cherry tomato, raw"
+  },
+  {
+    "foodCode": "043121",
+    "foodName": "辣椒（小红尖辣椒）",
+    "englishName": "Chilli or hot pepper, red, small, raw"
+  },
+  {
+    "foodCode": "043122",
+    "foodName": "辣椒（小红尖辣椒、干）",
+    "englishName": "Chilli or hot pepper, red, small, raw, dried"
+  },
+  {
+    "foodCode": "043123",
+    "foodName": "辣椒（青、尖）",
+    "englishName": "Chilli or hot pepper, green, pointed tip, raw"
+  },
+  {
+    "foodCode": "043124",
+    "foodName": "甜椒［灯笼椒、柿子椒］",
+    "englishName": "Pepper or capsicum, sweet, green, raw"
+  },
+  {
+    "foodCode": "043125",
+    "foodName": "彩椒",
+    "englishName": "Pepper or capsicum, sweet, red, yellow or purple etc., raw"
+  },
+  {
+    "foodCode": "043126",
+    "foodName": "秋葵［黄秋葵、羊角豆］",
+    "englishName": "Okra, raw"
+  },
+  {
+    "foodCode": "043201",
+    "foodName": "白瓜",
+    "englishName": "Conomon, white skin"
+  },
+  {
+    "foodCode": "043202",
+    "foodName": "菜瓜［生瓜，白瓜］",
+    "englishName": "Conomon, white skin"
+  },
+  {
+    "foodCode": "043204",
+    "foodName": "方瓜",
+    "englishName": "Pumpkin"
+  },
+  {
+    "foodCode": "043205",
+    "foodName": "佛手瓜［棒瓜，菜肴梨］",
+    "englishName": "Chayote"
+  },
+  {
+    "foodCode": "043206",
+    "foodName": "葫芦［长瓜，蒲瓜，瓠瓜］",
+    "englishName": "Calabash"
+  },
+  {
+    "foodCode": "043207",
+    "foodName": "葫芦条（干）",
+    "englishName": "Calabash strip, dried"
+  },
+  {
+    "foodCode": "043208",
+    "foodName": "黄瓜（鲜）［胡瓜］",
+    "englishName": "Cucumber"
+  },
+  {
+    "foodCode": "043209",
+    "foodName": "节瓜［毛瓜］",
+    "englishName": "Wax gourd"
+  },
+  {
+    "foodCode": "043210",
+    "foodName": "金瓜",
+    "englishName": "Spaghetti squash"
+  },
+  {
+    "foodCode": "043211",
+    "foodName": "金丝瓜［裸瓣瓜］",
+    "englishName": "Cochinchina gymnopetalum"
+  },
+  {
+    "foodCode": "043212",
+    "foodName": "苦瓜（鲜）［凉瓜，癞瓜",
+    "englishName": "Balsampear, bitter melon"
+  },
+  {
+    "foodCode": "043213",
+    "foodName": "南瓜（鲜）［倭瓜，番瓜］",
+    "englishName": "Pumpkin"
+  },
+  {
+    "foodCode": "043214",
+    "foodName": "南瓜粉",
+    "englishName": "Pumpkin meal"
+  },
+  {
+    "foodCode": "043215",
+    "foodName": "蛇瓜［蛇豆，大豆角］",
+    "englishName": "Serpent gourd"
+  },
+  {
+    "foodCode": "043217",
+    "foodName": "笋瓜［生瓜］",
+    "englishName": "Winter squash"
+  },
+  {
+    "foodCode": "043218",
+    "foodName": "西葫芦",
+    "englishName": "Zucchini, green, summer squash"
+  },
+  {
+    "foodCode": "043219",
+    "foodName": "面西胡瓜",
+    "englishName": "Summer squash, yellow"
+  },
+  {
+    "foodCode": "043220",
+    "foodName": "小西胡瓜",
+    "englishName": "Summer squash, green"
+  },
+  {
+    "foodCode": "043221",
+    "foodName": "冬瓜",
+    "englishName": "Chinese wax gourd or winter melon, raw"
+  },
+  {
+    "foodCode": "043222",
+    "foodName": "飞碟瓜",
+    "englishName": "Scallop squash, raw"
+  },
+  {
+    "foodCode": "043223",
+    "foodName": "黄金西葫芦",
+    "englishName": "Zucchini, Golden, raw"
+  },
+  {
+    "foodCode": "043224",
+    "foodName": "黄茎瓜",
+    "englishName": "Calabaza, raw"
+  },
+  {
+    "foodCode": "043225",
+    "foodName": "迷你黄瓜［荷兰乳黄瓜］",
+    "englishName": "Mini cucumber, raw"
+  },
+  {
+    "foodCode": "043226",
+    "foodName": "秋黄瓜［旱黄瓜］",
+    "englishName": "Cucumber, *Autumn*, raw"
+  },
+  {
+    "foodCode": "043227",
+    "foodName": "南瓜（栗面）",
+    "englishName": "Pumpkin, raw"
+  },
+  {
+    "foodCode": "043228",
+    "foodName": "丝瓜",
+    "englishName": "Sponge gourd, raw"
+  }
+]

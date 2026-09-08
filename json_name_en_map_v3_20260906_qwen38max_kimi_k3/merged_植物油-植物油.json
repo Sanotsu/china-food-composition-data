@@ -1,0 +1,92 @@
+[
+  {
+    "foodCode": "192001",
+    "foodName": "菜子油［青油］",
+    "englishName": "Rapeseed oil"
+  },
+  {
+    "foodCode": "192002",
+    "foodName": "茶油",
+    "englishName": "Tea-seed oil"
+  },
+  {
+    "foodCode": "192003",
+    "foodName": "大麻油（粟米油）",
+    "englishName": "Sesame oil"
+  },
+  {
+    "foodCode": "192004",
+    "foodName": "豆油",
+    "englishName": "Soybean oil"
+  },
+  {
+    "foodCode": "192005",
+    "foodName": "红花油",
+    "englishName": "safflower oil"
+  },
+  {
+    "foodCode": "192006",
+    "foodName": "胡麻油",
+    "englishName": "Linseed oil"
+  },
+  {
+    "foodCode": "192007",
+    "foodName": "花生油",
+    "englishName": "Peanut oil"
+  },
+  {
+    "foodCode": "192008",
+    "foodName": "混合油（菜+棕）",
+    "englishName": "Mixed oil，rapeseed and palm oil"
+  },
+  {
+    "foodCode": "192009",
+    "foodName": "葵花子油",
+    "englishName": "Sunflower seed oil"
+  },
+  {
+    "foodCode": "192010",
+    "foodName": "辣椒油",
+    "englishName": "*Chili oil*，fried with chili pepper"
+  },
+  {
+    "foodCode": "192012",
+    "foodName": "麦胚油",
+    "englishName": "Wheatgerm oil"
+  },
+  {
+    "foodCode": "192013",
+    "foodName": "棉子油",
+    "englishName": "Cottonseed oil"
+  },
+  {
+    "foodCode": "192014",
+    "foodName": "色拉油",
+    "englishName": "Salad oil，mix oil"
+  },
+  {
+    "foodCode": "192015",
+    "foodName": "椰子油",
+    "englishName": "Coconut oil"
+  },
+  {
+    "foodCode": "192016",
+    "foodName": "玉米油",
+    "englishName": "Corn oil"
+  },
+  {
+    "foodCode": "192017",
+    "foodName": "芝麻油［香油］",
+    "englishName": "Sesame oil"
+  },
+  {
+    "foodCode": "192018",
+    "foodName": "棕榈油",
+    "englishName": "Palm oil"
+  },
+  {
+    "foodCode": "192019",
+    "foodName": "橄榄油",
+    "englishName": "Olive oil"
+  }
+]

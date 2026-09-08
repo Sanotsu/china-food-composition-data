@@ -1,0 +1,422 @@
+[
+  {
+    "foodCode": "048001",
+    "foodName": "艾蒿",
+    "englishName": "Moxa"
+  },
+  {
+    "foodCode": "048002",
+    "foodName": "白花菜",
+    "englishName": "Common spiderflower"
+  },
+  {
+    "foodCode": "048003",
+    "foodName": "白花桔梗",
+    "englishName": "Balloonflower"
+  },
+  {
+    "foodCode": "048004",
+    "foodName": "白沙蒿（鲜）［沙蒿］",
+    "englishName": "Ciliatescale wormwood"
+  },
+  {
+    "foodCode": "048005",
+    "foodName": "白沙蒿子（干）［沙蒿子］",
+    "englishName": "Ciliatescale wormwood seeds"
+  },
+  {
+    "foodCode": "048006",
+    "foodName": "白薯叶（鲜）［甘薯叶］",
+    "englishName": "Hispid yam leaf"
+  },
+  {
+    "foodCode": "048007",
+    "foodName": "百里香（鲜）",
+    "englishName": "Thyme"
+  },
+  {
+    "foodCode": "048008",
+    "foodName": "败酱（鲜）［胭脂麻］",
+    "englishName": "Whiteflower patrinia"
+  },
+  {
+    "foodCode": "048009",
+    "foodName": "扁蓄菜（鲜）［竹节草］",
+    "englishName": "Common knotgrass"
+  },
+  {
+    "foodCode": "048010",
+    "foodName": "朝鲜蓟（鲜）",
+    "englishName": "Artichokes"
+  },
+  {
+    "foodCode": "048011",
+    "foodName": "刺儿菜（鲜）［小蓟，蓟蓟菜］",
+    "englishName": "Common cephalanoplos"
+  },
+  {
+    "foodCode": "048012",
+    "foodName": "刺楸（鲜）",
+    "englishName": "Septemlobate kalopanax"
+  },
+  {
+    "foodCode": "048013",
+    "foodName": "达乌里胡枝子（鲜）［牛枝子，豆豆苗］",
+    "englishName": "Dahurian bushclover"
+  },
+  {
+    "foodCode": "048014",
+    "foodName": "达乌里胡枝子子（鲜）［牛枝子子，豆豆苗子］",
+    "englishName": "Dahurian bushclover seeds"
+  },
+  {
+    "foodCode": "048015",
+    "foodName": "大玻璃草叶（鲜）［大车前］",
+    "englishName": "Rippleseed plantain"
+  },
+  {
+    "foodCode": "048016",
+    "foodName": "大巢菜（鲜）［野苕子，野豌豆］",
+    "englishName": "Giant vetch"
+  },
+  {
+    "foodCode": "048017",
+    "foodName": "大蓟叶（鲜）［飞廉叶］",
+    "englishName": "Japanese thistle leaf"
+  },
+  {
+    "foodCode": "048018",
+    "foodName": "地肤（鲜）益明，扫帚苗］",
+    "englishName": "Belvedere"
+  },
+  {
+    "foodCode": "048019",
+    "foodName": "地笋（鲜）［地古牛，地瓜儿苗叶］",
+    "englishName": "Bugleweed"
+  },
+  {
+    "foodCode": "048020",
+    "foodName": "豆腐柴（鲜）",
+    "englishName": "Japanese premna"
+  },
+  {
+    "foodCode": "048021",
+    "foodName": "独行菜（鲜）",
+    "englishName": "Peppergrass"
+  },
+  {
+    "foodCode": "048022",
+    "foodName": "独行菜（宽，鲜）",
+    "englishName": "Peppergrass"
+  },
+  {
+    "foodCode": "048024",
+    "foodName": "胡枝子（鲜）［山豆子］",
+    "englishName": "Shrub lespedeza"
+  },
+  {
+    "foodCode": "048025",
+    "foodName": "槐花（鲜）［洋槐花，豆槐花］",
+    "englishName": "Japanese pagoda tree"
+  },
+  {
+    "foodCode": "048026",
+    "foodName": "黄麻叶（鲜）",
+    "englishName": "Jute, potherb"
+  },
+  {
+    "foodCode": "048027",
+    "foodName": "碱蓬（鲜）［棉蓬，猪毛菜］",
+    "englishName": "Common russian thistle"
+  },
+  {
+    "foodCode": "048028",
+    "foodName": "苦苦菜（鲜）",
+    "englishName": "Wild lettuce"
+  },
+  {
+    "foodCode": "048029",
+    "foodName": "轮叶党参",
+    "englishName": "Lance asiabell"
+  },
+  {
+    "foodCode": "048030",
+    "foodName": "罗勒［兰香",
+    "englishName": "Basil"
+  },
+  {
+    "foodCode": "048031",
+    "foodName": "马齿苋（鲜）［长寿菜，瓜子菜］",
+    "englishName": "Purslane"
+  },
+  {
+    "foodCode": "048032",
+    "foodName": "马兰头（鲜）［马兰，鸡儿肠，路边菊］",
+    "englishName": "Kalimeris, Indica"
+  },
+  {
+    "foodCode": "048033",
+    "foodName": "麦瓶草（鲜）［米瓦罐］",
+    "englishName": "Silene"
+  },
+  {
+    "foodCode": "048034",
+    "foodName": "牛至",
+    "englishName": "Common origanum"
+  },
+  {
+    "foodCode": "048035",
+    "foodName": "牛蒡叶（鲜）",
+    "englishName": "Great burdock"
+  },
+  {
+    "foodCode": "048036",
+    "foodName": "爬景天（鲜）［石头菜］",
+    "englishName": "Gypsophila"
+  },
+  {
+    "foodCode": "048037",
+    "foodName": "喷瓜",
+    "englishName": "Squirting cucumber"
+  },
+  {
+    "foodCode": "048038",
+    "foodName": "婆罗门参（白，鲜）",
+    "englishName": "Oyster plant, white"
+  },
+  {
+    "foodCode": "048039",
+    "foodName": "婆罗门参（黑，鲜）鸦葱］",
+    "englishName": "Oyster plant, black"
+  },
+  {
+    "foodCode": "048040",
+    "foodName": "蒲公英叶（鲜）［黄花苗叶，孛孛丁叶］",
+    "englishName": "Dandelion greens"
+  },
+  {
+    "foodCode": "048041",
+    "foodName": "掐不齐（鲜）［鸡眼草，牛黄草］",
+    "englishName": "Japan clover"
+  },
+  {
+    "foodCode": "048042",
+    "foodName": "清明菜（鲜）［鼠曲菜］",
+    "englishName": "Cudweed"
+  },
+  {
+    "foodCode": "048044",
+    "foodName": "沙参叶（鲜）［白参］",
+    "englishName": "Upright ladybell"
+  },
+  {
+    "foodCode": "048045",
+    "foodName": "沙蓬子（鲜）［沙米］",
+    "englishName": "Squarrose agriophyllum"
+  },
+  {
+    "foodCode": "048046",
+    "foodName": "山苦荬叶（鲜）［启明菜叶］",
+    "englishName": "Ixeris"
+  },
+  {
+    "foodCode": "048047",
+    "foodName": "食用大黄（鲜）",
+    "englishName": "rhubarb root"
+  },
+  {
+    "foodCode": "048048",
+    "foodName": "食用黄麻",
+    "englishName": "Jute"
+  },
+  {
+    "foodCode": "048049",
+    "foodName": "酸模（鲜）",
+    "englishName": "Garden sorrel"
+  },
+  {
+    "foodCode": "048050",
+    "foodName": "汤菜（鲜）",
+    "englishName": "*Tangcai*, used for flavoring soups"
+  },
+  {
+    "foodCode": "048051",
+    "foodName": "土三七（鲜）［景天三七］",
+    "englishName": "Aizoon stonecrop"
+  },
+  {
+    "foodCode": "048052",
+    "foodName": "歪头菜（鲜）［草豆，二叶萩］",
+    "englishName": "Pair vetch"
+  },
+  {
+    "foodCode": "048053",
+    "foodName": "梧桐子（鲜）［瓢儿果］",
+    "englishName": "Phoenix tree"
+  },
+  {
+    "foodCode": "048054",
+    "foodName": "夏枯草（鲜）［铁色草］",
+    "englishName": "Asian selfheal"
+  },
+  {
+    "foodCode": "048055",
+    "foodName": "香椿（鲜）香椿芽］",
+    "englishName": "Toona leaf, young"
+  },
+  {
+    "foodCode": "048056",
+    "foodName": "香茅",
+    "englishName": "Citronella"
+  },
+  {
+    "foodCode": "048057",
+    "foodName": "小旋花（鲜）［狗儿蔓］",
+    "englishName": "Ivy glorybind"
+  },
+  {
+    "foodCode": "048058",
+    "foodName": "鸭跖草（鲜）［竹叶菜，淡竹叶］",
+    "englishName": "Common dayflower"
+  },
+  {
+    "foodCode": "048059",
+    "foodName": "野葱（鲜）沙葱，麦葱］",
+    "englishName": "Yellowflower onion"
+  },
+  {
+    "foodCode": "048060",
+    "foodName": "野韭菜（鲜）［山韭］",
+    "englishName": "Aging onion"
+  },
+  {
+    "foodCode": "048061",
+    "foodName": "野菊（鲜）",
+    "englishName": "Indian dendranthema"
+  },
+  {
+    "foodCode": "048062",
+    "foodName": "野蒜（鲜）［小蒜，野葱］",
+    "englishName": "Wild onion, young leaf and bulb"
+  },
+  {
+    "foodCode": "048063",
+    "foodName": "野苋菜（鲜）［假苋菜］",
+    "englishName": "Wrinkledfruit amaranth"
+  },
+  {
+    "foodCode": "048064",
+    "foodName": "茵陈蒿（鲜）［茵陈］",
+    "englishName": "Capillary wormwood"
+  },
+  {
+    "foodCode": "048065",
+    "foodName": "榆钱（鲜）",
+    "englishName": "Elm, young green fruit"
+  },
+  {
+    "foodCode": "048067",
+    "foodName": "珍珠花菜",
+    "englishName": "Clethra loosestrife"
+  },
+  {
+    "foodCode": "048068",
+    "foodName": "紫花桔梗",
+    "englishName": "Balloonflower"
+  },
+  {
+    "foodCode": "048069",
+    "foodName": "紫萼香茶菜",
+    "englishName": "Purplehair rabdosia"
+  },
+  {
+    "foodCode": "048070",
+    "foodName": "苣荬菜（尖叶）［取荬菜，苦麻子］",
+    "englishName": "Curly Endire bitter"
+  },
+  {
+    "foodCode": "048072",
+    "foodName": "苜蓿子（干）紫苜蓿子］",
+    "englishName": "Medic"
+  },
+  {
+    "foodCode": "048073",
+    "foodName": "茴芹（鲜）",
+    "englishName": "Diversifolious pimpinella"
+  },
+  {
+    "foodCode": "048074",
+    "foodName": "荠菜（鲜）［野荠］",
+    "englishName": "Knotweed"
+  },
+  {
+    "foodCode": "048075",
+    "foodName": "蒌蒿（鲜）",
+    "englishName": "Seleng wormwood"
+  },
+  {
+    "foodCode": "048076",
+    "foodName": "蕨菜（鲜）［龙头菜，如意菜］",
+    "englishName": "Wild brake"
+  },
+  {
+    "foodCode": "048077",
+    "foodName": "蕨菜（脱水）",
+    "englishName": "Bracken, dehydrated"
+  },
+  {
+    "foodCode": "048078",
+    "foodName": "蕨麻（干）［鹅绒委陵菜］",
+    "englishName": "Silverweed cinquefoil"
+  },
+  {
+    "foodCode": "048079",
+    "foodName": "枸杞菜（鲜）［枸杞，地骨］",
+    "englishName": "Wolfberry leaf"
+  },
+  {
+    "foodCode": "048080",
+    "foodName": "酢浆草（鲜）［酸酸草，酸溜溜］",
+    "englishName": "Garden sorrel"
+  },
+  {
+    "foodCode": "048081",
+    "foodName": "苦苣菜［苦菜、天精菜］",
+    "englishName": "Common sow thistle, raw"
+  },
+  {
+    "foodCode": "048082",
+    "foodName": "苜蓿［草头、金花菜］",
+    "englishName": "Alfalfa, raw"
+  },
+  {
+    "foodCode": "048083",
+    "foodName": "鱼腥草（叶）［蕺菜、臭菜］",
+    "englishName": "Heartleaf houttuynia, leaf, raw"
+  },
+  {
+    "foodCode": "048084",
+    "foodName": "鱼腥草（根）",
+    "englishName": "Heartleaf houttuynia, root, raw"
+  },
+  {
+    "foodCode": "048085",
+    "foodName": "刺五加尖",
+    "englishName": "Acanthopanax senticosus, tender leaf"
+  },
+  {
+    "foodCode": "048086",
+    "foodName": "枸杞叶",
+    "englishName": "leaf, Chinese wolf berry"
+  },
+  {
+    "foodCode": "048087",
+    "foodName": "灰灰菜（干，藜）",
+    "englishName": "Chenopodium album Linn, wild vegetables"
+  },
+  {
+    "foodCode": "048088",
+    "foodName": "荆芥",
+    "englishName": "Herba schizonepetae"
+  }
+]

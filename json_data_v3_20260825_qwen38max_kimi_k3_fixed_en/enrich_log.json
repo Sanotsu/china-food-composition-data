@@ -1,0 +1,2207 @@
+{
+  "applied_at": "2026-09-06T20:24:41.009962",
+  "base_dir": "json_data_v3_20260825_qwen38max_kimi_k3_fixed",
+  "en_dir": "json_name_en_map_v3_20260906_qwen38max_kimi_k3",
+  "output_dir": "json_data_v3_20260825_qwen38max_kimi_k3_fixed_en",
+  "base_files": 61,
+  "total_records": 1677,
+  "matched": 1242,
+  "without_english": 435,
+  "missing_en": [
+    {
+      "foodCode": "109004",
+      "foodName": "全脂甜炼乳（雀巢）",
+      "category": "乳类及其制品-其他"
+    },
+    {
+      "foodCode": "109005",
+      "foodName": "全脂甜炼乳（燕山牌）",
+      "category": "乳类及其制品-其他"
+    },
+    {
+      "foodCode": "109006",
+      "foodName": "脱脂甜炼乳",
+      "category": "乳类及其制品-其他"
+    },
+    {
+      "foodCode": "109007",
+      "foodName": "蛋白粉（益力健乳铁乳清蛋白粉）",
+      "category": "乳类及其制品-其他"
+    },
+    {
+      "foodCode": "109008",
+      "foodName": "牛初乳奶片（纽瑞滋牛初乳咀嚼奶片）",
+      "category": "乳类及其制品-其他"
+    },
+    {
+      "foodCode": "109009",
+      "foodName": "奶渣",
+      "category": "乳类及其制品-其他"
+    },
+    {
+      "foodCode": "105008",
+      "foodName": "奶油",
+      "category": "乳类及其制品-奶油"
+    },
+    {
+      "foodCode": "105009",
+      "foodName": "酥油",
+      "category": "乳类及其制品-奶油"
+    },
+    {
+      "foodCode": "105010",
+      "foodName": "酥油茶（原味）",
+      "category": "乳类及其制品-奶油"
+    },
+    {
+      "foodCode": "102101x",
+      "foodName": "全脂奶粉（代表值）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102105",
+      "foodName": "全脂奶粉（雀巢）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102107",
+      "foodName": "全脂奶粉（伊利牌）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102125",
+      "foodName": "全脂奶粉（红星速溶加锌奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102126",
+      "foodName": "全脂奶粉（欧世蒙牛多维高钙高铁奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102127",
+      "foodName": "全脂奶粉（雪花钙加锌调制奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102128",
+      "foodName": "全脂奶粉（雪花高钙多维调制奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102130x",
+      "foodName": "全脂甜奶粉（代表值）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102131",
+      "foodName": "全脂甜奶粉",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102132",
+      "foodName": "全脂甜奶粉（伊利牌）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102133",
+      "foodName": "全脂甜奶粉（飞鹤全脂甜乳粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102134",
+      "foodName": "全脂甜奶粉（红星速溶全脂甜奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102135",
+      "foodName": "全脂甜奶粉（三元燕山牌全脂甜奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102150x",
+      "foodName": "低脂奶粉（代表值，高钙高铁）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102151",
+      "foodName": "低脂奶粉（高钙高铁，雀巢）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102152",
+      "foodName": "低脂奶粉（高钙高铁，伊利牌）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102153",
+      "foodName": "低脂奶粉（高钙高铁，可淇牌）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102211",
+      "foodName": "驴奶粉（花麒牌，西域龙驴奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102212",
+      "foodName": "驴奶粉（金驴龙奶）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102213",
+      "foodName": "驴奶粉（源西域牌，冻干特质）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102221",
+      "foodName": "驼奶粉（花麒牌，西域龙驼奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102222",
+      "foodName": "驼奶粉（天山牧歌牌）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102223",
+      "foodName": "驼奶粉（旺源牌，全脂驼乳粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102301x",
+      "foodName": "儿童配方奶粉（代表值）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102302",
+      "foodName": "儿童配方奶粉（安儿健A+，美赞臣）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102303",
+      "foodName": "儿童配方奶粉（适体健，美赞臣）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102304",
+      "foodName": "儿童配方奶粉（惠氏）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102305",
+      "foodName": "儿童配方奶粉（可淇牌）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102306",
+      "foodName": "儿童配方奶粉（完达山牌）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102307",
+      "foodName": "儿童配方奶粉（贝因美特选幼童配方奶粉4阶段）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102308",
+      "foodName": "儿童配方奶粉（多美滋优阶儿童配方奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102309",
+      "foodName": "儿童配方奶粉（惠氏金装学儿乐学龄前儿童配方奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102310",
+      "foodName": "儿童配方奶粉（美素佳儿GOLD金装儿童配方奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102311",
+      "foodName": "儿童配方奶粉（美赞臣安儿健儿童配方奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102312",
+      "foodName": "儿童配方奶粉（明治珍爱童儿童配方奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102313",
+      "foodName": "儿童配方奶粉（欧世蒙牛金装佳智学龄前儿童特殊配方奶粉4阶段）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102314",
+      "foodName": "儿童配方奶粉（雀巢能恩全进口奶源儿童配方奶粉4）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102315",
+      "foodName": "儿童配方奶粉（三元爱益儿童成长配方奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102316",
+      "foodName": "儿童配方奶粉（完达山4段儿童奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102317",
+      "foodName": "儿童配方奶粉（完达山金装元乳4段儿童奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102318",
+      "foodName": "儿童配方奶粉（雪花学生特殊配方奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102319",
+      "foodName": "儿童配方奶粉（雪花学生营养奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102320",
+      "foodName": "儿童配方奶粉（雅培金装喜康宝儿童配方奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102321",
+      "foodName": "儿童配方奶粉（雅士利儿童奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102322",
+      "foodName": "儿童配方奶粉（伊利儿童配方奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102323",
+      "foodName": "儿童配方奶粉（伊利金领冠儿童配方奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102324",
+      "foodName": "儿童配方奶粉（伊利金装儿童配方奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102325",
+      "foodName": "儿童配方奶粉（伊利学生营养奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102501x",
+      "foodName": "孕产妇配方奶粉（代表值）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102502",
+      "foodName": "孕产妇配方奶粉（惠氏）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102503",
+      "foodName": "孕产妇配方奶粉（美赞臣）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102504",
+      "foodName": "孕产妇配方奶粉（贝因美冠军宝贝孕妈咪配方奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102505",
+      "foodName": "孕产妇配方奶粉（贝因美金装爱+孕妈咪配方奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102506",
+      "foodName": "孕产妇配方奶粉（贝因美金装爱+准妈咪配方奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102507",
+      "foodName": "孕产妇配方奶粉（多美滋优阶妈妈孕产妇配方奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102508",
+      "foodName": "孕产妇配方奶粉（飞帆孕产妇配方乳粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102509",
+      "foodName": "孕产妇配方奶粉（合生元金装妈妈配方奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102510",
+      "foodName": "孕产妇配方奶粉（亨氏超金妈妈孕产妇配方奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102511",
+      "foodName": "孕产妇配方奶粉（惠氏爱儿乐妈妈孕产妇配方奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102512",
+      "foodName": "孕产妇配方奶粉（美素佳儿GOLD金装妈妈孕产妇配方奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102513",
+      "foodName": "孕产妇配方奶粉（美赞臣安婴妈妈孕产妇配方奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102514",
+      "foodName": "孕产妇配方奶粉（雀巢妈妈孕产妇奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102515",
+      "foodName": "孕产妇配方奶粉（雀巢妈妈孕产妇营养配方奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102516",
+      "foodName": "孕产妇配方奶粉（三元爱力优妈妈配方奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102517",
+      "foodName": "孕产妇配方奶粉（圣元优博妈咪孕产妇配方奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102518",
+      "foodName": "孕产妇配方奶粉（完达山妈咪配方奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102519",
+      "foodName": "孕产妇配方奶粉（雅培妈妈喜康素金装孕产妇配方奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102520",
+      "foodName": "孕产妇配方奶粉（雅士利能慧金装孕产妇奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102521",
+      "foodName": "孕产妇配方奶粉（伊利金领冠妈妈配方奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102522",
+      "foodName": "孕产妇配方奶粉（伊利孕妇奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102523",
+      "foodName": "孕产妇配方羊奶粉（美可高特孕产妇配方羊奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102801x",
+      "foodName": "中老年配方奶粉（代表值）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102802",
+      "foodName": "中老年配方奶粉（可淇牌）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102803",
+      "foodName": "中老年配方奶粉（雀巢）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102804",
+      "foodName": "中老年配方奶粉（森永牌）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102805",
+      "foodName": "中老年配方奶粉（三元爱益中老年配方奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102806",
+      "foodName": "中老年配方奶粉（雪花中老年特殊配方奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "102807",
+      "foodName": "中老年营养奶粉（雪花中老年营养奶粉）",
+      "category": "乳类及其制品-奶粉"
+    },
+    {
+      "foodCode": "104012",
+      "foodName": "奶酪（光明牌）",
+      "category": "乳类及其制品-奶酪"
+    },
+    {
+      "foodCode": "104013",
+      "foodName": "奶酪（骑士牌）",
+      "category": "乳类及其制品-奶酪"
+    },
+    {
+      "foodCode": "104014",
+      "foodName": "低脂奶酪",
+      "category": "乳类及其制品-奶酪"
+    },
+    {
+      "foodCode": "104015",
+      "foodName": "硬质干酪",
+      "category": "乳类及其制品-奶酪"
+    },
+    {
+      "foodCode": "104016",
+      "foodName": "奶酪（爱氏晨曦牌，儿童奶酪条）",
+      "category": "乳类及其制品-奶酪"
+    },
+    {
+      "foodCode": "104017",
+      "foodName": "奶酪（百嘉儿童干酪条）",
+      "category": "乳类及其制品-奶酪"
+    },
+    {
+      "foodCode": "104018",
+      "foodName": "奶酪（多美鲜牌，欧洲奶油奶酪）",
+      "category": "乳类及其制品-奶酪"
+    },
+    {
+      "foodCode": "104019",
+      "foodName": "奶酪（天润牌，无限欢酪）",
+      "category": "乳类及其制品-奶酪"
+    },
+    {
+      "foodCode": "104020",
+      "foodName": "酸奶疙瘩（干，农户家）",
+      "category": "乳类及其制品-奶酪"
+    },
+    {
+      "foodCode": "104021",
+      "foodName": "酸奶疙瘩（干，市售）",
+      "category": "乳类及其制品-奶酪"
+    },
+    {
+      "foodCode": "104022",
+      "foodName": "酸奶疙瘩（干，市售，加盐）",
+      "category": "乳类及其制品-奶酪"
+    },
+    {
+      "foodCode": "104023",
+      "foodName": "酸奶疙瘩（瑞缘牌，中脂特硬质干酪）",
+      "category": "乳类及其制品-奶酪"
+    },
+    {
+      "foodCode": "104024",
+      "foodName": "酸奶疙瘩（新鲜）",
+      "category": "乳类及其制品-奶酪"
+    },
+    {
+      "foodCode": "101105",
+      "foodName": "纯牛奶（全脂，光明牌）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101106",
+      "foodName": "纯牛奶（全脂，乐百氏牌）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101107",
+      "foodName": "纯牛奶（全脂，帕玛拉特牌）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101108",
+      "foodName": "纯牛奶（全脂，三元牌）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101109",
+      "foodName": "纯牛奶（全脂，完达山牌）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101110",
+      "foodName": "纯牛奶（全脂，龙丹牌）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101111",
+      "foodName": "纯牛奶（全脂，蒙牛牌）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101112",
+      "foodName": "纯牛奶（全脂，新南洋牌）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101113",
+      "foodName": "纯牛奶（全脂，帕玛拉特）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101114",
+      "foodName": "纯牛奶（全脂，伊利牌）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101122",
+      "foodName": "纯牛奶（全脂，爱尔兰金凯利全脂牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101123",
+      "foodName": "纯牛奶（全脂，澳大利亚澳田纯牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101124",
+      "foodName": "纯牛奶（全脂，比利时纯牧牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101125",
+      "foodName": "纯牛奶（全脂，波兰美波全脂纯牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101126",
+      "foodName": "纯牛奶（全脂，丹麦爱氏晨曦有机全脂牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101127",
+      "foodName": "纯牛奶（全脂，德国爱氏晨曦纯牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101128",
+      "foodName": "纯牛奶（全脂，德国甘蒂牧场纯牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101129",
+      "foodName": "纯牛奶（全脂，法国得乐思全脂牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101130",
+      "foodName": "纯牛奶（全脂，光明纯牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101131",
+      "foodName": "纯牛奶（全脂，光明优+高品质纯牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101132",
+      "foodName": "纯牛奶（全脂，广泽澳醇纯牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101133",
+      "foodName": "纯牛奶（全脂，花园牌）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101134",
+      "foodName": "纯牛奶（全脂，辉山纯牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101135",
+      "foodName": "纯牛奶（全脂，龙丹松花江牧场纯牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101136",
+      "foodName": "纯牛奶（全脂，麦趣尔牌）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101137",
+      "foodName": "纯牛奶（全脂，蒙牛纯牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101138",
+      "foodName": "纯牛奶（全脂，蒙牛特仑苏有机纯牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101139",
+      "foodName": "纯牛奶（全脂，明治醇壹高温杀菌乳）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101140",
+      "foodName": "纯牛奶（全脂，瑞士艾美全脂牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101141",
+      "foodName": "纯牛奶（全脂，圣牧有机纯牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101142",
+      "foodName": "纯牛奶（全脂，天润牌浓缩纯奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101143",
+      "foodName": "纯牛奶（全脂，完达山纯牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101144",
+      "foodName": "纯牛奶（全脂，西域春牌）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101145",
+      "foodName": "纯牛奶（全脂，夏进纯牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101146",
+      "foodName": "纯牛奶（全脂，现代牧业纯牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101147",
+      "foodName": "纯牛奶（全脂，新希望复原乳）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101148",
+      "foodName": "纯牛奶（全脂，新希望千岛湖牧场纯牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101149",
+      "foodName": "纯牛奶（全脂，伊利纯牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101150",
+      "foodName": "纯牛奶（全脂，伊利金典有机纯牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101151",
+      "foodName": "纯牛奶（全脂，意大利培兰全脂纯牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101152",
+      "foodName": "纯牛奶（低脂，帕玛拉特）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101152x",
+      "foodName": "纯牛奶（代表值，低脂）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101153",
+      "foodName": "纯牛奶（低脂，澳大利亚德运部分脱脂纯牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101154",
+      "foodName": "纯牛奶（低脂，德国艾德牧牌部分脱脂纯牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101155",
+      "foodName": "纯牛奶（低脂，蒙牛特仑苏低脂牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101156",
+      "foodName": "纯牛奶（低脂，明治醇壹低脂肪高温杀菌乳）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101157",
+      "foodName": "纯牛奶（低脂，新西兰安佳低脂牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101158",
+      "foodName": "纯牛奶（低脂，新西兰恒天然田园低脂牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101159",
+      "foodName": "纯牛奶（低脂，伊利金典低脂奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101160",
+      "foodName": "纯牛奶（低脂，意大利皮尔蒙特低脂牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101161",
+      "foodName": "纯牛奶（脱脂，帕玛拉特）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101161x",
+      "foodName": "纯牛奶（代表值，脱脂）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101162",
+      "foodName": "纯牛奶（脱脂，澳大利亚澳田脱脂牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101163",
+      "foodName": "纯牛奶（脱脂，丹麦爱氏晨曦脱脂纯牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101164",
+      "foodName": "纯牛奶（脱脂，德国甘蒂牧场脱脂牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101165",
+      "foodName": "纯牛奶（脱脂，新西兰安佳轻欣脱脂牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101166",
+      "foodName": "调制乳（全脂，强化VA，VD）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101167",
+      "foodName": "调制乳（全脂，草莓味，卡夫牌）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101168",
+      "foodName": "调制乳（全脂，巧克力味，卡夫牌）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101169",
+      "foodName": "调制乳（全脂，巧克力味，三元牌）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101170",
+      "foodName": "调制乳（全脂，学生奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101171",
+      "foodName": "调制乳（全脂，龙丹益醇核桃牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101172",
+      "foodName": "调制乳（全脂，蒙牛特仑苏醇纤牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101173",
+      "foodName": "调制乳（全脂，蒙牛珍养型零乳糖牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101174",
+      "foodName": "调制乳（全脂，完达山臻醇牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101175",
+      "foodName": "调制乳（全脂，旺仔复原乳牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101176",
+      "foodName": "调制乳（全脂，夏进炼乳牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101177",
+      "foodName": "调制乳（全脂，新西兰安佳原味进口儿童牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101178",
+      "foodName": "调制乳（全脂，新希望特浓牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101179",
+      "foodName": "调制乳（全脂，伊利舒化奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101180",
+      "foodName": "调制乳（全脂，伊利早餐奶麦香味）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101181",
+      "foodName": "调制乳（低脂，强化锌、钙，帕玛拉特）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101182",
+      "foodName": "调制乳（低脂，澳大利亚德运高钙低脂奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101183",
+      "foodName": "调制乳（低脂，伊利低脂型舒化奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101184",
+      "foodName": "调制乳（低脂，伊利高钙低脂奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101185",
+      "foodName": "调制乳（脱脂，部分复原乳，澳大利亚德运高钙脱脂奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101186",
+      "foodName": "调制乳（脱脂，伊利脱脂奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101187",
+      "foodName": "鲜牛奶（全脂，光明鲜牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101187x",
+      "foodName": "鲜牛奶（代表值，全脂）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101188",
+      "foodName": "鲜牛奶（全脂，辉山鲜博士鲜牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101189",
+      "foodName": "鲜牛奶（全脂，完达山鲜牛乳）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101190",
+      "foodName": "鲜牛奶（全脂，西域春牌全脂巴氏杀菌乳）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101191",
+      "foodName": "鲜牛奶（全脂，现代牧场鲜牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101192",
+      "foodName": "鲜牛奶（全脂，新希望千岛湖牧场鲜牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101193",
+      "foodName": "鲜牛奶（全脂，一鸣鲜牛奶）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101302",
+      "foodName": "人乳（初乳，1～7天）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101303",
+      "foodName": "人乳（过渡乳，7～14天）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101304",
+      "foodName": "人乳（成熟乳）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101401",
+      "foodName": "鲜驴奶",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101402",
+      "foodName": "鲜驴奶（冻）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101403",
+      "foodName": "鲜驴奶（花麒牌，冻）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101501",
+      "foodName": "鲜驼奶",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101502",
+      "foodName": "鲜驼奶（冻）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "101503",
+      "foodName": "驼奶（旺源牌，易拉罐）",
+      "category": "乳类及其制品-液态乳"
+    },
+    {
+      "foodCode": "103001",
+      "foodName": "酸奶",
+      "category": "乳类及其制品-酸奶"
+    },
+    {
+      "foodCode": "103007",
+      "foodName": "酸奶（调味）",
+      "category": "乳类及其制品-酸奶"
+    },
+    {
+      "foodCode": "103008",
+      "foodName": "酸奶（果粒）",
+      "category": "乳类及其制品-酸奶"
+    },
+    {
+      "foodCode": "103009",
+      "foodName": "酸奶（全脂，多美鲜全脂果粒，草莓果粒/覆盆子果粒、桃果粒/西番莲汁/菠萝果粒）",
+      "category": "乳类及其制品-酸奶"
+    },
+    {
+      "foodCode": "103010",
+      "foodName": "酸奶（全脂，盖瑞牌，全脂风味发酵乳）",
+      "category": "乳类及其制品-酸奶"
+    },
+    {
+      "foodCode": "103011",
+      "foodName": "酸奶（全脂，花园牌）",
+      "category": "乳类及其制品-酸奶"
+    },
+    {
+      "foodCode": "103012",
+      "foodName": "酸奶（全脂，佳丽牌，益家全脂风味发酵乳）",
+      "category": "乳类及其制品-酸奶"
+    },
+    {
+      "foodCode": "103013",
+      "foodName": "酸奶（全脂，天润牌浓缩酸奶，全脂风味发酵乳）",
+      "category": "乳类及其制品-酸奶"
+    },
+    {
+      "foodCode": "103014",
+      "foodName": "酸奶（全脂，西域春牌新疆老酸奶，凝固型）",
+      "category": "乳类及其制品-酸奶"
+    },
+    {
+      "foodCode": "103015",
+      "foodName": "酸奶（低脂，艾美牌，草莓、芒果、蓝莓、覆盆子、菠萝味低脂风味发酵乳）",
+      "category": "乳类及其制品-酸奶"
+    },
+    {
+      "foodCode": "219014",
+      "foodName": "蜂蛹［蜂胚、蜂仔］",
+      "category": "其他类-其他"
+    },
+    {
+      "foodCode": "219015",
+      "foodName": "蜂蛹（油蜂，干）",
+      "category": "其他类-其他"
+    },
+    {
+      "foodCode": "219016",
+      "foodName": "蜂蛹（大黄蜂）",
+      "category": "其他类-其他"
+    },
+    {
+      "foodCode": "219022",
+      "foodName": "牛蛙",
+      "category": "其他类-其他"
+    },
+    {
+      "foodCode": "219028",
+      "foodName": "鸡内金",
+      "category": "其他类-其他"
+    },
+    {
+      "foodCode": "219029",
+      "foodName": "乌梢蛇",
+      "category": "其他类-其他"
+    },
+    {
+      "foodCode": "219030",
+      "foodName": "团螵蛸",
+      "category": "其他类-其他"
+    },
+    {
+      "foodCode": "219031",
+      "foodName": "阿胶",
+      "category": "其他类-其他"
+    },
+    {
+      "foodCode": "219032",
+      "foodName": "珍珠",
+      "category": "其他类-其他"
+    },
+    {
+      "foodCode": "219033",
+      "foodName": "牛黄",
+      "category": "其他类-其他"
+    },
+    {
+      "foodCode": "219034",
+      "foodName": "马鹿胎（粉）",
+      "category": "其他类-其他"
+    },
+    {
+      "foodCode": "219035",
+      "foodName": "蛤蚧",
+      "category": "其他类-其他"
+    },
+    {
+      "foodCode": "219036",
+      "foodName": "燕窝",
+      "category": "其他类-其他"
+    },
+    {
+      "foodCode": "219037",
+      "foodName": "蜂胶液",
+      "category": "其他类-其他"
+    },
+    {
+      "foodCode": "219038",
+      "foodName": "蛤蟆油",
+      "category": "其他类-其他"
+    },
+    {
+      "foodCode": "219039",
+      "foodName": "龟甲",
+      "category": "其他类-其他"
+    },
+    {
+      "foodCode": "219040",
+      "foodName": "刺猬皮",
+      "category": "其他类-其他"
+    },
+    {
+      "foodCode": "219041",
+      "foodName": "蜂王浆",
+      "category": "其他类-其他"
+    },
+    {
+      "foodCode": "219042",
+      "foodName": "裙边（干）",
+      "category": "其他类-其他"
+    },
+    {
+      "foodCode": "219043",
+      "foodName": "鱼肚（干）",
+      "category": "其他类-其他"
+    },
+    {
+      "foodCode": "219044",
+      "foodName": "鱼唇（干）",
+      "category": "其他类-其他"
+    },
+    {
+      "foodCode": "192011",
+      "foodName": "麻子籽",
+      "category": "植物油-植物油"
+    },
+    {
+      "foodCode": "089006",
+      "foodName": "鹿肉（养殖梅花鹿）",
+      "category": "畜肉类及其制品-其他"
+    },
+    {
+      "foodCode": "082111",
+      "foodName": "牛肉（背部肉）［上脑］",
+      "category": "畜肉类及其制品-牛"
+    },
+    {
+      "foodCode": "082112",
+      "foodName": "牛肉（里脊肉）［牛柳］",
+      "category": "畜肉类及其制品-牛"
+    },
+    {
+      "foodCode": "082113",
+      "foodName": "牛肉（臀部肉）［紫盖、白板］",
+      "category": "畜肉类及其制品-牛"
+    },
+    {
+      "foodCode": "082114",
+      "foodName": "牛肉（肩部肉）［肩肉］",
+      "category": "畜肉类及其制品-牛"
+    },
+    {
+      "foodCode": "082115",
+      "foodName": "牛肉（胸部肉）［牛胸］",
+      "category": "畜肉类及其制品-牛"
+    },
+    {
+      "foodCode": "082116",
+      "foodName": "牛肉（腹部肉）［牛腩］",
+      "category": "畜肉类及其制品-牛"
+    },
+    {
+      "foodCode": "082117",
+      "foodName": "牛肉（膝圆肉）［和尚头］",
+      "category": "畜肉类及其制品-牛"
+    },
+    {
+      "foodCode": "082118",
+      "foodName": "牛肉（股内肉）［针扒、米龙、黄瓜条］",
+      "category": "畜肉类及其制品-牛"
+    },
+    {
+      "foodCode": "082119",
+      "foodName": "牛肉（小腿肉）［牛展、牛腱子］",
+      "category": "畜肉类及其制品-牛"
+    },
+    {
+      "foodCode": "082120",
+      "foodName": "牦牛肉",
+      "category": "畜肉类及其制品-牛"
+    },
+    {
+      "foodCode": "082121",
+      "foodName": "牦牛牛腱肉（冻，鲜）",
+      "category": "畜肉类及其制品-牛"
+    },
+    {
+      "foodCode": "082122",
+      "foodName": "牦牛牛霖肉（冻，鲜）",
+      "category": "畜肉类及其制品-牛"
+    },
+    {
+      "foodCode": "082210",
+      "foodName": "牛百叶（黑）",
+      "category": "畜肉类及其制品-牛"
+    },
+    {
+      "foodCode": "082307",
+      "foodName": "牛肉（酱，五香）",
+      "category": "畜肉类及其制品-牛"
+    },
+    {
+      "foodCode": "082308",
+      "foodName": "牛肉（清香）",
+      "category": "畜肉类及其制品-牛"
+    },
+    {
+      "foodCode": "082309",
+      "foodName": "牛腱子（香叶）",
+      "category": "畜肉类及其制品-牛"
+    },
+    {
+      "foodCode": "082310",
+      "foodName": "牛肉干（长富牌）",
+      "category": "畜肉类及其制品-牛"
+    },
+    {
+      "foodCode": "082311",
+      "foodName": "牛肉干（沙爹牌）",
+      "category": "畜肉类及其制品-牛"
+    },
+    {
+      "foodCode": "081110x",
+      "foodName": "猪肉（瘦，fat8g）",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081111x",
+      "foodName": "猪肉（fat12g）",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081121",
+      "foodName": "猪肉（前臀尖，杜长大猪）",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081122",
+      "foodName": "猪肉（前臀尖，良杂猪）",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081123",
+      "foodName": "猪肉（后臀尖，杜长大猪）",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081124",
+      "foodName": "猪肉（后臀尖，良杂猪）",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081125",
+      "foodName": "猪肉（硬肋，杜长大猪）",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081126",
+      "foodName": "猪肉（硬肋，良杂猪）",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081127",
+      "foodName": "猪肉（通脊，杜长大猪）",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081128",
+      "foodName": "猪肉（通脊，良杂猪）",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081129",
+      "foodName": "猪肉（里脊）",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081130",
+      "foodName": "猪皮",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081131",
+      "foodName": "猪小排（杜长大猪）",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081132",
+      "foodName": "猪小排（良杂猪）",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081133",
+      "foodName": "猪腿肉（藏香猪）",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081209",
+      "foodName": "猪肾（fat8g）［猪腰子］",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081213",
+      "foodName": "猪肚",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081214",
+      "foodName": "猪肝",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081215",
+      "foodName": "猪舌［口条］",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081216",
+      "foodName": "猪肾（fat2g）［猪腰子］",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081318",
+      "foodName": "火腿心全精肉（雪舫蒋牌）",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081319",
+      "foodName": "火腿心肉（生，金云牌）",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081320",
+      "foodName": "腊肉（生，fat68g）",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081321",
+      "foodName": "叉烧肉",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081322",
+      "foodName": "酱排骨",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081323",
+      "foodName": "猪肉罐头（香糟块肉）",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081324",
+      "foodName": "猪里脊（熏烤小里脊）",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081325",
+      "foodName": "猪肉脯",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081326",
+      "foodName": "肉酥",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081328",
+      "foodName": "扒猪脸",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081329",
+      "foodName": "酱肘子",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081330",
+      "foodName": "火腿肉（藏香猪）",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081331",
+      "foodName": "风干肉（藏香猪）",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081423",
+      "foodName": "脆皮肠",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081424",
+      "foodName": "热狗肠",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081425",
+      "foodName": "火腿肠（双汇牌）",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081426",
+      "foodName": "火腿（fat3g）",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081427",
+      "foodName": "火腿（宣威牌）",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081428",
+      "foodName": "三明治火腿",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "081429",
+      "foodName": "午餐肉（上海梅林牌）",
+      "category": "畜肉类及其制品-猪"
+    },
+    {
+      "foodCode": "083113",
+      "foodName": "羊肉（上脑）",
+      "category": "畜肉类及其制品-羊"
+    },
+    {
+      "foodCode": "083114",
+      "foodName": "羊肉（腰窝）",
+      "category": "畜肉类及其制品-羊"
+    },
+    {
+      "foodCode": "083115",
+      "foodName": "羊肉（前腿）",
+      "category": "畜肉类及其制品-羊"
+    },
+    {
+      "foodCode": "083116",
+      "foodName": "羊肉（后腿）",
+      "category": "畜肉类及其制品-羊"
+    },
+    {
+      "foodCode": "083117",
+      "foodName": "羊肉片",
+      "category": "畜肉类及其制品-羊"
+    },
+    {
+      "foodCode": "083309",
+      "foodName": "烧羊肉（五香）",
+      "category": "畜肉类及其制品-羊"
+    },
+    {
+      "foodCode": "083310",
+      "foodName": "羊肉串（生）",
+      "category": "畜肉类及其制品-羊"
+    },
+    {
+      "foodCode": "084304",
+      "foodName": "驴肉（五香）",
+      "category": "畜肉类及其制品-驴"
+    },
+    {
+      "foodCode": "099003",
+      "foodName": "乳鸽",
+      "category": "禽肉类及其制品-其他"
+    },
+    {
+      "foodCode": "099004",
+      "foodName": "乳鸽（红烧）",
+      "category": "禽肉类及其制品-其他"
+    },
+    {
+      "foodCode": "094301",
+      "foodName": "火鸡腿（熟）",
+      "category": "禽肉类及其制品-火鸡"
+    },
+    {
+      "foodCode": "091112",
+      "foodName": "鸡胸脯肉",
+      "category": "禽肉类及其制品-鸡"
+    },
+    {
+      "foodCode": "091113",
+      "foodName": "鸡腿",
+      "category": "禽肉类及其制品-鸡"
+    },
+    {
+      "foodCode": "091114",
+      "foodName": "鸡翅",
+      "category": "禽肉类及其制品-鸡"
+    },
+    {
+      "foodCode": "091115",
+      "foodName": "鸡块（带浆粉）",
+      "category": "禽肉类及其制品-鸡"
+    },
+    {
+      "foodCode": "091116",
+      "foodName": "野山鸡",
+      "category": "禽肉类及其制品-鸡"
+    },
+    {
+      "foodCode": "091308",
+      "foodName": "扒鸡（五香脱骨）",
+      "category": "禽肉类及其制品-鸡"
+    },
+    {
+      "foodCode": "091309",
+      "foodName": "烤鸡",
+      "category": "禽肉类及其制品-鸡"
+    },
+    {
+      "foodCode": "091310",
+      "foodName": "童子鸡（熟）",
+      "category": "禽肉类及其制品-鸡"
+    },
+    {
+      "foodCode": "092214",
+      "foodName": "鸭豉片",
+      "category": "禽肉类及其制品-鸭"
+    },
+    {
+      "foodCode": "092307",
+      "foodName": "烤鸭（老唐牌）",
+      "category": "禽肉类及其制品-鸭"
+    },
+    {
+      "foodCode": "092308",
+      "foodName": "烤鸭（全聚德牌）",
+      "category": "禽肉类及其制品-鸭"
+    },
+    {
+      "foodCode": "093203",
+      "foodName": "鹅血",
+      "category": "禽肉类及其制品-鹅"
+    },
+    {
+      "foodCode": "093302",
+      "foodName": "腊鹅",
+      "category": "禽肉类及其制品-鹅"
+    },
+    {
+      "foodCode": "046011",
+      "foodName": "红菱",
+      "category": "蔬菜类及其制品-水生蔬菜类"
+    },
+    {
+      "foodCode": "111109",
+      "foodName": "鸡蛋（红皮）",
+      "category": "蛋类及其制品-鸡蛋"
+    },
+    {
+      "foodCode": "111110",
+      "foodName": "鸡蛋（藏鸡蛋）",
+      "category": "蛋类及其制品-鸡蛋"
+    },
+    {
+      "foodCode": "111111",
+      "foodName": "鸡蛋（乌鸡蛋，绿皮）",
+      "category": "蛋类及其制品-鸡蛋"
+    },
+    {
+      "foodCode": "111204",
+      "foodName": "鸡蛋（煮）",
+      "category": "蛋类及其制品-鸡蛋"
+    },
+    {
+      "foodCode": "111205",
+      "foodName": "毛蛋",
+      "category": "蛋类及其制品-鸡蛋"
+    },
+    {
+      "foodCode": "111206",
+      "foodName": "荷包蛋（油煎）",
+      "category": "蛋类及其制品-鸡蛋"
+    },
+    {
+      "foodCode": "111207",
+      "foodName": "荷包蛋（煮）",
+      "category": "蛋类及其制品-鸡蛋"
+    },
+    {
+      "foodCode": "112104",
+      "foodName": "海鸭蛋",
+      "category": "蛋类及其制品-鸭蛋"
+    },
+    {
+      "foodCode": "112203",
+      "foodName": "鸭蛋（咸鸭蛋，煮）",
+      "category": "蛋类及其制品-鸭蛋"
+    },
+    {
+      "foodCode": "113104",
+      "foodName": "鹅蛋（煮）",
+      "category": "蛋类及其制品-鹅蛋"
+    },
+    {
+      "foodCode": "129014",
+      "foodName": "甲鱼蛋",
+      "category": "鱼虾蟹贝类-其他"
+    },
+    {
+      "foodCode": "129015",
+      "foodName": "乌龟（龟板）",
+      "category": "鱼虾蟹贝类-其他"
+    },
+    {
+      "foodCode": "129016",
+      "foodName": "乌龟（肉）",
+      "category": "鱼虾蟹贝类-其他"
+    },
+    {
+      "foodCode": "129017",
+      "foodName": "金鲨鱼翅（干）",
+      "category": "鱼虾蟹贝类-其他"
+    },
+    {
+      "foodCode": "129018",
+      "foodName": "鱼翅（干）",
+      "category": "鱼虾蟹贝类-其他"
+    },
+    {
+      "foodCode": "129019",
+      "foodName": "棘参（鲜）",
+      "category": "鱼虾蟹贝类-其他"
+    },
+    {
+      "foodCode": "129020",
+      "foodName": "海参（干）",
+      "category": "鱼虾蟹贝类-其他"
+    },
+    {
+      "foodCode": "129021",
+      "foodName": "梅花参（泡发）",
+      "category": "鱼虾蟹贝类-其他"
+    },
+    {
+      "foodCode": "129022",
+      "foodName": "墨鱼（干）",
+      "category": "鱼虾蟹贝类-其他"
+    },
+    {
+      "foodCode": "129301",
+      "foodName": "墨鱼圈",
+      "category": "鱼虾蟹贝类-其他"
+    },
+    {
+      "foodCode": "129302",
+      "foodName": "墨鱼丸",
+      "category": "鱼虾蟹贝类-其他"
+    },
+    {
+      "foodCode": "122117",
+      "foodName": "北极虾",
+      "category": "鱼虾蟹贝类-虾"
+    },
+    {
+      "foodCode": "122118",
+      "foodName": "九节虾（鲜）",
+      "category": "鱼虾蟹贝类-虾"
+    },
+    {
+      "foodCode": "122119",
+      "foodName": "口虾蛄［皮皮虾］",
+      "category": "鱼虾蟹贝类-虾"
+    },
+    {
+      "foodCode": "122120",
+      "foodName": "罗氏沼虾",
+      "category": "鱼虾蟹贝类-虾"
+    },
+    {
+      "foodCode": "122121",
+      "foodName": "南美白对虾",
+      "category": "鱼虾蟹贝类-虾"
+    },
+    {
+      "foodCode": "122122",
+      "foodName": "青虾",
+      "category": "鱼虾蟹贝类-虾"
+    },
+    {
+      "foodCode": "122123",
+      "foodName": "琼海虾",
+      "category": "鱼虾蟹贝类-虾"
+    },
+    {
+      "foodCode": "122203",
+      "foodName": "虾酱",
+      "category": "鱼虾蟹贝类-虾"
+    },
+    {
+      "foodCode": "122204",
+      "foodName": "虾仁（红）",
+      "category": "鱼虾蟹贝类-虾"
+    },
+    {
+      "foodCode": "122205",
+      "foodName": "虾皮",
+      "category": "鱼虾蟹贝类-虾"
+    },
+    {
+      "foodCode": "122206",
+      "foodName": "虾仁",
+      "category": "鱼虾蟹贝类-虾"
+    },
+    {
+      "foodCode": "122301",
+      "foodName": "虾仁肉丸",
+      "category": "鱼虾蟹贝类-虾"
+    },
+    {
+      "foodCode": "123006",
+      "foodName": "海蟹（小）",
+      "category": "鱼虾蟹贝类-蟹"
+    },
+    {
+      "foodCode": "123007",
+      "foodName": "锯缘青蟹（公，鲜）",
+      "category": "鱼虾蟹贝类-蟹"
+    },
+    {
+      "foodCode": "123008",
+      "foodName": "锯缘青蟹（母，鲜）",
+      "category": "鱼虾蟹贝类-蟹"
+    },
+    {
+      "foodCode": "123009",
+      "foodName": "大闸蟹（母）",
+      "category": "鱼虾蟹贝类-蟹"
+    },
+    {
+      "foodCode": "123010",
+      "foodName": "海蟹（公）",
+      "category": "鱼虾蟹贝类-蟹"
+    },
+    {
+      "foodCode": "123011",
+      "foodName": "海蟹（母）",
+      "category": "鱼虾蟹贝类-蟹"
+    },
+    {
+      "foodCode": "123301",
+      "foodName": "蟹足棒",
+      "category": "鱼虾蟹贝类-蟹"
+    },
+    {
+      "foodCode": "123302",
+      "foodName": "蟹膏（大闸蟹，蒸）",
+      "category": "鱼虾蟹贝类-蟹"
+    },
+    {
+      "foodCode": "123303",
+      "foodName": "蟹肉（大闸蟹，公，蒸）",
+      "category": "鱼虾蟹贝类-蟹"
+    },
+    {
+      "foodCode": "123304",
+      "foodName": "蟹黄（大闸蟹，蒸）",
+      "category": "鱼虾蟹贝类-蟹"
+    },
+    {
+      "foodCode": "123305",
+      "foodName": "蟹肉（大闸蟹，母，蒸）",
+      "category": "鱼虾蟹贝类-蟹"
+    },
+    {
+      "foodCode": "123306",
+      "foodName": "梭子蟹（公，蒸）",
+      "category": "鱼虾蟹贝类-蟹"
+    },
+    {
+      "foodCode": "123307",
+      "foodName": "梭子蟹（母，蒸）",
+      "category": "鱼虾蟹贝类-蟹"
+    },
+    {
+      "foodCode": "124117",
+      "foodName": "海蚌［西施舌］",
+      "category": "鱼虾蟹贝类-贝"
+    },
+    {
+      "foodCode": "124118",
+      "foodName": "鲍鱼（皱纹鲍）",
+      "category": "鱼虾蟹贝类-贝"
+    },
+    {
+      "foodCode": "124308",
+      "foodName": "海蚌（鲜）",
+      "category": "鱼虾蟹贝类-贝"
+    },
+    {
+      "foodCode": "124309",
+      "foodName": "海蚌（漳港海蚌，鲜）",
+      "category": "鱼虾蟹贝类-贝"
+    },
+    {
+      "foodCode": "124310",
+      "foodName": "蛏子（焯）",
+      "category": "鱼虾蟹贝类-贝"
+    },
+    {
+      "foodCode": "124311",
+      "foodName": "缢蛏（鲜）",
+      "category": "鱼虾蟹贝类-贝"
+    },
+    {
+      "foodCode": "124312",
+      "foodName": "牛角江珧蛤（鲜）［长带子］",
+      "category": "鱼虾蟹贝类-贝"
+    },
+    {
+      "foodCode": "124313",
+      "foodName": "文蛤（鲜）",
+      "category": "鱼虾蟹贝类-贝"
+    },
+    {
+      "foodCode": "124314",
+      "foodName": "血蚶（鲜）",
+      "category": "鱼虾蟹贝类-贝"
+    },
+    {
+      "foodCode": "124315",
+      "foodName": "六角螺（鲜）",
+      "category": "鱼虾蟹贝类-贝"
+    },
+    {
+      "foodCode": "124316",
+      "foodName": "海螺肉（干）",
+      "category": "鱼虾蟹贝类-贝"
+    },
+    {
+      "foodCode": "124601",
+      "foodName": "文蛤丸",
+      "category": "鱼虾蟹贝类-贝"
+    },
+    {
+      "foodCode": "121131",
+      "foodName": "草鱼［白鲩、草包鱼］",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121132",
+      "foodName": "鲢鱼［白鲢、胖子、连子鱼］",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121133",
+      "foodName": "鲫鱼［喜头鱼、海附鱼］",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121134",
+      "foodName": "丁桂鱼",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121135",
+      "foodName": "乌鳢（野生）［黑鱼、乌鱼、生鱼］",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121136",
+      "foodName": "花骨鱼",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121137",
+      "foodName": "黄颡鱼［戈牙鱼、黄鳍鱼］",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121138",
+      "foodName": "回头鱼",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121139",
+      "foodName": "鮰鱼",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121140",
+      "foodName": "斑鳠［剑骨鱼］",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121141",
+      "foodName": "抗浪鱼",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121142",
+      "foodName": "蓝鳃太阳鱼",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121143",
+      "foodName": "钳鱼",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121144",
+      "foodName": "翘嘴红鲌（鲜）",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121145",
+      "foodName": "鲥鱼",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121146",
+      "foodName": "鳊鱼［鲂鱼、武昌鱼］",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121147",
+      "foodName": "鲟鱼",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121148",
+      "foodName": "雅鱼",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121149",
+      "foodName": "胭脂鱼（养殖）",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121150",
+      "foodName": "棒棒鱼（雅江冷水鱼）",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121151",
+      "foodName": "尖嘴鱼（雅江冷水鱼）",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121152",
+      "foodName": "胡子鱼（雅江冷水鱼）",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121241",
+      "foodName": "带鱼（切段）",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121242",
+      "foodName": "黄鱼（小黄花鱼）",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121243",
+      "foodName": "金鰉鱼",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121244",
+      "foodName": "鲭鱼",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121245",
+      "foodName": "双髻鲨",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121246",
+      "foodName": "紫青低纹鮨（冰鲜）",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121247",
+      "foodName": "鮟鱇鱼",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121248",
+      "foodName": "鲳鱼（鲜，刺鲳）",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121249",
+      "foodName": "大菱鲆鱼（鲜）［多宝鱼］",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121250",
+      "foodName": "海鲈鱼（鲜）",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121251",
+      "foodName": "红鳍笛鲷［红鱼］",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121252",
+      "foodName": "黄姑鱼（鲜）",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121253",
+      "foodName": "鲅鱼［马鲛鱼］",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121254",
+      "foodName": "石斑鱼（老虎斑）",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121255",
+      "foodName": "石斑鱼（红石斑鱼）",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121256",
+      "foodName": "石斑鱼（黑石斑鱼）",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121257",
+      "foodName": "石斑鱼（花石斑鱼）",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121258",
+      "foodName": "苏眉鱼",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121259",
+      "foodName": "青衣（红色）",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121260",
+      "foodName": "青衣（孔雀绿色）",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121261",
+      "foodName": "笠鱼",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121262",
+      "foodName": "金枪鱼肉",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121263",
+      "foodName": "鲅鱼肉［马鲛鱼肉］",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121264",
+      "foodName": "刺泡鱼［刺鲍鱼］",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121304",
+      "foodName": "鱼排",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121305",
+      "foodName": "鱼丸",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121306",
+      "foodName": "鱼子酱",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121401",
+      "foodName": "草鱼（熏）",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121402",
+      "foodName": "丁香鱼（香辣味）",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121403",
+      "foodName": "凤尾鱼（熟）",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121404",
+      "foodName": "箭鱼（炸）",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121405",
+      "foodName": "金枪鱼（盐水浸）",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121406",
+      "foodName": "金枪鱼（油浸）",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121407",
+      "foodName": "鲮鱼（豆豉，熟）",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121408",
+      "foodName": "鳗鱼（红烧）",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121410",
+      "foodName": "鲭鱼（烤，150℃，20分）",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121414",
+      "foodName": "鲭鱼（炸）",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121415",
+      "foodName": "鲭鱼（蒸）",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121416",
+      "foodName": "鲭鱼（煮）",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121417",
+      "foodName": "沙丁鱼（茄汁，熟）",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121418",
+      "foodName": "沙丁鱼（盐水浸）",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121419",
+      "foodName": "沙丁鱼（油浸）",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121420",
+      "foodName": "午餐鱼（香辣味）",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121421",
+      "foodName": "鳕鱼（烤）",
+      "category": "鱼虾蟹贝类-鱼"
+    },
+    {
+      "foodCode": "121422",
+      "foodName": "鳕鱼（炸）",
+      "category": "鱼虾蟹贝类-鱼"
+    }
+  ],
+  "en_only_unused": [
+    "081106",
+    "081119",
+    "081201",
+    "081204",
+    "081207",
+    "081208",
+    "081301",
+    "081314x",
+    "091108",
+    "091109",
+    "091110",
+    "091302",
+    "101103",
+    "102102",
+    "111103",
+    "121119",
+    "121212",
+    "122115"
+  ]
+}

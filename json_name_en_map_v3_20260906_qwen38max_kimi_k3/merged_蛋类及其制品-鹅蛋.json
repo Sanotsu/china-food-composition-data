@@ -1,0 +1,17 @@
+[
+  {
+    "foodCode": "113101",
+    "foodName": "鹅蛋",
+    "englishName": "Goose egg，whole"
+  },
+  {
+    "foodCode": "113102",
+    "foodName": "鹅蛋白",
+    "englishName": "Goose egg white"
+  },
+  {
+    "foodCode": "113103",
+    "foodName": "鹅蛋黄",
+    "englishName": "Goose egg yolk"
+  }
+]

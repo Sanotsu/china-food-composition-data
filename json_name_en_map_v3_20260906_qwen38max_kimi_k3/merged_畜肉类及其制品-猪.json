@@ -1,0 +1,352 @@
+[
+  {
+    "foodCode": "081101x",
+    "foodName": "猪肉（肥瘦）",
+    "englishName": "Pork，lean and fat"
+  },
+  {
+    "foodCode": "081102",
+    "foodName": "猪肉（肥）",
+    "englishName": "Pork，fatty"
+  },
+  {
+    "foodCode": "081103",
+    "foodName": "猪肉（后臀尖）",
+    "englishName": "Pork，rump"
+  },
+  {
+    "foodCode": "081104",
+    "foodName": "猪肉（后肘）",
+    "englishName": "Pork，rear hock"
+  },
+  {
+    "foodCode": "081105",
+    "foodName": "猪肉（肋条肉）",
+    "englishName": "Pork，spare ribs（meat only）"
+  },
+  {
+    "foodCode": "081106",
+    "foodName": "猪肉（里脊）",
+    "englishName": "Pork，tenderloin"
+  },
+  {
+    "foodCode": "081107",
+    "foodName": "猪肉（奶脯）[软五花、猪夹心]",
+    "englishName": "Pork，side bacon"
+  },
+  {
+    "foodCode": "081108",
+    "foodName": "猪肉（奶面）[硬五花]",
+    "englishName": "Pork，belly bacon"
+  },
+  {
+    "foodCode": "081109",
+    "foodName": "猪肉（前肘）",
+    "englishName": "Pork，shoulder"
+  },
+  {
+    "foodCode": "081110",
+    "foodName": "猪肉（瘦）",
+    "englishName": "Pork，lean"
+  },
+  {
+    "foodCode": "081111",
+    "foodName": "猪肉（腿）",
+    "englishName": "Pork，ham"
+  },
+  {
+    "foodCode": "081112",
+    "foodName": "猪肉（猪脖）",
+    "englishName": "Pork，neck"
+  },
+  {
+    "foodCode": "081113",
+    "foodName": "猪大肠",
+    "englishName": "Pork，large intestine"
+  },
+  {
+    "foodCode": "081114",
+    "foodName": "猪大排",
+    "englishName": "Pork，spare ribs"
+  },
+  {
+    "foodCode": "081115",
+    "foodName": "猪耳",
+    "englishName": "Pork，ear"
+  },
+  {
+    "foodCode": "081116",
+    "foodName": "猪蹄",
+    "englishName": "Pork，trotter"
+  },
+  {
+    "foodCode": "081117",
+    "foodName": "猪蹄筋",
+    "englishName": "Pork，tendon"
+  },
+  {
+    "foodCode": "081118",
+    "foodName": "猪头皮",
+    "englishName": "Pork，head skin"
+  },
+  {
+    "foodCode": "081119",
+    "foodName": "猪小排",
+    "englishName": "Pork，baby back ribs"
+  },
+  {
+    "foodCode": "081120",
+    "foodName": "猪肘棒",
+    "englishName": "Pork，hock"
+  },
+  {
+    "foodCode": "081201",
+    "foodName": "猪肝",
+    "englishName": "Pork，liver"
+  },
+  {
+    "foodCode": "081202",
+    "foodName": "猪肚",
+    "englishName": "Pork，maw"
+  },
+  {
+    "foodCode": "081203",
+    "foodName": "猪肺",
+    "englishName": "Pork，lung"
+  },
+  {
+    "foodCode": "081204",
+    "foodName": "猪肝",
+    "englishName": "Pork，liver"
+  },
+  {
+    "foodCode": "081205",
+    "foodName": "猪脑",
+    "englishName": "Pork，brain"
+  },
+  {
+    "foodCode": "081206",
+    "foodName": "猪脾",
+    "englishName": "Pork，spleen"
+  },
+  {
+    "foodCode": "081207",
+    "foodName": "猪舌［猪口条］",
+    "englishName": "Pork，tongue"
+  },
+  {
+    "foodCode": "081208",
+    "foodName": "猪肾［猪腰子］",
+    "englishName": "Pork，kidney"
+  },
+  {
+    "foodCode": "081210",
+    "foodName": "猪小肠",
+    "englishName": "Pork, small intestine"
+  },
+  {
+    "foodCode": "081211",
+    "foodName": "猪心",
+    "englishName": "Pork, heart"
+  },
+  {
+    "foodCode": "081212",
+    "foodName": "猪血",
+    "englishName": "Pork, blood"
+  },
+  {
+    "foodCode": "081301",
+    "foodName": "叉烧肉",
+    "englishName": "Pork, Chinese style BBQ, Char Siu"
+  },
+  {
+    "foodCode": "081302",
+    "foodName": "宫爆肉丁（罐头）",
+    "englishName": "Pork, diced meat, with chili and peanuts, canned"
+  },
+  {
+    "foodCode": "081303",
+    "foodName": "酱汁肉",
+    "englishName": "Pork, cooked with soy sauce"
+  },
+  {
+    "foodCode": "081304",
+    "foodName": "腊肉（培根）",
+    "englishName": "Pork, bacon"
+  },
+  {
+    "foodCode": "081305",
+    "foodName": "腊肉（生）",
+    "englishName": "Pork, cured meat, salted and smoked"
+  },
+  {
+    "foodCode": "081306",
+    "foodName": "卤猪杂",
+    "englishName": "pork, offal, cooked in spices and soy sauce"
+  },
+  {
+    "foodCode": "081307",
+    "foodName": "午餐肉",
+    "englishName": "Pork, Luncheon meat"
+  },
+  {
+    "foodCode": "081308",
+    "foodName": "咸肉",
+    "englishName": "Pork, cured meat, salted"
+  },
+  {
+    "foodCode": "081309",
+    "foodName": "猪肉罐头（珍珠里脊丝，罐头）",
+    "englishName": "Pork, tenderloin strips and glutinous rice, canned"
+  },
+  {
+    "foodCode": "081310",
+    "foodName": "猪肝（卤煮）",
+    "englishName": "Pork, liver, stewed with spices and soy sauce"
+  },
+  {
+    "foodCode": "081311",
+    "foodName": "猪肉（清蒸）",
+    "englishName": "Pork, steamed with salt and ginger"
+  },
+  {
+    "foodCode": "081312",
+    "foodName": "猪蹄（熟）",
+    "englishName": "Pork, trotter, cooked"
+  },
+  {
+    "foodCode": "081313",
+    "foodName": "猪肘棒（熟）",
+    "englishName": "Pork, hock, cooked"
+  },
+  {
+    "foodCode": "081314x",
+    "foodName": "猪肉松",
+    "englishName": "Pork floss, with salt, soy sauce and sugar"
+  },
+  {
+    "foodCode": "081315",
+    "foodName": "福建式肉松",
+    "englishName": "Pork floss, Fujian style, with salt, soy sauce and sugar"
+  },
+  {
+    "foodCode": "081316",
+    "foodName": "老年保健肉松",
+    "englishName": "Pork floss, for the elderly, with soy sauce and sugar"
+  },
+  {
+    "foodCode": "081317",
+    "foodName": "太仓肉松",
+    "englishName": "Pork floss, *Taicang*, with salt, soy sauce and sugar"
+  },
+  {
+    "foodCode": "081401",
+    "foodName": "茶肠",
+    "englishName": "Pork sausage, *tea sausage*, lightly spiced and salted"
+  },
+  {
+    "foodCode": "081402",
+    "foodName": "大腊肠",
+    "englishName": "Pork sausage, lean and fat, smoked, large"
+  },
+  {
+    "foodCode": "081403",
+    "foodName": "大肉肠",
+    "englishName": "Pork sausage, lean and fat, large"
+  },
+  {
+    "foodCode": "081404",
+    "foodName": "蛋清肠",
+    "englishName": "Pork sausage, lean meat mixed with egg-white"
+  },
+  {
+    "foodCode": "081405",
+    "foodName": "儿童肠",
+    "englishName": "Pork sausage, for children"
+  },
+  {
+    "foodCode": "081406",
+    "foodName": "风干肠",
+    "englishName": "Pork sausage, air-dried"
+  },
+  {
+    "foodCode": "081407",
+    "foodName": "广东香肠",
+    "englishName": "Pork sausage, Canton style, light and sweet"
+  },
+  {
+    "foodCode": "081408",
+    "foodName": "红果肠",
+    "englishName": "Pork sausage, hawthorn flavored"
+  },
+  {
+    "foodCode": "081409",
+    "foodName": "火腿肠",
+    "englishName": "Pork, ham sausage"
+  },
+  {
+    "foodCode": "081410",
+    "foodName": "腊肠",
+    "englishName": "Pork sausage, cured sausage, Canton style, small"
+  },
+  {
+    "foodCode": "081411",
+    "foodName": "松江肠",
+    "englishName": "Pork sausage, *Songjiang* brand"
+  },
+  {
+    "foodCode": "081412",
+    "foodName": "蒜肠",
+    "englishName": "Pork sausage, garlic flavored"
+  },
+  {
+    "foodCode": "081413",
+    "foodName": "香肠",
+    "englishName": "Pork sausage, lightly spiced and sweetened, small"
+  },
+  {
+    "foodCode": "081414",
+    "foodName": "香肠（罐头）",
+    "englishName": "Pork sausage, lightly spiced and sweetened, canned"
+  },
+  {
+    "foodCode": "081415",
+    "foodName": "火腿肠（小红肠）",
+    "englishName": "Pork ham sausage, finely ground filling, red-skinned"
+  },
+  {
+    "foodCode": "081416",
+    "foodName": "火腿肠（小泥肠）",
+    "englishName": "Pork ham sausage, with minced meat filling"
+  },
+  {
+    "foodCode": "081417",
+    "foodName": "午餐肠",
+    "englishName": "Pork sausage, luncheon sausage"
+  },
+  {
+    "foodCode": "081418",
+    "foodName": "午餐肚",
+    "englishName": "Pork sausage, Luncheon, maw filled with ground pork"
+  },
+  {
+    "foodCode": "081419",
+    "foodName": "方腿",
+    "englishName": "Pork, luncheon, shaped into large squares"
+  },
+  {
+    "foodCode": "081420",
+    "foodName": "火腿",
+    "englishName": "Pork, ham"
+  },
+  {
+    "foodCode": "081421",
+    "foodName": "金华火腿",
+    "englishName": "Pork, Jinhua ham"
+  },
+  {
+    "foodCode": "081422",
+    "foodName": "火腿肠（圆腿）",
+    "englishName": "Pork, luncheon"
+  }
+]

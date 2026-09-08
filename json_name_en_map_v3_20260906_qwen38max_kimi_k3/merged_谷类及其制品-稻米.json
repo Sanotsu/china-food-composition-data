@@ -1,0 +1,207 @@
+[
+  {
+    "foodCode": "012001x",
+    "foodName": "稻米（代表值）",
+    "englishName": "Rice, grained"
+  },
+  {
+    "foodCode": "012101",
+    "foodName": "粳米（标一）",
+    "englishName": "Round grained rice, standard grade 1"
+  },
+  {
+    "foodCode": "012102",
+    "foodName": "粳米（标二）",
+    "englishName": "Round grained rice, standard grade 2"
+  },
+  {
+    "foodCode": "012103",
+    "foodName": "粳米（标三）",
+    "englishName": "Round grained rice, standard grade 3"
+  },
+  {
+    "foodCode": "012104",
+    "foodName": "粳米（标四）",
+    "englishName": "Round grained rice, standard grade 4"
+  },
+  {
+    "foodCode": "012105",
+    "foodName": "粳米（特等）",
+    "englishName": "Round grained rice, special grade"
+  },
+  {
+    "foodCode": "012106",
+    "foodName": "粳米（极品精米）",
+    "englishName": "Rice, round grain, refined, raw"
+  },
+  {
+    "foodCode": "012107",
+    "foodName": "粳米（西域王米）",
+    "englishName": "Rice, round grain, refined, raw, from Xinjiang"
+  },
+  {
+    "foodCode": "012108",
+    "foodName": "粳米（小站稻米）",
+    "englishName": "Rice, round grain, refined, raw, from Tianjin"
+  },
+  {
+    "foodCode": "012201",
+    "foodName": "籼米（标一）",
+    "englishName": "Long grained rice, standard grade 1"
+  },
+  {
+    "foodCode": "012202",
+    "foodName": "米（标准）［机米］",
+    "englishName": "Long grained rice, standard grade"
+  },
+  {
+    "foodCode": "012203",
+    "foodName": "籼米（优标）",
+    "englishName": "Long grained rice, special grade"
+  },
+  {
+    "foodCode": "012204",
+    "foodName": "早籼",
+    "englishName": "Long grained rice, early crop, unhulled"
+  },
+  {
+    "foodCode": "012205",
+    "foodName": "早籼（标一）",
+    "englishName": "Long grained rice, early crop, standard grade 1"
+  },
+  {
+    "foodCode": "012206",
+    "foodName": "早籼（标二）",
+    "englishName": "Long grained rice, early crop, standard grade 2"
+  },
+  {
+    "foodCode": "012207",
+    "foodName": "早籼（特等）",
+    "englishName": "Long grained rice, early crop, special grade"
+  },
+  {
+    "foodCode": "012208",
+    "foodName": "晚籼（标一）",
+    "englishName": "Long grained rice, late crop, standard grade 1"
+  },
+  {
+    "foodCode": "012209",
+    "foodName": "晚籼（标二）",
+    "englishName": "Long grained rice, late crop, standard grade 2"
+  },
+  {
+    "foodCode": "012210",
+    "foodName": "晚籼（特等）",
+    "englishName": "Long grained rice, late crop, special grade"
+  },
+  {
+    "foodCode": "012211",
+    "foodName": "籼稻（红）",
+    "englishName": "Long grained rice, red, unhulled"
+  },
+  {
+    "foodCode": "012212",
+    "foodName": "黑米",
+    "englishName": "Long grained rice, purple"
+  },
+  {
+    "foodCode": "012213",
+    "foodName": "香大米",
+    "englishName": "Long grained rice, fragrant"
+  },
+  {
+    "foodCode": "012214",
+    "foodName": "米",
+    "englishName": "Rice, long grain, moderately refined, raw"
+  },
+  {
+    "foodCode": "012215",
+    "foodName": "香米",
+    "englishName": "Rice, long grain, fragrant, refined, raw"
+  },
+  {
+    "foodCode": "012216",
+    "foodName": "糙米",
+    "englishName": "brown rice"
+  },
+  {
+    "foodCode": "012301",
+    "foodName": "糯米［江米］",
+    "englishName": "Glutinous rice, regular grade"
+  },
+  {
+    "foodCode": "012302",
+    "foodName": "优糯米",
+    "englishName": "Glutinous rice, special grade"
+  },
+  {
+    "foodCode": "012303",
+    "foodName": "早糯谷",
+    "englishName": "Glutinous rice, early crop, unhulled"
+  },
+  {
+    "foodCode": "012304",
+    "foodName": "紫红糯米［血糯米］",
+    "englishName": "Glutinous rice, purple"
+  },
+  {
+    "foodCode": "012305",
+    "foodName": "粳糯米",
+    "englishName": "Glutinous rice, round grained"
+  },
+  {
+    "foodCode": "012306",
+    "foodName": "籼糯米",
+    "englishName": "Glutinous rice, long grained"
+  },
+  {
+    "foodCode": "012401x",
+    "foodName": "米饭（蒸，代表值）",
+    "englishName": "Rice, steamed"
+  },
+  {
+    "foodCode": "012402",
+    "foodName": "粳米饭（蒸）",
+    "englishName": "Round grained rice, steamed"
+  },
+  {
+    "foodCode": "012404",
+    "foodName": "粳米粥",
+    "englishName": "Round grained rice, porridge"
+  },
+  {
+    "foodCode": "012405",
+    "foodName": "米粉［排米粉］",
+    "englishName": "Long grained rice noodle, dried"
+  },
+  {
+    "foodCode": "012406",
+    "foodName": "籼米粉（干，细）",
+    "englishName": "Long grained rice noodle, dried and thin"
+  },
+  {
+    "foodCode": "012407",
+    "foodName": "高蛋白豆米粉（籼米）",
+    "englishName": "Long grained rice flour, high-protein, soybean flour enriched"
+  },
+  {
+    "foodCode": "012408",
+    "foodName": "米饭（蒸）",
+    "englishName": "Rice, long grain, moderately refined, steamed"
+  },
+  {
+    "foodCode": "012409",
+    "foodName": "米粥",
+    "englishName": "Rice porridge, long grain, moderately refined, boiled"
+  },
+  {
+    "foodCode": "012410",
+    "foodName": "米粉",
+    "englishName": "Rice noodle, dried, raw"
+  },
+  {
+    "foodCode": "012411",
+    "foodName": "河粉",
+    "englishName": "Rice noodle, flattened, dried, raw"
+  }
+]

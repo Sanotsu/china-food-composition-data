@@ -1,0 +1,27 @@
+[
+  {
+    "foodCode": "102101",
+    "foodName": "全脂奶粉（多维奶粉）",
+    "englishName": "Whole milk powder，fortified with vitamin"
+  },
+  {
+    "foodCode": "102102",
+    "foodName": "全脂加糖奶粉",
+    "englishName": "Whole milk powder，sugar added"
+  },
+  {
+    "foodCode": "102103",
+    "foodName": "全脂奶粉",
+    "englishName": "Whole milk powder"
+  },
+  {
+    "foodCode": "102104",
+    "foodName": "全脂奶粉（速溶）",
+    "englishName": "Whole milk powder，instant"
+  },
+  {
+    "foodCode": "102201",
+    "foodName": "全脂羊乳粉",
+    "englishName": "Goat whole milk powder"
+  }
+]

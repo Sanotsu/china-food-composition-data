@@ -1,0 +1,52 @@
+[
+  {
+    "foodCode": "013101",
+    "foodName": "玉米（鲜）",
+    "englishName": "Corn, fresh"
+  },
+  {
+    "foodCode": "013102",
+    "foodName": "玉米（白，干）",
+    "englishName": "Corn grain, white, dried"
+  },
+  {
+    "foodCode": "013103",
+    "foodName": "玉米（黄，干）",
+    "englishName": "Corn grain, yellow, dried"
+  },
+  {
+    "foodCode": "013104",
+    "foodName": "玉米面（白）",
+    "englishName": "Corn flour, white"
+  },
+  {
+    "foodCode": "013106",
+    "foodName": "玉米面（强化豆粉）",
+    "englishName": "Corn flour, enriched with soybean flour"
+  },
+  {
+    "foodCode": "013108",
+    "foodName": "玉米粒（黄、干）",
+    "englishName": "Corn grain, yellow, dried, raw"
+  },
+  {
+    "foodCode": "013109",
+    "foodName": "玉米面（黄）",
+    "englishName": "Corn flour, yellow, dried, raw"
+  },
+  {
+    "foodCode": "013110",
+    "foodName": "玉米糁（黄）",
+    "englishName": "Corn grits, yellow, dried, raw"
+  },
+  {
+    "foodCode": "013201",
+    "foodName": "玉米笋（罐头）",
+    "englishName": "Baby corn, sweet, canned"
+  },
+  {
+    "foodCode": "013202",
+    "foodName": "玉米面面条",
+    "englishName": "Corn noodle, wheat flour added, dried, raw"
+  }
+]

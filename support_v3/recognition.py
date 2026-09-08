@@ -189,7 +189,7 @@ async def recognize_one(
     client: AsyncOpenAI,
     model: ModelConfig,
     image_path: Path,
-    is_energy: bool,
+    cols: List[str],
     raw_dir: Path,
     max_retries: int,
     force: bool,
@@ -198,23 +198,31 @@ async def recognize_one(
     images_rel_root: Path,
     idle_timeout: float = 120.0,
     ttft_hint: float = 15.0,
+    name_key: Optional[str] = None,
+    prompt: Optional[str] = None,
 ) -> Optional[Path]:
     """识别单张图片，流式接收+看门狗+过程状态打印，带重试与断点续跑
+
+    Args:
+        cols: 表格列定义（决定默认提示词，营养素流水线传 ENERGY_COLS/NUTRIENT_COLS）
+        name_key: 产出文件名键（默认用图片stem；不同子目录存在同名图片时
+                  由调用方传入全局唯一键，如 "乳类及其制品-其他"）
+        prompt: 覆盖提示词（默认按 cols 调 build_json_prompt 生成）
 
     Returns:
         保存的json路径（失败返回None）
     """
-    cols = ENERGY_COLS if is_energy else NUTRIENT_COLS
-    out_path = raw_dir / model.tag / f"{image_path.stem}.json"
-    meta_path = raw_dir / model.tag / f"{image_path.stem}.meta.json"
+    disp = name_key or image_path.name
+    out_path = raw_dir / model.tag / f"{name_key or image_path.stem}.json"
+    meta_path = raw_dir / model.tag / f"{name_key or image_path.stem}.meta.json"
 
     if out_path.exists() and not force:
         result_sink.append(RecognizeResult(
-            image=image_path.name, model_tag=model.tag, ok=True, skipped=True))
+            image=disp, model_tag=model.tag, ok=True, skipped=True))
         return out_path
     out_path.parent.mkdir(parents=True, exist_ok=True)
 
-    prompt = build_json_prompt(cols)
+    prompt = prompt or build_json_prompt(cols)
     with open(image_path, "rb") as f:
         b64 = base64.b64encode(f.read()).decode("utf-8")
 
@@ -224,10 +232,10 @@ async def recognize_one(
         while retries <= max_retries:
             if retries > 0:
                 wait = min(5 ** retries, 60)
-                print(f"  [{model.tag}] {image_path.name}: 第{retries}次重试（等{wait}s）。上次错误: {last_err[:150]}")
+                print(f"  [{model.tag}] {disp}: 第{retries}次重试（等{wait}s）。上次错误: {last_err[:150]}")
                 await asyncio.sleep(wait)
             start = time.time()
-            print(f"  [{model.tag}] {image_path.name}: 请求发出（尝试 {retries + 1}/{max_retries + 1}）...")
+            print(f"  [{model.tag}] {disp}: 请求发出（尝试 {retries + 1}/{max_retries + 1}）...")
             try:
                 req_kwargs = dict(
                     model=model.model_name,
@@ -277,7 +285,7 @@ async def recognize_one(
                             if ttft > ttft_hint:
                                 hint = f"（> {ttft_hint:.0f}s 才出首字节，模型可能在思考模式中运行，" \
                                        f"请检查 extra_payload 关闭思考的参数是否对该平台生效）"
-                            print(f"  [{model.tag}] {image_path.name}: 首字节 {ttft:.1f}s{hint}")
+                            print(f"  [{model.tag}] {disp}: 首字节 {ttft:.1f}s{hint}")
                         parts.append(delta.content)
                         chars += len(delta.content)
                     fr = getattr(choice, "finish_reason", None)
@@ -307,10 +315,10 @@ async def recognize_one(
                     json.dump(meta, f, ensure_ascii=False, indent=2)
 
                 rows_hint = _hint_row_count(text)
-                print(f"  [{model.tag}] {image_path.name}: 完成，{elapsed:.1f}s，"
+                print(f"  [{model.tag}] {disp}: 完成，{elapsed:.1f}s，"
                       f"{len(text)}字符，约{rows_hint}行")
                 result_sink.append(RecognizeResult(
-                    image=image_path.name, model_tag=model.tag, ok=True,
+                    image=disp, model_tag=model.tag, ok=True,
                     retries=retries, finish_reason=finish_reason,
                     elapsed=elapsed, rows_hint=rows_hint))
                 return out_path
@@ -321,11 +329,11 @@ async def recognize_one(
                 # 4xx 客户端错误（参数/鉴权/模型名问题）是确定性失败，重试无意义，直接放弃
                 status = getattr(e, "status_code", None)
                 if status is not None and 400 <= status < 500 and status != 429:
-                    print(f"  [{model.tag}] {image_path.name}: 客户端错误(HTTP {status})，不重试直接失败")
+                    print(f"  [{model.tag}] {disp}: 客户端错误(HTTP {status})，不重试直接失败")
                     break
 
     result_sink.append(RecognizeResult(
-        image=image_path.name, model_tag=model.tag, ok=False,
+        image=disp, model_tag=model.tag, ok=False,
         retries=retries, error=last_err))
     if meta_path.exists():
         meta_path.unlink(missing_ok=True)
@@ -357,12 +365,12 @@ async def run_recognition(cfg: AppConfig, force: bool = False) -> List[Recognize
         client = _make_client(model)
         tasks = []
         for pair in pairs:
-            tasks.append(recognize_one(client, model, pair.energy_path, True,
+            tasks.append(recognize_one(client, model, pair.energy_path, ENERGY_COLS,
                                        cfg.raw_dir, cfg.max_retries, force, sem,
                                        results, cfg.input_dir,
                                        idle_timeout=cfg.stream_idle_timeout,
                                        ttft_hint=cfg.ttft_thinking_hint))
-            tasks.append(recognize_one(client, model, pair.nutrient_path, False,
+            tasks.append(recognize_one(client, model, pair.nutrient_path, NUTRIENT_COLS,
                                        cfg.raw_dir, cfg.max_retries, force, sem,
                                        results, cfg.input_dir,
                                        idle_timeout=cfg.stream_idle_timeout,

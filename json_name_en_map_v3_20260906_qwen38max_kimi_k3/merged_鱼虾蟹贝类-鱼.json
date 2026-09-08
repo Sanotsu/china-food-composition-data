@@ -1,0 +1,362 @@
+[
+  {
+    "foodCode": "121101",
+    "foodName": "白条鱼（裸鱼）",
+    "englishName": "Wild carp"
+  },
+  {
+    "foodCode": "121102",
+    "foodName": "草鱼［白鲩、草包鱼］",
+    "englishName": "Grass carp"
+  },
+  {
+    "foodCode": "121103",
+    "foodName": "赤眼鳟［金目鱼］",
+    "englishName": "Eastern barb，freshwater shark"
+  },
+  {
+    "foodCode": "121104",
+    "foodName": "鱲鱼［猴鱼］",
+    "englishName": "Sheltostsher carp，freshwater"
+  },
+  {
+    "foodCode": "121105",
+    "foodName": "胡子鲇［塘虱（鱼）］",
+    "englishName": "Whiskered catfish，freshwater"
+  },
+  {
+    "foodCode": "121106",
+    "foodName": "黄颡鱼［戈牙鱼、黄鳍鱼］",
+    "englishName": "Yellowhead catfish"
+  },
+  {
+    "foodCode": "121107",
+    "foodName": "黄鳝［鳝鱼］",
+    "englishName": "Rice eel, swamp eel"
+  },
+  {
+    "foodCode": "121108",
+    "foodName": "黄鳝丝",
+    "englishName": "Rice eel, swamp eel, strips"
+  },
+  {
+    "foodCode": "121109",
+    "foodName": "尖嘴白",
+    "englishName": "Silver gar，freshwater"
+  },
+  {
+    "foodCode": "121110",
+    "foodName": "口头鱼",
+    "englishName": "Goldfish carp，freshwater"
+  },
+  {
+    "foodCode": "121111",
+    "foodName": "鲤鱼［鲤拐子］",
+    "englishName": "Common carp"
+  },
+  {
+    "foodCode": "121112",
+    "foodName": "罗非鱼",
+    "englishName": "Tilapia"
+  },
+  {
+    "foodCode": "121113",
+    "foodName": "罗非鱼（莫桑比克)［非洲黑鲫鱼］",
+    "englishName": "Tilapia"
+  },
+  {
+    "foodCode": "121114",
+    "foodName": "泥鳅",
+    "englishName": "Oriental loach"
+  },
+  {
+    "foodCode": "121115",
+    "foodName": "青鱼［青皮鱼、青鳞鱼、青混］",
+    "englishName": "Black carp"
+  },
+  {
+    "foodCode": "121116",
+    "foodName": "乌［黑鱼、乌鱼、生鱼］",
+    "englishName": "Snakehead"
+  },
+  {
+    "foodCode": "121117",
+    "foodName": "银鱼面条鱼］",
+    "englishName": "Icefish, noodlefish"
+  },
+  {
+    "foodCode": "121118",
+    "foodName": "湟鱼［裸鲤鱼］",
+    "englishName": "Naked carp"
+  },
+  {
+    "foodCode": "121119",
+    "foodName": "湟鱼（裸鱼）",
+    "englishName": "Naked carp"
+  },
+  {
+    "foodCode": "121120",
+    "foodName": "鱼［胡子鲇、鲢胡、旺虾］",
+    "englishName": "Catfish"
+  },
+  {
+    "foodCode": "121121",
+    "foodName": "鲇花",
+    "englishName": "Goldfish carp， freshwater"
+  },
+  {
+    "foodCode": "121122",
+    "foodName": "鲢鱼［白鲢、胖子、连子鱼］",
+    "englishName": "Silver carp"
+  },
+  {
+    "foodCode": "121123",
+    "foodName": "鲫鱼［喜头鱼、海附鱼］",
+    "englishName": "Goldfish carp， freshwater"
+  },
+  {
+    "foodCode": "121124",
+    "foodName": "鲮鱼［雪］",
+    "englishName": "Mud carp"
+  },
+  {
+    "foodCode": "121125",
+    "foodName": "鲮鱼（罐头）",
+    "englishName": "Mud carp， canned"
+  },
+  {
+    "foodCode": "121126",
+    "foodName": "鳊鱼［鲂鱼、武昌鱼］",
+    "englishName": "Bream"
+  },
+  {
+    "foodCode": "121127",
+    "foodName": "鳗鲡［鳗鱼、河鳗］",
+    "englishName": "River eel"
+  },
+  {
+    "foodCode": "121128",
+    "foodName": "鱼［胖头鱼、摆佳鱼、花鲢鱼］",
+    "englishName": "Bighead carp"
+  },
+  {
+    "foodCode": "121129",
+    "foodName": "鳜鱼［桂鱼、花鲫鱼］",
+    "englishName": "Chinese perch"
+  },
+  {
+    "foodCode": "121130",
+    "foodName": "鳟鱼［红鳟鱼］",
+    "englishName": "Rainbow trout"
+  },
+  {
+    "foodCode": "121201",
+    "foodName": "白姑鱼［白米子（鱼）］",
+    "englishName": "White croaker"
+  },
+  {
+    "foodCode": "121202",
+    "foodName": "鲹鱼［蓝圆鲹、边鱼］",
+    "englishName": "Round scad"
+  },
+  {
+    "foodCode": "121203",
+    "foodName": "带鱼［白带鱼、刀鱼］",
+    "englishName": "Belt fish"
+  },
+  {
+    "foodCode": "121204",
+    "foodName": "堤鱼",
+    "englishName": "Japanese anchovy， marine"
+  },
+  {
+    "foodCode": "121205",
+    "foodName": "丁香鱼（干）",
+    "englishName": "Anchovy， dried"
+  },
+  {
+    "foodCode": "121206",
+    "foodName": "狗母鱼［大头狗母鱼］",
+    "englishName": "Lizardfish"
+  },
+  {
+    "foodCode": "121207",
+    "foodName": "海鲫鱼［九九鱼］",
+    "englishName": "Perch"
+  },
+  {
+    "foodCode": "121208",
+    "foodName": "海鳗［鲫勾］",
+    "englishName": "Pike eel"
+  },
+  {
+    "foodCode": "121209",
+    "foodName": "红娘鱼［翼红娘鱼］",
+    "englishName": "Gurnards"
+  },
+  {
+    "foodCode": "121210",
+    "foodName": "黄姑鱼［黄婆鸡（鱼）］",
+    "englishName": "Yellow spotted maigre, marine"
+  },
+  {
+    "foodCode": "121211",
+    "foodName": "黄鱼（大黄花鱼）",
+    "englishName": "Yellow croaker, large"
+  },
+  {
+    "foodCode": "121212",
+    "foodName": "黄鱼（小黄花鱼）",
+    "englishName": "Yellow croaker, small"
+  },
+  {
+    "foodCode": "121213",
+    "foodName": "黄鲂［赤虹、老板鱼］",
+    "englishName": "John Dory"
+  },
+  {
+    "foodCode": "121214",
+    "foodName": "金线鱼［红三鱼］",
+    "englishName": "Golden threadfish bream"
+  },
+  {
+    "foodCode": "121215",
+    "foodName": "绿鳍马面豚［面包鱼、橡皮鱼］",
+    "englishName": "Filefish"
+  },
+  {
+    "foodCode": "121216",
+    "foodName": "梅童鱼［大头仔鱼、丁珠鱼］",
+    "englishName": "Japanese lion fish, drum fish, marine"
+  },
+  {
+    "foodCode": "121217",
+    "foodName": "沙丁鱼［沙］",
+    "englishName": "Sardine"
+  },
+  {
+    "foodCode": "121218",
+    "foodName": "沙钻鱼［多鳞鳓、沙梭鱼、麦穗鱼］",
+    "englishName": "Sand smelt"
+  },
+  {
+    "foodCode": "121219",
+    "foodName": "蛇鲻［沙梭鱼］",
+    "englishName": "Mullet, marine, estuarine"
+  },
+  {
+    "foodCode": "121220",
+    "foodName": "舌鳎［花纹舌头、舌头鱼］",
+    "englishName": "Tonguefish"
+  },
+  {
+    "foodCode": "121221",
+    "foodName": "油抒［香梭鱼］",
+    "englishName": "Barracuda"
+  },
+  {
+    "foodCode": "121222",
+    "foodName": "颚针鱼［针量鱼］",
+    "englishName": "Needlefish"
+  },
+  {
+    "foodCode": "121223",
+    "foodName": "鲅鱼［马鲛鱼、燕鲅鱼、巴鱼］",
+    "englishName": "Spanish mackerel"
+  },
+  {
+    "foodCode": "121224",
+    "foodName": "鲅鱼（咸）咸马胶］",
+    "englishName": "Spanish mackerel，preserved in brine"
+  },
+  {
+    "foodCode": "121225",
+    "foodName": "［片口鱼、比目鱼］",
+    "englishName": "Flatfish"
+  },
+  {
+    "foodCode": "121226",
+    "foodName": "鲈鱼［鲈花］",
+    "englishName": "Sea bass"
+  },
+  {
+    "foodCode": "121227",
+    "foodName": "鲐鱼［青鱼、鲐巴鱼、青砖鱼］",
+    "englishName": "Chub mackerel"
+  },
+  {
+    "foodCode": "121228",
+    "foodName": "鲑鱼［大马哈鱼］",
+    "englishName": "Chum salmon"
+  },
+  {
+    "foodCode": "121229",
+    "foodName": "鲑鱼籽酱［大马哈鱼籽酱、三文鱼籽酱］",
+    "englishName": "Caviar，chum salmon"
+  },
+  {
+    "foodCode": "121230",
+    "foodName": "鱼（大）［大凤尾鱼］",
+    "englishName": "*Phoenix* anchovy， large， anadromous"
+  },
+  {
+    "foodCode": "121231",
+    "foodName": "鲚鱼（小）［小凤尾鱼］",
+    "englishName": "*Phoenix* anchovy， small， anadromous"
+  },
+  {
+    "foodCode": "121232",
+    "foodName": "鲨鱼（真鲨、白斑角鲨）",
+    "englishName": "Shark"
+  },
+  {
+    "foodCode": "121233",
+    "foodName": "鲳鱼（银鲳鱼）［平鱼］",
+    "englishName": "Pomfret"
+  },
+  {
+    "foodCode": "121234",
+    "foodName": "鲷［黑鲷、铜盆鱼、大目鱼］",
+    "englishName": "Sea bream"
+  },
+  {
+    "foodCode": "121235",
+    "foodName": "鲻鱼［白眼棱鱼］",
+    "englishName": "Mullet"
+  },
+  {
+    "foodCode": "121236",
+    "foodName": "鲽［比目鱼、凸眼鱼］",
+    "englishName": "Flounder"
+  },
+  {
+    "foodCode": "121237",
+    "foodName": "鳐鱼［夫鱼］",
+    "englishName": "Rays"
+  },
+  {
+    "foodCode": "121238",
+    "foodName": "鳓鱼［快鱼、力鱼］",
+    "englishName": "Chinese herring or shad"
+  },
+  {
+    "foodCode": "121239",
+    "foodName": "鳕鱼［鳕狭、明太鱼］",
+    "englishName": "Pacific cod"
+  },
+  {
+    "foodCode": "121240",
+    "foodName": "鳓鱼［鲞鱼］",
+    "englishName": "Brown croaker，marine"
+  },
+  {
+    "foodCode": "121301",
+    "foodName": "鱼片干",
+    "englishName": "Fish jerky，meat only，cooked，dried"
+  },
+  {
+    "foodCode": "121302",
+    "foodName": "鱼奇油［鱼露、虾油］",
+    "englishName": "*Yuqiyou*, fermented fishes and shrimps with salt"
+  }
+]

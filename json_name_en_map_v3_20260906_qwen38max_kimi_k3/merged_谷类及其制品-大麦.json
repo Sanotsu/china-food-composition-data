@@ -1,0 +1,22 @@
+[
+  {
+    "foodCode": "014101",
+    "foodName": "大麦［元麦",
+    "englishName": "Barley grain"
+  },
+  {
+    "foodCode": "014102",
+    "foodName": "黑大麦",
+    "englishName": "Barley grain, naked, black, raw"
+  },
+  {
+    "foodCode": "014201",
+    "foodName": "肚里黄",
+    "englishName": "Naked barley grain, yellow inside"
+  },
+  {
+    "foodCode": "014202",
+    "foodName": "青稞",
+    "englishName": "Naked barley grain"
+  }
+]

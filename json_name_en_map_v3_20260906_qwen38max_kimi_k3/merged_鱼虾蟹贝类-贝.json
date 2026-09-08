@@ -1,0 +1,147 @@
+[
+  {
+    "foodCode": "124101",
+    "foodName": "鲍鱼［杂色鲍］",
+    "englishName": "Abalone"
+  },
+  {
+    "foodCode": "124102",
+    "foodName": "鲍鱼（干）",
+    "englishName": "Abalone，dried"
+  },
+  {
+    "foodCode": "124103",
+    "foodName": "蛏子",
+    "englishName": "Razor clam"
+  },
+  {
+    "foodCode": "124104",
+    "foodName": "蛏干［蛏子缢、青子］",
+    "englishName": "Razor clam，dried"
+  },
+  {
+    "foodCode": "124105",
+    "foodName": "赤贝",
+    "englishName": "Arkshell clam"
+  },
+  {
+    "foodCode": "124106",
+    "foodName": "河蚌",
+    "englishName": "Swan mussel"
+  },
+  {
+    "foodCode": "124107",
+    "foodName": "河蚬［蚬子］",
+    "englishName": "Asian clam"
+  },
+  {
+    "foodCode": "124108",
+    "foodName": "牡蛎［海蛎子］",
+    "englishName": "Oyster"
+  },
+  {
+    "foodCode": "124109",
+    "foodName": "生蚝",
+    "englishName": "Oyster"
+  },
+  {
+    "foodCode": "124110",
+    "foodName": "泥蚶［血、珠蚶］",
+    "englishName": "Blood cockle"
+  },
+  {
+    "foodCode": "124111",
+    "foodName": "扇贝（鲜）",
+    "englishName": "Scallop，fresh"
+  },
+  {
+    "foodCode": "124112",
+    "foodName": "扇贝（干）［干贝］",
+    "englishName": "Scallop，dried"
+  },
+  {
+    "foodCode": "124113",
+    "foodName": "鲜贝",
+    "englishName": "Scallop"
+  },
+  {
+    "foodCode": "124114",
+    "foodName": "银蚶［蚶子］",
+    "englishName": "Silver cockle"
+  },
+  {
+    "foodCode": "124115",
+    "foodName": "贻贝（鲜）［淡菜、壳菜］",
+    "englishName": "Mussel，fresh"
+  },
+  {
+    "foodCode": "124116",
+    "foodName": "贻贝（干）［淡菜、壳菜］",
+    "englishName": "Mussel，dried"
+  },
+  {
+    "foodCode": "124201x",
+    "foodName": "蛤蜊",
+    "englishName": "clam"
+  },
+  {
+    "foodCode": "124202",
+    "foodName": "蛤蜊（花蛤蜊）",
+    "englishName": "Clam，Venus clam"
+  },
+  {
+    "foodCode": "124203",
+    "foodName": "蛤蜊（毛蛤蜊）",
+    "englishName": "Clam，Blood clam"
+  },
+  {
+    "foodCode": "124204",
+    "foodName": "蛤蜊（秋蛤蜊）",
+    "englishName": "Clam，Autumn surf clam"
+  },
+  {
+    "foodCode": "124205",
+    "foodName": "蛤蜊（沙蛤蜊）",
+    "englishName": "Clam，Surf clam，marine"
+  },
+  {
+    "foodCode": "124206",
+    "foodName": "杂色蛤蜊",
+    "englishName": "Clam，Multicolor surf clam，marine"
+  },
+  {
+    "foodCode": "124301x",
+    "foodName": "螺",
+    "englishName": "Sea snail"
+  },
+  {
+    "foodCode": "124302",
+    "foodName": "红螺",
+    "englishName": "Red sea snail"
+  },
+  {
+    "foodCode": "124303",
+    "foodName": "黄螺［东风螺］",
+    "englishName": "Spotted babylon"
+  },
+  {
+    "foodCode": "124304",
+    "foodName": "螺蛳",
+    "englishName": "River snail, mystery snail"
+  },
+  {
+    "foodCode": "124305",
+    "foodName": "石螺",
+    "englishName": "Stone snail"
+  },
+  {
+    "foodCode": "124306",
+    "foodName": "田螺",
+    "englishName": "Rice-paddy field snail，globular，freshwater"
+  },
+  {
+    "foodCode": "124307",
+    "foodName": "香海螺",
+    "englishName": "Fragrant sea snail，marine"
+  }
+]

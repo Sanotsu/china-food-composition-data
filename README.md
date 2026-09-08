@@ -6,9 +6,33 @@
 
 ---
 
+2026-09-08 更新（食物中英文名）
+
+新增 [食物名称中英文对照表截图](./食物名称中英文对照表截图) 的识别流水线（`index_v3_en.py`，详见 [V3 对照表方案说明](docs/README_V3_EN.md)），并生成两类数据：
+
+- **增强版营养数据（推荐使用）**：[json_data_v3_20260825_qwen38max_kimi_k3_fixed_en](./json_data_v3_20260825_qwen38max_kimi_k3_fixed_en)
+
+  - 在手动矫正版（fixed）基础上按 `foodCode` 回填 `englishName`（紧跟 `foodName` 字段），1677 条中 **1242 条（74.1%）** 有英文名
+  - 其余字段与 fixed 版逐字节等价；`enrich_log.json` 记录回填明细
+  - **表格形态：同目录下 `food_composition_full.csv`（全量单文件）与
+    `food_composition_full.xlsx`（Sheet「全部数据」+ 每类别一个 Sheet，共 62 个）**
+    - 由 `utils_v3/export_tabular.py` 生成，所有单元格按文本写入（`"2.50"`/`Tr`/`—`/`091101x` 等原样保真）
+
+- 中英文对照表识别版：[json_name_en_map_v3_20260906_qwen38max_kimi_k3](./json_name_en_map_v3_20260906_qwen38max_kimi_k3)
+  - 60 个类别文件，**1260 条**，每条仅 `foodCode` / `foodName` / `englishName` 三个字段
+  - 由 `kimi-k2.7-code` 与 `qwen3.8-max-0902` 双模型交叉识别 + 本地校验 + 人工定点复核
+  - 人工仅矫正英文栏位（18 条更新，见 `apply_log.json`；corrections 中留空的 update 一律跳过，不会误清中文名）
+  - apply 后重校验 error=0 / warning=0
+
+注意：**原书营养素表与书末中英文对照表本就不是一一对应**（部分营养素条目原书就没有英文名），
+foodCode 集合差异（对照表独有 18 条 / 营养素有而对照表无 435 条）属预期现象，不是识别缺漏；
+明细见增强版的 `enrich_log.json`（`missing_en` / `en_only_unused`）。
+
+---
+
 2026-08-25 更新
 
-**最新版数据**在以下文件夹：
+**营养数据**在以下文件夹（含英文名的增强版见下方 2026-09-08 更新）：
 
 - 原书识别版：[json_data_v3_20260825_qwen38max_kimi_k3](./json_data_v3_20260825_qwen38max_kimi_k3)
 - 手动矫正版：[json_data_v3_20260825_qwen38max_kimi_k3_fixed](./json_data_v3_20260825_qwen38max_kimi_k3_fixed)
@@ -30,7 +54,7 @@
 
 "婴幼儿食品"分类的表格栏位与其他分类不同，且数据多为品牌奶粉商品而非通用数据，流水线通过配置 `ignore_prefixes` 跳过，数据中不包含该分类。
 
-我的两个基准大模型API构建的原始json数据，可查看 [https://cfcd.pages.dev/](https://cfcd.pages.dev/)
+我的两个基准大模型 API 构建的原始 json 数据，可查看 [https://cfcd.pages.dev/](https://cfcd.pages.dev/)
 
 ---
 
@@ -41,7 +65,7 @@
 ## 脚本说明
 
 将同类食物"能量"部分和"一般营养成分"部分的成对截图，  
-调用两个视觉大模型 API 识别为JSON 结构化数据（字段显式命名、数值原文保真），  
+调用两个视觉大模型 API 识别为 JSON 结构化数据（字段显式命名、数值原文保真），  
 按 foodCode 配对合并、双模型交叉校验，  
 再经人工复核修正，构建成指定格式的 json 文件。
 
@@ -136,10 +160,30 @@ python utils_v3/fix_energy_swap.py            # dry-run：仅报告
 python utils_v3/fix_energy_swap.py --apply    # 生成/重建 {output_dir}_fixed/
 ```
 
-也可以直接使用 `json_data_v3_20260825_qwen38max_kimi_k3`（1:1 识别版，与原书一致）
-或 `json_data_v3_20260825_qwen38max_kimi_k3_fixed`（能量矫正版）文件夹中的 json 文件。
+中英文对照表流水线（独立配置 `config_v3_en.json`，互不影响营养素流水线）：
 
-具体使用方法参看[V3版本方案说明](docs/README_V3.md)。
+```sh
+# 1. .env 同样配置 V3_DASHSCOPE_API_BASE / V3_DASHSCOPE_API_KEY
+# 2. 识别 + 解析合并 + 校验 + 复核报告（config 中 pilot.dirs 控制试点范围）
+python index_v3_en.py --stage all
+# 3. 浏览器打开 review_v3_en/index.html 人工核对（只需矫正 englishName；
+#    corrections.json 里留空的 update 会被自动跳过，不会误清中文名）
+# 4. 应用人工修正并输出最终 JSON
+python index_v3_en.py --stage apply
+
+# 生成增强版营养数据（可选）：在 fixed 版基础上按 foodCode 回填英文名
+python utils_v3/enrich_nutrition_en.py            # dry-run：仅报告
+python utils_v3/enrich_nutrition_en.py --apply    # 生成 {fixed}_en/ 增强版
+
+# 导出表格版（可选）：增强版 → 单CSV + 单XLSX（全量Sheet+每类别Sheet）
+python utils_v3/export_tabular.py
+```
+
+也可以直接使用 `json_data_v3_20260825_qwen38max_kimi_k3`（1:1 识别版，与原书一致）、
+`json_data_v3_20260825_qwen38max_kimi_k3_fixed`（能量矫正版）
+或 `json_data_v3_20260825_qwen38max_kimi_k3_fixed_en`（增强版，含英文名）文件夹中的 json 文件。
+
+具体使用方法参看[V3 版本方案说明](docs/README_V3.md)。
 
 ## 注意事项
 
@@ -152,7 +196,7 @@ python utils_v3/fix_energy_swap.py --apply    # 生成/重建 {output_dir}_fixed
 - 比如 062101x 桃（代表值）kcal=42/kJ=212、066201x 西瓜（代表值）kcal=31/kJ=108
   - 经核对原书确实如此（比值不满足 4.184 换算），未做修改，使用时注意
 - 比如 `畜肉类及其制品-牛 · 082115 牛肉（胸部肉）［牛胸］`
-  - 水分 + 蛋白质 + 脂肪 + 碳水 + 灰分 =58.8+16.6+28.8+0.8= 105.0 ，远超100
+  - 水分 + 蛋白质 + 脂肪 + 碳水 + 灰分 =58.8+16.6+28.8+0.8= 105.0 ，远超 100
   - 这个显得不合理，而且这样的数据非常多
 - 目前我将 `config_v3.json` 中的 `thresholds` 配置得极大，忽略了这些内容
 - 同样的还有微量元素的值，也在`support_v3/validation.py` 的 `RANGES` 中配置得很宽
@@ -171,8 +215,9 @@ python utils_v3/fix_energy_swap.py --apply    # 生成/重建 {output_dir}_fixed
 
 - 2023-12-30 飞桨 OCR 路线（第一版）
 - 2025-07-23 单视觉大模型 markdown 表格转录（第二版）
-- 2025-12-06 更新了视觉大模型处理结果，移除了结构不一致的 婴幼儿食品部分，手动添加了GI数据
+- 2025-12-06 更新了视觉大模型处理结果，移除了结构不一致的 婴幼儿食品部分，手动添加了 GI 数据
 - 2026-08-25 双模型交叉 + 自动校验 + 人工复核验证（第三版）
+- 2026-09-08 中英文对照表双模型识别 + 增强版营养数据回填英文名
 
 ### 版权声明
 

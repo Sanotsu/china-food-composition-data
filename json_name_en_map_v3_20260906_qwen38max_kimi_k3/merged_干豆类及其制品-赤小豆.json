@@ -1,0 +1,22 @@
+[
+  {
+    "foodCode": "033101",
+    "foodName": "赤小豆（干）小豆，红小豆］",
+    "englishName": "Red bean，dried"
+  },
+  {
+    "foodCode": "033201",
+    "foodName": "小豆粥",
+    "englishName": "Adzuki bean porridge，with osmanthus flower & sugar"
+  },
+  {
+    "foodCode": "033204",
+    "foodName": "红豆沙（去皮）",
+    "englishName": "Adzuki bean paste，skin removed，sweetened"
+  },
+  {
+    "foodCode": "033205",
+    "foodName": "红豆馅",
+    "englishName": "Adzuki bean paste，with skin，sweetened"
+  }
+]

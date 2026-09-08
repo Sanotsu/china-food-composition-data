@@ -1,0 +1,794 @@
+[
+  {
+    "issue_id": 1,
+    "category": "",
+    "foodCode": "",
+    "field": "",
+    "action": "update",
+    "value": "",
+    "_comment": "[error#1] parse_missing_key_field: rows[10] foodCode或foodName为空: {\"foodCode\": \"046011\", \"foodName\": \"\", \"englishName\": \"\"}"
+  },
+  {
+    "issue_id": 3,
+    "category": "",
+    "foodCode": "",
+    "field": "",
+    "action": "update",
+    "value": "",
+    "_comment": "[error#3] parse_missing_key_field: rows[10] foodCode或foodName为空: {\"foodCode\": \"046011\", \"foodName\": \"\", \"englishName\": \"\"}"
+  },
+  {
+    "issue_id": 4,
+    "category": "坚果种子类-树坚果",
+    "foodCode": "071031",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#4] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 5,
+    "category": "坚果种子类-种子",
+    "foodCode": "072011",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#5] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 6,
+    "category": "坚果种子类-种子",
+    "foodCode": "072018",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#6] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 7,
+    "category": "干豆类及其制品-其他",
+    "foodCode": "039902",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#7] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 8,
+    "category": "干豆类及其制品-蚕豆",
+    "foodCode": "035202",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#8] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 9,
+    "category": "干豆类及其制品-赤小豆",
+    "foodCode": "033101",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#9] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 10,
+    "category": "植物油-植物油",
+    "foodCode": "192008",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#10] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 11,
+    "category": "水果类及其制品-仁果类",
+    "foodCode": "061216",
+    "field": "englishName",
+    "action": "update",
+    "value": "*Sumei* pear",
+    "_comment": "[review#11] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 12,
+    "category": "畜肉类及其制品-牛",
+    "foodCode": "082106",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#12] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 13,
+    "category": "畜肉类及其制品-猪",
+    "foodCode": "081317",
+    "field": "englishName",
+    "action": "update",
+    "value": "Pork floss, *Taicang*, with salt, soy sauce and sugar",
+    "_comment": "[review#13] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 14,
+    "category": "畜肉类及其制品-猪",
+    "foodCode": "081401",
+    "field": "englishName",
+    "action": "update",
+    "value": "Pork sausage, *tea sausage*, lightly spiced and salted",
+    "_comment": "[review#14] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 15,
+    "category": "畜肉类及其制品-猪",
+    "foodCode": "081411",
+    "field": "englishName",
+    "action": "update",
+    "value": "Pork sausage, *Songjiang* brand",
+    "_comment": "[review#15] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 16,
+    "category": "畜肉类及其制品-羊",
+    "foodCode": "083107",
+    "field": "englishName",
+    "action": "update",
+    "value": "Lamb, “Green” sheep breed",
+    "_comment": "[review#16] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 17,
+    "category": "禽肉类及其制品-鸡",
+    "foodCode": "091105",
+    "field": "englishName",
+    "action": "update",
+    "value": "Chicken, *Huaqing*, whole",
+    "_comment": "[review#17] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 18,
+    "category": "菌藻类-菌类",
+    "foodCode": "051007",
+    "field": "englishName",
+    "action": "update",
+    "value": "Yellow mushroom，soaked in water",
+    "_comment": "[review#18] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 19,
+    "category": "菌藻类-菌类",
+    "foodCode": "051015",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#19] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 20,
+    "category": "菌藻类-菌类",
+    "foodCode": "051044",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#20] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 21,
+    "category": "菌藻类-菌类",
+    "foodCode": "051045",
+    "field": "englishName",
+    "action": "update",
+    "value": "-",
+    "_comment": "[review#21] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 22,
+    "category": "菌藻类-藻类",
+    "foodCode": "052003",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#22] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 23,
+    "category": "菌藻类-藻类",
+    "foodCode": "052005",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#23] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 24,
+    "category": "菌藻类-藻类",
+    "foodCode": "052006",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#24] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 25,
+    "category": "蔬菜类及其制品-嫩茎叶花菜类",
+    "foodCode": "045108",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#25] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 26,
+    "category": "蔬菜类及其制品-嫩茎叶花菜类",
+    "foodCode": "045321",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#26] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 27,
+    "category": "蔬菜类及其制品-嫩茎叶花菜类",
+    "foodCode": "045322",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#27] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 28,
+    "category": "蔬菜类及其制品-嫩茎叶花菜类",
+    "foodCode": "045324",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#28] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 29,
+    "category": "蔬菜类及其制品-嫩茎叶花菜类",
+    "foodCode": "045330",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#29] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 30,
+    "category": "蔬菜类及其制品-水生蔬菜类",
+    "foodCode": "046001",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#30] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 31,
+    "category": "蔬菜类及其制品-茄果瓜菜类",
+    "foodCode": "043119",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#31] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 32,
+    "category": "蔬菜类及其制品-茄果瓜菜类",
+    "foodCode": "043212",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#32] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 33,
+    "category": "蔬菜类及其制品-薯芋类",
+    "foodCode": "047103",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#33] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 34,
+    "category": "蔬菜类及其制品-野生蔬菜类",
+    "foodCode": "048018",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#34] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 35,
+    "category": "蔬菜类及其制品-野生蔬菜类",
+    "foodCode": "048030",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#35] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 36,
+    "category": "蔬菜类及其制品-野生蔬菜类",
+    "foodCode": "048039",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#36] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 37,
+    "category": "蔬菜类及其制品-野生蔬菜类",
+    "foodCode": "048055",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#37] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 38,
+    "category": "蔬菜类及其制品-野生蔬菜类",
+    "foodCode": "048059",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#38] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 39,
+    "category": "蔬菜类及其制品-野生蔬菜类",
+    "foodCode": "048072",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#39] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 40,
+    "category": "蔬菜类及其制品-野生蔬菜类",
+    "foodCode": "048074",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#40] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 41,
+    "category": "蔬菜类及其制品-鲜豆类",
+    "foodCode": "042101",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#41] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 42,
+    "category": "蔬菜类及其制品-鲜豆类",
+    "foodCode": "042117",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#42] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 43,
+    "category": "蔬菜类及其制品-鲜豆类",
+    "foodCode": "042122",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#43] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 44,
+    "category": "薯类淀粉及其制品-淀粉类",
+    "foodCode": "022107",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#44] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 45,
+    "category": "蛋类及其制品-鸡蛋",
+    "foodCode": "111203",
+    "field": "englishName",
+    "action": "update",
+    "value": "*Chicken，century egg， preserved in lime",
+    "_comment": "[review#45] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 46,
+    "category": "谷类及其制品-大麦",
+    "foodCode": "014101",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#46] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 47,
+    "category": "谷类及其制品-小米黄米",
+    "foodCode": "015201",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#47] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 48,
+    "category": "谷类及其制品-稻米",
+    "foodCode": "012103",
+    "field": "englishName",
+    "action": "update",
+    "value": "Round grained rice, standard grade 3",
+    "_comment": "[review#48] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 49,
+    "category": "谷类及其制品-稻米",
+    "foodCode": "012104",
+    "field": "englishName",
+    "action": "update",
+    "value": "Round grained rice, standard grade 4",
+    "_comment": "[review#49] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 50,
+    "category": "谷类及其制品-稻米",
+    "foodCode": "012202",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#50] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 51,
+    "category": "谷类及其制品-稻米",
+    "foodCode": "012214",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#51] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 52,
+    "category": "谷类及其制品-稻米",
+    "foodCode": "012405",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#52] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 53,
+    "category": "谷类及其制品-稻米",
+    "foodCode": "012408",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#53] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 54,
+    "category": "谷类及其制品-稻米",
+    "foodCode": "012409",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#54] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 55,
+    "category": "鱼虾蟹贝类-其他",
+    "foodCode": "129013",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#55] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 56,
+    "category": "鱼虾蟹贝类-虾",
+    "foodCode": "122101",
+    "field": "englishName",
+    "action": "update",
+    "value": "*White rice* shrimp",
+    "_comment": "[review#56] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 57,
+    "category": "鱼虾蟹贝类-虾",
+    "foodCode": "122103",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#57] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 58,
+    "category": "鱼虾蟹贝类-虾",
+    "foodCode": "122103",
+    "field": "englishName",
+    "action": "update",
+    "value": "*Long feeler* prawn",
+    "_comment": "[review#58] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 59,
+    "category": "鱼虾蟹贝类-虾",
+    "foodCode": "122104",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#59] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 60,
+    "category": "鱼虾蟹贝类-虾",
+    "foodCode": "122115",
+    "field": "englishName",
+    "action": "update",
+    "value": "*Hairy* shrimp, dried, marine",
+    "_comment": "[review#60] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 61,
+    "category": "鱼虾蟹贝类-虾",
+    "foodCode": "122116",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#61] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 62,
+    "category": "鱼虾蟹贝类-蟹",
+    "foodCode": "123003",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#62] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 63,
+    "category": "鱼虾蟹贝类-贝",
+    "foodCode": "124104",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#63] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 64,
+    "category": "鱼虾蟹贝类-贝",
+    "foodCode": "124110",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#64] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 65,
+    "category": "鱼虾蟹贝类-贝",
+    "foodCode": "124204",
+    "field": "englishName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#65] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 66,
+    "category": "鱼虾蟹贝类-贝",
+    "foodCode": "124206",
+    "field": "englishName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#66] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 67,
+    "category": "鱼虾蟹贝类-贝",
+    "foodCode": "124306",
+    "field": "englishName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#67] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 68,
+    "category": "鱼虾蟹贝类-贝",
+    "foodCode": "124307",
+    "field": "englishName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#68] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 69,
+    "category": "鱼虾蟹贝类-鱼",
+    "foodCode": "121104",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#69] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 70,
+    "category": "鱼虾蟹贝类-鱼",
+    "foodCode": "121104",
+    "field": "englishName",
+    "action": "update",
+    "value": "Sheltostsher carp，freshwater",
+    "_comment": "[review#70] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 71,
+    "category": "鱼虾蟹贝类-鱼",
+    "foodCode": "121116",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#71] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 72,
+    "category": "鱼虾蟹贝类-鱼",
+    "foodCode": "121117",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#72] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 73,
+    "category": "鱼虾蟹贝类-鱼",
+    "foodCode": "121120",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#73] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 74,
+    "category": "鱼虾蟹贝类-鱼",
+    "foodCode": "121121",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#74] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 75,
+    "category": "鱼虾蟹贝类-鱼",
+    "foodCode": "121124",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#75] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 76,
+    "category": "鱼虾蟹贝类-鱼",
+    "foodCode": "121128",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#76] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 77,
+    "category": "鱼虾蟹贝类-鱼",
+    "foodCode": "121202",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#77] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 78,
+    "category": "鱼虾蟹贝类-鱼",
+    "foodCode": "121217",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#78] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 79,
+    "category": "鱼虾蟹贝类-鱼",
+    "foodCode": "121218",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#79] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 80,
+    "category": "鱼虾蟹贝类-鱼",
+    "foodCode": "121221",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#80] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 81,
+    "category": "鱼虾蟹贝类-鱼",
+    "foodCode": "121224",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#81] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 82,
+    "category": "鱼虾蟹贝类-鱼",
+    "foodCode": "121225",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#82] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 83,
+    "category": "鱼虾蟹贝类-鱼",
+    "foodCode": "121227",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#83] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 84,
+    "category": "鱼虾蟹贝类-鱼",
+    "foodCode": "121230",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#84] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 85,
+    "category": "鱼虾蟹贝类-鱼",
+    "foodCode": "121230",
+    "field": "englishName",
+    "action": "update",
+    "value": "*Phoenix* anchovy， large， anadromous",
+    "_comment": "[review#85] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 86,
+    "category": "鱼虾蟹贝类-鱼",
+    "foodCode": "121231",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#86] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 87,
+    "category": "鱼虾蟹贝类-鱼",
+    "foodCode": "121231",
+    "field": "englishName",
+    "action": "update",
+    "value": "*Phoenix* anchovy， small， anadromous",
+    "_comment": "[review#87] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 88,
+    "category": "鱼虾蟹贝类-鱼",
+    "foodCode": "121240",
+    "field": "foodName",
+    "action": "update",
+    "value": "",
+    "_comment": "[review#88] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  },
+  {
+    "issue_id": 89,
+    "category": "鱼虾蟹贝类-鱼",
+    "foodCode": "121302",
+    "field": "englishName",
+    "action": "update",
+    "value": "*Yuqiyou*, fermented fishes and shrimps with salt",
+    "_comment": "[review#89] model_disagreement: 两模型字段值不一致（已按策略 model_a 取 kimi-k2.7-code 的值，请人工裁决）"
+  }
+]

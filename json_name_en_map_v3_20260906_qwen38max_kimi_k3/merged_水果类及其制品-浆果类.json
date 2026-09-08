@@ -1,0 +1,137 @@
+[
+  {
+    "foodCode": "063101x",
+    "foodName": "葡萄（代表值）",
+    "englishName": "Grape"
+  },
+  {
+    "foodCode": "063102",
+    "foodName": "红玫瑰葡萄",
+    "englishName": "*Red rose* grape"
+  },
+  {
+    "foodCode": "063103",
+    "foodName": "葡萄（巨峰）",
+    "englishName": "*Giant* grape, large"
+  },
+  {
+    "foodCode": "063104",
+    "foodName": "葡萄（马奶子）",
+    "englishName": "*Mare's nipple* grape, green"
+  },
+  {
+    "foodCode": "063105",
+    "foodName": "葡萄（玫瑰香）",
+    "englishName": "*Rose fragrant* grape, rose flavored"
+  },
+  {
+    "foodCode": "063106",
+    "foodName": "紫葡萄",
+    "englishName": "Grape, purple"
+  },
+  {
+    "foodCode": "063107",
+    "foodName": "葡萄干",
+    "englishName": "Raisin"
+  },
+  {
+    "foodCode": "063201x",
+    "foodName": "石榴（代表值）",
+    "englishName": "Pomegranate, pale green-skinned"
+  },
+  {
+    "foodCode": "063202",
+    "foodName": "石榴（红粉皮）",
+    "englishName": "Pomegranate, pink-skinned"
+  },
+  {
+    "foodCode": "063203",
+    "foodName": "石榴（玛瑙）",
+    "englishName": "*Agate* pomegranate"
+  },
+  {
+    "foodCode": "063204",
+    "foodName": "石榴（青皮）",
+    "englishName": "Pomegranate, pale green-skinned"
+  },
+  {
+    "foodCode": "063301",
+    "foodName": "柿",
+    "englishName": "Persimmon"
+  },
+  {
+    "foodCode": "063302",
+    "foodName": "荷柿",
+    "englishName": "*Lotus * persimmon"
+  },
+  {
+    "foodCode": "063303",
+    "foodName": "磨盘柿",
+    "englishName": "*Millstone* persimmon"
+  },
+  {
+    "foodCode": "063304",
+    "foodName": "柿饼",
+    "englishName": "Persimmon, dried"
+  },
+  {
+    "foodCode": "063901x",
+    "foodName": "桑葚（代表值）",
+    "englishName": "Mulberry"
+  },
+  {
+    "foodCode": "063902",
+    "foodName": "桑葚（白）",
+    "englishName": "Mulberry, white"
+  },
+  {
+    "foodCode": "063903",
+    "foodName": "桑葚（红）",
+    "englishName": "Mulberry, purple"
+  },
+  {
+    "foodCode": "063904",
+    "foodName": "桑葚（干）",
+    "englishName": "Mulberry, dried"
+  },
+  {
+    "foodCode": "063905",
+    "foodName": "醋栗［灯笼果］",
+    "englishName": "Gooseberry"
+  },
+  {
+    "foodCode": "063906",
+    "foodName": "黑醋栗［黑加仑］",
+    "englishName": "Currant"
+  },
+  {
+    "foodCode": "063907",
+    "foodName": "沙棘",
+    "englishName": "Sea buckthorn"
+  },
+  {
+    "foodCode": "063908",
+    "foodName": "无花果",
+    "englishName": "Fig"
+  },
+  {
+    "foodCode": "063909",
+    "foodName": "中华猕猴桃［毛叶猕猴桃］",
+    "englishName": "Chinese kiwi fruit"
+  },
+  {
+    "foodCode": "063910",
+    "foodName": "草莓［洋莓，凤阳草莓］",
+    "englishName": "Strawberry"
+  },
+  {
+    "foodCode": "063911",
+    "foodName": "红提子葡萄",
+    "englishName": "Grape or fox grape"
+  },
+  {
+    "foodCode": "063912",
+    "foodName": "无花果（干）",
+    "englishName": "Fig, dried"
+  }
+]

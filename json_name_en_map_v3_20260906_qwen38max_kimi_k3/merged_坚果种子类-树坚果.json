@@ -1,0 +1,192 @@
+[
+  {
+    "foodCode": "071001",
+    "foodName": "白果（干）［银杏］",
+    "englishName": "Ginkgo nut, in shell, dried"
+  },
+  {
+    "foodCode": "071002",
+    "foodName": "菠萝蜜",
+    "englishName": "Jackfruit seed"
+  },
+  {
+    "foodCode": "071003",
+    "foodName": "核桃（鲜）",
+    "englishName": "Walnut, in shell"
+  },
+  {
+    "foodCode": "071004",
+    "foodName": "核桃（干）［胡桃］",
+    "englishName": "Walnut, in shell, dried"
+  },
+  {
+    "foodCode": "071005",
+    "foodName": "毛核桃",
+    "englishName": "*Mockernut* hikory, wild"
+  },
+  {
+    "foodCode": "071006",
+    "foodName": "山核桃（干）",
+    "englishName": "Wild walnut or hickory nut, in shell, dried"
+  },
+  {
+    "foodCode": "071008",
+    "foodName": "栗子（鲜）［板栗］",
+    "englishName": "Chestnut, in shell"
+  },
+  {
+    "foodCode": "071009",
+    "foodName": "栗子（干）［板栗］",
+    "englishName": "Chestnut, in shell, dried"
+  },
+  {
+    "foodCode": "071010",
+    "foodName": "栗子（熟）［板栗］",
+    "englishName": "Chestnut, in shell"
+  },
+  {
+    "foodCode": "071011",
+    "foodName": "松子（生）",
+    "englishName": "Pine-nut, in shell"
+  },
+  {
+    "foodCode": "071012",
+    "foodName": "松子（炒）",
+    "englishName": "Pine-nut, in shell, roasted"
+  },
+  {
+    "foodCode": "071013",
+    "foodName": "松子仁",
+    "englishName": "Pine-nut, kernel"
+  },
+  {
+    "foodCode": "071014",
+    "foodName": "杏仁",
+    "englishName": "Almond kernel"
+  },
+  {
+    "foodCode": "071015",
+    "foodName": "杏仁（大杏仁）",
+    "englishName": "Almond kernel, large"
+  },
+  {
+    "foodCode": "071016",
+    "foodName": "杏仁（炒）",
+    "englishName": "Almond kernel, in shell, roasted"
+  },
+  {
+    "foodCode": "071017",
+    "foodName": "杏仁（原味）",
+    "englishName": "Almond"
+  },
+  {
+    "foodCode": "071018",
+    "foodName": "杏仁（漂白后）",
+    "englishName": "Almond, bleached"
+  },
+  {
+    "foodCode": "071019",
+    "foodName": "杏仁（过油炸干）",
+    "englishName": "Almond, fried, whole"
+  },
+  {
+    "foodCode": "071020",
+    "foodName": "杏仁（烤干，不加盐）",
+    "englishName": "Almond, roasted, without salt"
+  },
+  {
+    "foodCode": "071021",
+    "foodName": "杏仁（烤干，加盐）",
+    "englishName": "Almond, roasted and salted, whole"
+  },
+  {
+    "foodCode": "071022",
+    "foodName": "橡实［橡子，青冈子］",
+    "englishName": "Blue Japanese oak"
+  },
+  {
+    "foodCode": "071024",
+    "foodName": "榛子（干）",
+    "englishName": "Hazelnut, in shell, dried"
+  },
+  {
+    "foodCode": "071025",
+    "foodName": "榛子（炒）",
+    "englishName": "Hazelnut, in shell , roasted"
+  },
+  {
+    "foodCode": "071026",
+    "foodName": "山核桃（熟）［小核桃］",
+    "englishName": "Wild walnut or hickory nut, in shell, salted and roasted"
+  },
+  {
+    "foodCode": "071027",
+    "foodName": "栗子（北京密云）［板栗］",
+    "englishName": "Chestnut, in shell, raw, from Miyun, Beijing"
+  },
+  {
+    "foodCode": "071028",
+    "foodName": "栗子（河南）［板栗］",
+    "englishName": "Chestnut, in shell, raw, from Henan"
+  },
+  {
+    "foodCode": "071029",
+    "foodName": "栗子（山东）［板栗］",
+    "englishName": "Chestnut, in shell, raw, from Shandong"
+  },
+  {
+    "foodCode": "071030",
+    "foodName": "栗子（河北迁西）［板栗］",
+    "englishName": "Chestnut, in shell, raw, from Qianxi, Hebei"
+  },
+  {
+    "foodCode": "071031",
+    "foodName": "栗子（河北邢台）［板栗",
+    "englishName": "Chestnut, in shell, raw, from Xingtai, Hebei"
+  },
+  {
+    "foodCode": "071032",
+    "foodName": "栗子仁（熟）",
+    "englishName": "Chestnut, roasted, shell removed"
+  },
+  {
+    "foodCode": "071033",
+    "foodName": "松子（熟）",
+    "englishName": "Pine nut, in shell, salted and roasted"
+  },
+  {
+    "foodCode": "071034",
+    "foodName": "杏仁（熟，带壳）",
+    "englishName": "Almond, in shell, salted and roasted"
+  },
+  {
+    "foodCode": "071035",
+    "foodName": "杏仁（熟，去壳）",
+    "englishName": "Almond, shell removed, salted and roasted, large"
+  },
+  {
+    "foodCode": "071036",
+    "foodName": "腰果（熟）",
+    "englishName": "Cashew nut, salted and roasted"
+  },
+  {
+    "foodCode": "071037",
+    "foodName": "榛子（熟）",
+    "englishName": "Hazelnut, in shell, roasted"
+  },
+  {
+    "foodCode": "071038",
+    "foodName": "榛子仁（熟）",
+    "englishName": "Hazelnut, without shell, salted and roasted"
+  },
+  {
+    "foodCode": "071039",
+    "foodName": "开心果（熟）",
+    "englishName": "Pistachio, in shell, salted and roasted"
+  },
+  {
+    "foodCode": "071040",
+    "foodName": "香榧（熟）",
+    "englishName": "Chinese torreya, in shell, salted and roasted"
+  }
+]

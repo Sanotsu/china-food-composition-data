@@ -1,0 +1,43 @@
+{
+  "input_dir": "食物名称中英文对照表截图",
+  "temp_dir": "temp_v3_en",
+  "review_dir": "review_v3_en",
+  "review_image_base": "",
+  "cross_check_dir": "json_data_v3_20260825_qwen38max_kimi_k3_fixed",
+  "output_dir": "json_name_en_map_v3_20260906_qwen38max_kimi_k3",
+  "models": [
+    {
+      "tag": "kimi-k2.7-code",
+      "model_name": "kimi-k2.7-code",
+      "api_base_env": "V3_DASHSCOPE_API_BASE",
+      "api_key_env": "V3_DASHSCOPE_API_KEY",
+      "max_tokens": 16384,
+      "temperature": 0.1,
+      "timeout": 300,
+      "response_format": { "type": "json_object" },
+      "extra_payload": { "enable_thinking": false }
+    },
+    {
+      "tag": "qwen3.8-max-0902",
+      "model_name": "qwen3.8-max-0902",
+      "api_base_env": "V3_DASHSCOPE_API_BASE",
+      "api_key_env": "V3_DASHSCOPE_API_KEY",
+      "max_tokens": 16384,
+      "temperature": null,
+      "timeout": 300,
+      "response_format": { "type": "json_object" },
+      "extra_payload": { "enable_thinking": false }
+    }
+  ],
+  "pilot": {
+    "enabled": true,
+    "dirs": ["植物油"]
+  },
+  "concurrency": {
+    "max_workers": 20,
+    "max_retries": 2,
+    "stream_idle_timeout": 120,
+    "ttft_thinking_hint": 15
+  },
+  "consensus_policy": "model_a"
+}

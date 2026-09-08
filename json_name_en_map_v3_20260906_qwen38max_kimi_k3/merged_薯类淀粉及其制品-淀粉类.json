@@ -1,0 +1,77 @@
+[
+  {
+    "foodCode": "022101",
+    "foodName": "蚕豆淀粉",
+    "englishName": "Broad bean starch"
+  },
+  {
+    "foodCode": "022102",
+    "foodName": "豌豆淀粉",
+    "englishName": "Pea starch"
+  },
+  {
+    "foodCode": "022103",
+    "foodName": "玉米淀粉",
+    "englishName": "Corn starch"
+  },
+  {
+    "foodCode": "022104",
+    "foodName": "团粉［芡粉］",
+    "englishName": "Mixed starch"
+  },
+  {
+    "foodCode": "022105",
+    "foodName": "藕粉",
+    "englishName": "Lotus root starch"
+  },
+  {
+    "foodCode": "022106",
+    "foodName": "桂花藕粉",
+    "englishName": "Lotus root starch，with osmanthus flower"
+  },
+  {
+    "foodCode": "022107",
+    "foodName": "魔芋精粉魔芋粉，南星粉］",
+    "englishName": "Giant arum flour"
+  },
+  {
+    "foodCode": "022108",
+    "foodName": "淀粉（小麦）",
+    "englishName": "Starch，wheat"
+  },
+  {
+    "foodCode": "022109",
+    "foodName": "淀粉（大米）",
+    "englishName": "Starch，rice"
+  },
+  {
+    "foodCode": "022110",
+    "foodName": "淀粉（马铃薯）",
+    "englishName": "Starch，potato"
+  },
+  {
+    "foodCode": "022111",
+    "foodName": "淀粉（甘薯）",
+    "englishName": "Starch，sweet potato"
+  },
+  {
+    "foodCode": "022112",
+    "foodName": "煎炸粉",
+    "englishName": "Potato starch flour，for pan-frying"
+  },
+  {
+    "foodCode": "022201",
+    "foodName": "粉丝",
+    "englishName": "Corn starch noodle，thin，dried"
+  },
+  {
+    "foodCode": "022202",
+    "foodName": "豌豆粉丝",
+    "englishName": "Pea starch noodle"
+  },
+  {
+    "foodCode": "022203",
+    "foodName": "粉条",
+    "englishName": "Pea starch noodle，broad，dried"
+  }
+]

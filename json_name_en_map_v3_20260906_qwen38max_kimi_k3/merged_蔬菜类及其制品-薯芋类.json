@@ -1,0 +1,62 @@
+[
+  {
+    "foodCode": "047101",
+    "foodName": "大薯（鲜）［参薯］",
+    "englishName": "Winged yam"
+  },
+  {
+    "foodCode": "047102",
+    "foodName": "豆薯（鲜）［凉薯，地瓜，沙葛］",
+    "englishName": "Yambean"
+  },
+  {
+    "foodCode": "047103",
+    "foodName": "葛（鲜）葛薯，粉葛］",
+    "englishName": "Kudzu"
+  },
+  {
+    "foodCode": "047104",
+    "foodName": "山药（鲜）［薯蓣，大薯］",
+    "englishName": "Yam"
+  },
+  {
+    "foodCode": "047105",
+    "foodName": "山药（干）",
+    "englishName": "Yam，dried"
+  },
+  {
+    "foodCode": "047202",
+    "foodName": "槟榔芋（鲜）",
+    "englishName": "Taro，*Binglang*"
+  },
+  {
+    "foodCode": "047203",
+    "foodName": "芋头［芋艿、毛芋］",
+    "englishName": "Taro，raw"
+  },
+  {
+    "foodCode": "047204",
+    "foodName": "芋头（煮）",
+    "englishName": "Taro，boiled"
+  },
+  {
+    "foodCode": "047301",
+    "foodName": "姜（鲜）［黄姜］",
+    "englishName": "Ginger"
+  },
+  {
+    "foodCode": "047302",
+    "foodName": "姜（干）",
+    "englishName": "Ginger，dried"
+  },
+  {
+    "foodCode": "047303",
+    "foodName": "姜（子姜，鲜）［嫩姜］",
+    "englishName": "Ginger，young"
+  },
+  {
+    "foodCode": "047304",
+    "foodName": "洋姜（鲜）［菊芋，鬼子姜］",
+    "englishName": "Jerusalem artichoke"
+  }
+]

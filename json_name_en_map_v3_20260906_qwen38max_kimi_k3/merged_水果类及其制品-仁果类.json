@@ -1,0 +1,287 @@
+[
+  {
+    "foodCode": "061101x",
+    "foodName": "苹果（代表值）",
+    "englishName": "Apple"
+  },
+  {
+    "foodCode": "061102",
+    "foodName": "伏苹果",
+    "englishName": "Summer apple"
+  },
+  {
+    "foodCode": "061103",
+    "foodName": "国光苹果",
+    "englishName": "*Bright China* apple"
+  },
+  {
+    "foodCode": "061104",
+    "foodName": "旱苹果",
+    "englishName": "*Drought* apple"
+  },
+  {
+    "foodCode": "061105",
+    "foodName": "红富士苹果",
+    "englishName": "*Red Fuji* apple"
+  },
+  {
+    "foodCode": "061106",
+    "foodName": "红香蕉苹果",
+    "englishName": "*Banana* apple，banana flavored，red"
+  },
+  {
+    "foodCode": "061107",
+    "foodName": "红星苹果",
+    "englishName": "*Red star* apple"
+  },
+  {
+    "foodCode": "061108",
+    "foodName": "红玉苹果",
+    "englishName": "*Red Jade* apple"
+  },
+  {
+    "foodCode": "061109",
+    "foodName": "红元帅苹果",
+    "englishName": "*Red Marshal* apple，red"
+  },
+  {
+    "foodCode": "061110",
+    "foodName": "黄香蕉苹果",
+    "englishName": "*Banana* apple，banana flavored，yellow"
+  },
+  {
+    "foodCode": "061111",
+    "foodName": "黄元帅苹果",
+    "englishName": "*Yellow Marshal* apple，yellow"
+  },
+  {
+    "foodCode": "061112",
+    "foodName": "金元帅苹果",
+    "englishName": "*Gold Marshal* apple，yellow"
+  },
+  {
+    "foodCode": "061113",
+    "foodName": "青香蕉苹果",
+    "englishName": "*Banana* apple，banana flavored，green"
+  },
+  {
+    "foodCode": "061114",
+    "foodName": "秋里蒙苹果",
+    "englishName": "*Qiulimeng* apple"
+  },
+  {
+    "foodCode": "061115",
+    "foodName": "香玉苹果",
+    "englishName": "*Fragrant Jade* apple，red"
+  },
+  {
+    "foodCode": "061116",
+    "foodName": "印度苹果",
+    "englishName": "Indian apple"
+  },
+  {
+    "foodCode": "061117",
+    "foodName": "祝光苹果",
+    "englishName": "*Blessing* apple"
+  },
+  {
+    "foodCode": "061118",
+    "foodName": "倭锦苹果",
+    "englishName": "*Crisp* pear"
+  },
+  {
+    "foodCode": "061119",
+    "foodName": "苹果（罐头）",
+    "englishName": "Apple, canned"
+  },
+  {
+    "foodCode": "061201x",
+    "foodName": "梨（代表值）",
+    "englishName": "Pear"
+  },
+  {
+    "foodCode": "061202",
+    "foodName": "梨（巴梨）",
+    "englishName": "*Ba* pear"
+  },
+  {
+    "foodCode": "061203",
+    "foodName": "长把梨",
+    "englishName": "Pear, long stem"
+  },
+  {
+    "foodCode": "061204",
+    "foodName": "冬果梨",
+    "englishName": "*Winter fruit* pear"
+  },
+  {
+    "foodCode": "061205",
+    "foodName": "鹅黄梨",
+    "englishName": "*Light yellow* pear"
+  },
+  {
+    "foodCode": "061206",
+    "foodName": "红肖梨",
+    "englishName": "*Red skin* pear"
+  },
+  {
+    "foodCode": "061207",
+    "foodName": "锦丰梨",
+    "englishName": "*Jinfeng* pear"
+  },
+  {
+    "foodCode": "061208",
+    "foodName": "京白梨",
+    "englishName": "Bretsehneider pear"
+  },
+  {
+    "foodCode": "061209",
+    "foodName": "库尔勒香梨",
+    "englishName": "*Kuerle* pear"
+  },
+  {
+    "foodCode": "061210",
+    "foodName": "莱阳梨",
+    "englishName": "*Laiyang* pear"
+  },
+  {
+    "foodCode": "061211",
+    "foodName": "马蹄黄梨",
+    "englishName": "*Snowflower* pear"
+  },
+  {
+    "foodCode": "061212",
+    "foodName": "明月梨",
+    "englishName": "*Moon* pear"
+  },
+  {
+    "foodCode": "061213",
+    "foodName": "木梨",
+    "englishName": "*Wood* pear"
+  },
+  {
+    "foodCode": "061214",
+    "foodName": "苹果梨",
+    "englishName": "*Apple* pear"
+  },
+  {
+    "foodCode": "061215",
+    "foodName": "软梨",
+    "englishName": "*Soft* pear"
+  },
+  {
+    "foodCode": "061216",
+    "foodName": "苏梅梨",
+    "englishName": "*Sumei* pear"
+  },
+  {
+    "foodCode": "061217",
+    "foodName": "苏木梨",
+    "englishName": "*Sumu* pear"
+  },
+  {
+    "foodCode": "061218",
+    "foodName": "酥梨",
+    "englishName": "*Crisp* pear"
+  },
+  {
+    "foodCode": "061219",
+    "foodName": "酸梨",
+    "englishName": "Sour pear"
+  },
+  {
+    "foodCode": "061220",
+    "foodName": "香梨",
+    "englishName": "*Fragrant* pear"
+  },
+  {
+    "foodCode": "061221",
+    "foodName": "雪花梨",
+    "englishName": "*Snowflower* pear"
+  },
+  {
+    "foodCode": "061222",
+    "foodName": "雪梨",
+    "englishName": "*Snow* pear"
+  },
+  {
+    "foodCode": "061223",
+    "foodName": "鸭广梨",
+    "englishName": "*Yaguang* pear"
+  },
+  {
+    "foodCode": "061224",
+    "foodName": "鸭梨",
+    "englishName": "*Duck* pear"
+  },
+  {
+    "foodCode": "061225",
+    "foodName": "早酥梨",
+    "englishName": "*Crisp* pear, early crop"
+  },
+  {
+    "foodCode": "061226",
+    "foodName": "紫酥梨",
+    "englishName": "*Zisu* pear"
+  },
+  {
+    "foodCode": "061227",
+    "foodName": "鳄梨",
+    "englishName": "Avocado"
+  },
+  {
+    "foodCode": "061228",
+    "foodName": "冬果梨（罐头）",
+    "englishName": "*Winter fruit* pear, canned"
+  },
+  {
+    "foodCode": "061229",
+    "foodName": "梨（糖水罐头）",
+    "englishName": "Pear, canned in sugar"
+  },
+  {
+    "foodCode": "061301",
+    "foodName": "红果［山里红，大山楂］",
+    "englishName": "Hawthorn, large"
+  },
+  {
+    "foodCode": "061302",
+    "foodName": "红果（干）",
+    "englishName": "Hawthorn, large, dried"
+  },
+  {
+    "foodCode": "061901",
+    "foodName": "海棠果［楸子］",
+    "englishName": "Crabapple"
+  },
+  {
+    "foodCode": "061902",
+    "foodName": "海棠（罐头）",
+    "englishName": "Crabapple, canned"
+  },
+  {
+    "foodCode": "061903",
+    "foodName": "沙果",
+    "englishName": "Crabapple"
+  },
+  {
+    "foodCode": "061904",
+    "foodName": "吊蛋",
+    "englishName": "*Hanging egg* wild pear, brown-skinned"
+  },
+  {
+    "foodCode": "061905",
+    "foodName": "面蛋",
+    "englishName": "Wild pear, *Miandan*, only juice is consumed"
+  },
+  {
+    "foodCode": "061906",
+    "foodName": "酸刺",
+    "englishName": "Spinyleaf crazyweed, spine, a kind of wild fruit"
+  },
+  {
+    "foodCode": "061907",
+    "foodName": "蛇果",
+    "englishName": "Apple, red delicious"
+  }
+]

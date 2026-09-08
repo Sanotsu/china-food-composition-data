@@ -1,0 +1,147 @@
+[
+  {
+    "foodCode": "083101x",
+    "foodName": "羊肉（肥瘦）",
+    "englishName": "Lamb, lean and fat"
+  },
+  {
+    "foodCode": "083102",
+    "foodName": "羊肉（冻）",
+    "englishName": "Lamb, frozen"
+  },
+  {
+    "foodCode": "083103",
+    "foodName": "羊肉（后腿，带骨）",
+    "englishName": "Lamb, leg, with bone"
+  },
+  {
+    "foodCode": "083104",
+    "foodName": "羊肉（颈）",
+    "englishName": "Lamb, neck"
+  },
+  {
+    "foodCode": "083105",
+    "foodName": "羊肉（里脊）",
+    "englishName": "Lamb, tenderloin"
+  },
+  {
+    "foodCode": "083106",
+    "foodName": "羊肉（前腿）",
+    "englishName": "Lamb, Shoulder"
+  },
+  {
+    "foodCode": "083107",
+    "foodName": "羊肉（青羊）",
+    "englishName": "Lamb, “Green” sheep breed"
+  },
+  {
+    "foodCode": "083108",
+    "foodName": "羊肉（瘦）",
+    "englishName": "Lamb, lean"
+  },
+  {
+    "foodCode": "083109",
+    "foodName": "羊肉（胸脯）",
+    "englishName": "Lamb, breast"
+  },
+  {
+    "foodCode": "083110",
+    "foodName": "山羊肉（生）",
+    "englishName": "Goat, meat, raw"
+  },
+  {
+    "foodCode": "083111",
+    "foodName": "羊蹄筋（生）",
+    "englishName": "Lamb, Tendon, raw"
+  },
+  {
+    "foodCode": "083112",
+    "foodName": "羊蹄筋（泡发）",
+    "englishName": "Lamb, Tendon, soaked in water"
+  },
+  {
+    "foodCode": "083201",
+    "foodName": "羊大肠",
+    "englishName": "Lamb, large intestine"
+  },
+  {
+    "foodCode": "083202",
+    "foodName": "羊肚",
+    "englishName": "Lamb, tripe"
+  },
+  {
+    "foodCode": "083203",
+    "foodName": "羊肺",
+    "englishName": "Lamb, lung"
+  },
+  {
+    "foodCode": "083204",
+    "foodName": "羊肝",
+    "englishName": "Lamb, liver"
+  },
+  {
+    "foodCode": "083205",
+    "foodName": "羊脑",
+    "englishName": "Lamb, brain"
+  },
+  {
+    "foodCode": "083206",
+    "foodName": "羊舌",
+    "englishName": "Lamb, tongue"
+  },
+  {
+    "foodCode": "083207",
+    "foodName": "羊肾",
+    "englishName": "Lamb, kidney"
+  },
+  {
+    "foodCode": "083208",
+    "foodName": "羊心",
+    "englishName": "Lamb, heart"
+  },
+  {
+    "foodCode": "083209",
+    "foodName": "羊血",
+    "englishName": "Lamb, blood"
+  },
+  {
+    "foodCode": "083301",
+    "foodName": "腊羊肉",
+    "englishName": "Lamb, salted and smoked"
+  },
+  {
+    "foodCode": "083302",
+    "foodName": "羊肉（熟）",
+    "englishName": "Lamb, cooked"
+  },
+  {
+    "foodCode": "083303",
+    "foodName": "羊肉串（电烤）",
+    "englishName": "Lamb, skewers, roasted in electric grill or oven"
+  },
+  {
+    "foodCode": "083304",
+    "foodName": "羊肉串（烤）",
+    "englishName": "lamb, skewers, grilled over fire"
+  },
+  {
+    "foodCode": "083305",
+    "foodName": "羊肉串（炸）",
+    "englishName": "Lamb, skewers, deep-fried"
+  },
+  {
+    "foodCode": "083306",
+    "foodName": "羊肉干",
+    "englishName": "Lamb, dried"
+  },
+  {
+    "foodCode": "083307",
+    "foodName": "羊肉（羊肉手抓）",
+    "englishName": "Lamb, boiled in large chunks and shredded with hands"
+  },
+  {
+    "foodCode": "083308",
+    "foodName": "山羊肉（酱）",
+    "englishName": "Lamb, spiced, cooked with soy sauce"
+  }
+]

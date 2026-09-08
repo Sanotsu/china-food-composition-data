@@ -1,0 +1,72 @@
+[
+  {
+    "foodCode": "019001",
+    "foodName": "高粱米",
+    "englishName": "Sorghum, broomcorn"
+  },
+  {
+    "foodCode": "019002",
+    "foodName": "糜子（带皮）",
+    "englishName": "Prosomillet, unhulled"
+  },
+  {
+    "foodCode": "019003",
+    "foodName": "糜子米（炒米）",
+    "englishName": "Prosomillet, roasted"
+  },
+  {
+    "foodCode": "019004",
+    "foodName": "苦荞麦粉",
+    "englishName": "Tartarian buckwheat flour"
+  },
+  {
+    "foodCode": "019005",
+    "foodName": "荞麦",
+    "englishName": "Buckwheat, hulled"
+  },
+  {
+    "foodCode": "019006",
+    "foodName": "荞麦（带皮）",
+    "englishName": "Buckwheat, with hull"
+  },
+  {
+    "foodCode": "019008",
+    "foodName": "薏米［薏仁米，苡米］",
+    "englishName": "Adlay, *Job's tears*"
+  },
+  {
+    "foodCode": "019009",
+    "foodName": "薏米面",
+    "englishName": "Adlay flour"
+  },
+  {
+    "foodCode": "019010",
+    "foodName": "荞麦面",
+    "englishName": "Buckwheat flour, refined"
+  },
+  {
+    "foodCode": "019011",
+    "foodName": "莜麦面",
+    "englishName": "Oat flour, refined"
+  },
+  {
+    "foodCode": "019012",
+    "foodName": "燕麦",
+    "englishName": "Quinoa"
+  },
+  {
+    "foodCode": "019013",
+    "foodName": "藜麦（绿有农化）",
+    "englishName": "Quinoa (Green Agriculture)"
+  },
+  {
+    "foodCode": "019014",
+    "foodName": "藜麦（奥嘉）",
+    "englishName": "Quinoa (AOJIA)"
+  },
+  {
+    "foodCode": "019201",
+    "foodName": "高粱面面条",
+    "englishName": "Sorghum noodle, wheat flour added, dried, raw"
+  }
+]

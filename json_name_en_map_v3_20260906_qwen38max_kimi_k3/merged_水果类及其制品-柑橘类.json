@@ -1,0 +1,77 @@
+[
+  {
+    "foodCode": "064101",
+    "foodName": "橙",
+    "englishName": "Orange"
+  },
+  {
+    "foodCode": "064202",
+    "foodName": "福橘",
+    "englishName": "*Fu* Tangerine"
+  },
+  {
+    "foodCode": "064203",
+    "foodName": "橘柑子［宽皮桂］",
+    "englishName": "Satsuma orange"
+  },
+  {
+    "foodCode": "064204",
+    "foodName": "橘（金橘）［金枣］",
+    "englishName": "Kumquat，oval"
+  },
+  {
+    "foodCode": "064205",
+    "foodName": "芦柑",
+    "englishName": "*Lugan* tangerine"
+  },
+  {
+    "foodCode": "064206",
+    "foodName": "蜜橘",
+    "englishName": "*Honey* tangerine"
+  },
+  {
+    "foodCode": "064207",
+    "foodName": "三湖红橘",
+    "englishName": "*Three lakes* tangerine，red-skinned"
+  },
+  {
+    "foodCode": "064208",
+    "foodName": "橘（四川红橘）",
+    "englishName": "*Sichuan* tangerine，rad-skinned"
+  },
+  {
+    "foodCode": "064209",
+    "foodName": "小叶橘",
+    "englishName": "*Small leaf* tangerine"
+  },
+  {
+    "foodCode": "064210",
+    "foodName": "早橘",
+    "englishName": "*Early* tangerine，early maturing"
+  },
+  {
+    "foodCode": "064211",
+    "foodName": "橘饼",
+    "englishName": "Tangerine，preserved in sugar"
+  },
+  {
+    "foodCode": "064301",
+    "foodName": "柚［文旦］",
+    "englishName": "Pomelo"
+  },
+  {
+    "foodCode": "064302",
+    "foodName": "柠檬",
+    "englishName": "Lemon"
+  },
+  {
+    "foodCode": "064303",
+    "foodName": "葡萄柚（中国台湾）［西柚］",
+    "englishName": "Grapefruit，from Taiwan of China"
+  },
+  {
+    "foodCode": "064304",
+    "foodName": "葡萄柚（以色列）［西柚］",
+    "englishName": "Grapefruit，from Israel"
+  }
+]

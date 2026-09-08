@@ -1,0 +1,37 @@
+[
+  {
+    "foodCode": "105001",
+    "foodName": "奶油",
+    "englishName": "Cream"
+  },
+  {
+    "foodCode": "105002",
+    "foodName": "奶油（焦克）",
+    "englishName": "Cream"
+  },
+  {
+    "foodCode": "105003",
+    "foodName": "奶油（食品工业）",
+    "englishName": "Cream, for food industry use"
+  },
+  {
+    "foodCode": "105004",
+    "foodName": "黄油",
+    "englishName": "Butter"
+  },
+  {
+    "foodCode": "105005",
+    "foodName": "黄油渣",
+    "englishName": "Butter residue, milk solids"
+  },
+  {
+    "foodCode": "105006",
+    "foodName": "白脱（食品工业）［牛油、黄油］",
+    "englishName": "Butter, for food industry use"
+  },
+  {
+    "foodCode": "105007",
+    "foodName": "酥油",
+    "englishName": "Shortening"
+  }
+]

@@ -167,11 +167,17 @@ cython_debug/
 
 # # 临时和测试文件夹
 **/temp_v3/*
+**/temp_v3_en/*
 
 # 人工修正裁决文件（review_v3 其余为自动生成的 web 产物，保持忽略）
 !review_v3/
 review_v3/*
 !review_v3/corrections.json
+
+# 中英文对照表复核web产物（同 review_v3 约定）
+!review_v3_en/
+review_v3_en/*
+!review_v3_en/corrections.json
 
 
 

@@ -1,0 +1,22 @@
+[
+  {
+    "foodCode": "094101",
+    "foodName": "火鸡腿肉",
+    "englishName": "Turkey，leg meat"
+  },
+  {
+    "foodCode": "094102",
+    "foodName": "火鸡胸脯肉",
+    "englishName": "Turkey，breast"
+  },
+  {
+    "foodCode": "094201",
+    "foodName": "火鸡肝",
+    "englishName": "Turkey，liver"
+  },
+  {
+    "foodCode": "094202",
+    "foodName": "火鸡肫",
+    "englishName": "Turkey，gizzard"
+  }
+]

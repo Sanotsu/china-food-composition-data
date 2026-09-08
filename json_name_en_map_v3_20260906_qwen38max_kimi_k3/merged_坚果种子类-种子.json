@@ -1,0 +1,132 @@
+[
+  {
+    "foodCode": "072001",
+    "foodName": "胡麻子",
+    "englishName": "False sesame seeds"
+  },
+  {
+    "foodCode": "072002",
+    "foodName": "花生（鲜）［落花生，长生果］",
+    "englishName": "Peanut，in shell，fresh"
+  },
+  {
+    "foodCode": "072003",
+    "foodName": "花生（炒）",
+    "englishName": "Peanut，in shell，roasted"
+  },
+  {
+    "foodCode": "072004",
+    "foodName": "花生仁（生）",
+    "englishName": "Peanut kernel，raw"
+  },
+  {
+    "foodCode": "072005",
+    "foodName": "花生仁（炒）",
+    "englishName": "Peanut kernel，roasted"
+  },
+  {
+    "foodCode": "072006",
+    "foodName": "葵花子（生）",
+    "englishName": "Sunflower seed，in shell"
+  },
+  {
+    "foodCode": "072007",
+    "foodName": "葵花子（炒，咸）",
+    "englishName": "Sunflower seed，in shell，roasted"
+  },
+  {
+    "foodCode": "072008",
+    "foodName": "葵花子仁",
+    "englishName": "Sunflower seed kernel"
+  },
+  {
+    "foodCode": "072009",
+    "foodName": "莲子（干）",
+    "englishName": "Lotus seed，dried"
+  },
+  {
+    "foodCode": "072010",
+    "foodName": "莲子（糖水罐头）",
+    "englishName": "Lotus seed，in sugar syrup"
+  },
+  {
+    "foodCode": "072011",
+    "foodName": "南瓜子（炒）白瓜子］",
+    "englishName": "Pumpkin seed，in shell，roasted"
+  },
+  {
+    "foodCode": "072012",
+    "foodName": "南瓜子仁",
+    "englishName": "Pumpkin seed kernel"
+  },
+  {
+    "foodCode": "072013",
+    "foodName": "西瓜子（炒）",
+    "englishName": "Watermelon seed，roasted，in shell"
+  },
+  {
+    "foodCode": "072014",
+    "foodName": "西瓜子",
+    "englishName": "Watermelon seed，processed，in shell，plum flavored"
+  },
+  {
+    "foodCode": "072015",
+    "foodName": "西瓜子仁",
+    "englishName": "Watermelon seed，kernel"
+  },
+  {
+    "foodCode": "072016",
+    "foodName": "芝麻子（白）",
+    "englishName": "Sesame seed，white"
+  },
+  {
+    "foodCode": "072017",
+    "foodName": "芝麻子（黑）",
+    "englishName": "Sesame seed，black"
+  },
+  {
+    "foodCode": "072018",
+    "foodName": "芡实米（鲜）［鸡头米",
+    "englishName": "Gorgon foxnut seeds，fresh"
+  },
+  {
+    "foodCode": "072019",
+    "foodName": "芡实米（干）［鸡头米］",
+    "englishName": "Gorgon euryale seed"
+  },
+  {
+    "foodCode": "072020",
+    "foodName": "花生（烤，勤俭牌）",
+    "englishName": "Peanut，in shell，salted and roasted，QINJIAN"
+  },
+  {
+    "foodCode": "072021",
+    "foodName": "花生（烤，密日兴牌）",
+    "englishName": "Peanut，in shell，salted and roasted，MIRIXING"
+  },
+  {
+    "foodCode": "072022",
+    "foodName": "花生仁（油炸）",
+    "englishName": "Peanut，without shell，fried，salted"
+  },
+  {
+    "foodCode": "072023",
+    "foodName": "葵花子（熟，奶油香）",
+    "englishName": "Sunflower seed，in shell，salted and roasted，butter flavor"
+  },
+  {
+    "foodCode": "072024",
+    "foodName": "葵花子（熟，原味）",
+    "englishName": "Sunflower seed，in shell，salted and roasted"
+  },
+  {
+    "foodCode": "072025",
+    "foodName": "南瓜子（熟）［白瓜子］",
+    "englishName": "Pumpkin seed，in shell，salted and roasted"
+  },
+  {
+    "foodCode": "072026",
+    "foodName": "西瓜子（熟）［黑瓜子］",
+    "englishName": "Watermelon seed，in shell，salted and roasted"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "foodCode": "103001x",
+    "foodName": "酸奶（全脂）",
+    "englishName": "Yogurt, full fat"
+  },
+  {
+    "foodCode": "103002",
+    "foodName": "酸奶（高蛋白）",
+    "englishName": "Yogurt, high protein"
+  },
+  {
+    "foodCode": "103003",
+    "foodName": "酸奶（脱脂）",
+    "englishName": "Yogurt, skimmed"
+  },
+  {
+    "foodCode": "103004",
+    "foodName": "酸奶（低脂）",
+    "englishName": "Yogurt, low-skimmed"
+  },
+  {
+    "foodCode": "103005",
+    "foodName": "酸奶（果料）",
+    "englishName": "*Fruit* yogurt, whole milk, with fruits"
+  },
+  {
+    "foodCode": "103006",
+    "foodName": "酸奶（橘味，脱脂）",
+    "englishName": "*Orange flavor* yogurt, skimmed"
+  }
+]

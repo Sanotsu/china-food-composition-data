@@ -1,0 +1,42 @@
+[
+  {
+    "foodCode": "035101",
+    "foodName": "蚕豆（干）",
+    "englishName": "Broad bean，dried"
+  },
+  {
+    "foodCode": "035102",
+    "foodName": "蚕豆（带皮）",
+    "englishName": "Broad bean，with seed coat"
+  },
+  {
+    "foodCode": "035103",
+    "foodName": "蚕豆（去皮）",
+    "englishName": "Broad bean，seed coat removed"
+  },
+  {
+    "foodCode": "035104",
+    "foodName": "马牙大豆（干）",
+    "englishName": "Broad bean，*Maya*，dried"
+  },
+  {
+    "foodCode": "035105",
+    "foodName": "脑豆（干）",
+    "englishName": "Broad bean，*Naodou*，dried"
+  },
+  {
+    "foodCode": "035201",
+    "foodName": "蚕豆（烤）",
+    "englishName": "Broad bean，roasted"
+  },
+  {
+    "foodCode": "035202",
+    "foodName": "蚕豆（炸）［开花豆",
+    "englishName": "Broad bean，deep fried"
+  },
+  {
+    "foodCode": "035203",
+    "foodName": "蚕豆（煮）",
+    "englishName": "Broad bean，immature seeds，cooked，boiled，drained，without salt"
+  }
+]

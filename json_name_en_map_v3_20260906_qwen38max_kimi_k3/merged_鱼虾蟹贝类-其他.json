@@ -1,0 +1,67 @@
+[
+  {
+    "foodCode": "129001",
+    "foodName": "海参",
+    "englishName": "Sea cucumber, fresh"
+  },
+  {
+    "foodCode": "129002",
+    "foodName": "海参（干）",
+    "englishName": "Sea cucumber, dried"
+  },
+  {
+    "foodCode": "129003",
+    "foodName": "海参（水浸）",
+    "englishName": "Sea cucumber, soaked in water"
+  },
+  {
+    "foodCode": "129004",
+    "foodName": "海蜇皮",
+    "englishName": "Jellyfish, bell"
+  },
+  {
+    "foodCode": "129005",
+    "foodName": "海蜇头",
+    "englishName": "Jellyfish, arm"
+  },
+  {
+    "foodCode": "129006",
+    "foodName": "墨鱼（鲜，曼氏无针乌贼）",
+    "englishName": "Cuttlefish, fresh"
+  },
+  {
+    "foodCode": "129007",
+    "foodName": "墨鱼（干，曼氏无针乌贼）",
+    "englishName": "Cuttlefish, dried"
+  },
+  {
+    "foodCode": "129008",
+    "foodName": "鱿鱼（鲜，中国枪乌贼）[枪乌贼]",
+    "englishName": "Squid, fresh"
+  },
+  {
+    "foodCode": "129009",
+    "foodName": "鱿鱼（干，中国枪乌贼）",
+    "englishName": "Squid, dried"
+  },
+  {
+    "foodCode": "129010",
+    "foodName": "鱿鱼（水浸）",
+    "englishName": "Squid, soaked in water"
+  },
+  {
+    "foodCode": "129011",
+    "foodName": "乌鱼蛋",
+    "englishName": "Cuttlefish roe"
+  },
+  {
+    "foodCode": "129012",
+    "foodName": "章鱼［真蛸］",
+    "englishName": "Octopus ocellatus"
+  },
+  {
+    "foodCode": "129013",
+    "foodName": "章鱼（八爪鱼）[八角鱼]",
+    "englishName": "Octopus, Octopodidae"
+  }
+]

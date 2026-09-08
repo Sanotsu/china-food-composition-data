@@ -1,0 +1,92 @@
+[
+  {
+    "foodCode": "122101",
+    "foodName": "白米虾［水虾米］",
+    "englishName": "*White rice* shrimp"
+  },
+  {
+    "foodCode": "122102",
+    "foodName": "斑节对虾［草虾］",
+    "englishName": "Giant tiger prawn"
+  },
+  {
+    "foodCode": "122103",
+    "foodName": "长毛对虾［大虾、白对虾］",
+    "englishName": "*Long feeler* prawn"
+  },
+  {
+    "foodCode": "122104",
+    "foodName": "喇蛄［刺蛄、大头虾",
+    "englishName": "Procambarus clarkia"
+  },
+  {
+    "foodCode": "122105",
+    "foodName": "东方对虾［中国对虾］",
+    "englishName": "Chinese white shrimp"
+  },
+  {
+    "foodCode": "122106",
+    "foodName": "对虾",
+    "englishName": "Penaeid shrimp"
+  },
+  {
+    "foodCode": "122107",
+    "foodName": "海虾",
+    "englishName": "Shrimp, marine"
+  },
+  {
+    "foodCode": "122108",
+    "foodName": "河虾",
+    "englishName": "Shrimp, freshwater"
+  },
+  {
+    "foodCode": "122109",
+    "foodName": "基围虾",
+    "englishName": "Sand shrimp, greasyback shrimp"
+  },
+  {
+    "foodCode": "122110",
+    "foodName": "江虾［沼虾］",
+    "englishName": "Shrimp, freshwater"
+  },
+  {
+    "foodCode": "122111",
+    "foodName": "龙虾",
+    "englishName": "Lobster"
+  },
+  {
+    "foodCode": "122112",
+    "foodName": "明虾",
+    "englishName": "Prawn, freshwater"
+  },
+  {
+    "foodCode": "122113",
+    "foodName": "塘水虾［草虾］",
+    "englishName": "Shrimp, small, freshwater"
+  },
+  {
+    "foodCode": "122114",
+    "foodName": "虾虎（皮皮虾）",
+    "englishName": "Mantis shrimp"
+  },
+  {
+    "foodCode": "122115",
+    "foodName": "虾皮",
+    "englishName": "*Hairy* shrimp, dried, marine"
+  },
+  {
+    "foodCode": "122116",
+    "foodName": "螯虾（喇蛄，南方）",
+    "englishName": "Crawfish, Procambarus clarkia"
+  },
+  {
+    "foodCode": "122201",
+    "foodName": "虾米［海米、虾仁］",
+    "englishName": "Shrimp, small to medium, dried"
+  },
+  {
+    "foodCode": "122202",
+    "foodName": "虾脑酱",
+    "englishName": "Shrimp head paste"
+  }
+]

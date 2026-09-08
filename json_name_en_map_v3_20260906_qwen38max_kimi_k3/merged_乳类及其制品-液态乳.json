@@ -1,0 +1,32 @@
+[
+  {
+    "foodCode": "101101x",
+    "foodName": "纯牛奶",
+    "englishName": "Milk，pasteurized"
+  },
+  {
+    "foodCode": "101102",
+    "foodName": "纯牛奶（全脂，美国牛）",
+    "englishName": "Milk，full fat，American breed"
+  },
+  {
+    "foodCode": "101103",
+    "foodName": "纯牛奶（强化 VA，VD）",
+    "englishName": "Milk，fortified with vitamins A and D"
+  },
+  {
+    "foodCode": "101104",
+    "foodName": "纯牛奶（全脂，德国牛）",
+    "englishName": "Milk，full fat，German breed"
+  },
+  {
+    "foodCode": "101201",
+    "foodName": "鲜羊乳",
+    "englishName": "Goat milk"
+  },
+  {
+    "foodCode": "101301",
+    "foodName": "人乳",
+    "englishName": "Breast milk"
+  }
+]

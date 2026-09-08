@@ -1,0 +1,127 @@
+[
+  {
+    "foodCode": "082101x",
+    "foodName": "牛肉（肥瘦）",
+    "englishName": "Beef，lean and fat"
+  },
+  {
+    "foodCode": "082102",
+    "foodName": "牛肉（肋条）",
+    "englishName": "Beef，short rib"
+  },
+  {
+    "foodCode": "082103",
+    "foodName": "牛肉（后腿）",
+    "englishName": "Beef，round"
+  },
+  {
+    "foodCode": "082104",
+    "foodName": "牛肉（后腱）",
+    "englishName": "Beef，hind shank"
+  },
+  {
+    "foodCode": "082105",
+    "foodName": "牛肉（里脊）[牛柳]",
+    "englishName": "Beef，tenderloin"
+  },
+  {
+    "foodCode": "082106",
+    "foodName": "牛肉（前腿）",
+    "englishName": "Beef，fore leg"
+  },
+  {
+    "foodCode": "082107",
+    "foodName": "牛肉（前腱）",
+    "englishName": "Beef，shoulder"
+  },
+  {
+    "foodCode": "082108x",
+    "foodName": "牛肉（瘦）",
+    "englishName": "Beef，lean"
+  },
+  {
+    "foodCode": "082109",
+    "foodName": "牛蹄筋（生）",
+    "englishName": "Beef，tendon，raw"
+  },
+  {
+    "foodCode": "082110",
+    "foodName": "牛蹄筋（泡发）",
+    "englishName": "Beef，tendon，soaked in water"
+  },
+  {
+    "foodCode": "082201",
+    "foodName": "牛鞭（泡发）",
+    "englishName": "Beef，penis，soaked in water"
+  },
+  {
+    "foodCode": "082202",
+    "foodName": "牛大肠",
+    "englishName": "Beef，large intestine"
+  },
+  {
+    "foodCode": "082203",
+    "foodName": "牛肚",
+    "englishName": "Beef，tripe"
+  },
+  {
+    "foodCode": "082204",
+    "foodName": "牛肺",
+    "englishName": "Beef，lung"
+  },
+  {
+    "foodCode": "082205",
+    "foodName": "牛肝",
+    "englishName": "Beef，liver"
+  },
+  {
+    "foodCode": "082206",
+    "foodName": "牛脑",
+    "englishName": "Beef，brain"
+  },
+  {
+    "foodCode": "082207",
+    "foodName": "牛舌",
+    "englishName": "Beef，tongue"
+  },
+  {
+    "foodCode": "082208",
+    "foodName": "牛肾",
+    "englishName": "Beef，kidney"
+  },
+  {
+    "foodCode": "082209",
+    "foodName": "牛心",
+    "englishName": "Beef，heart"
+  },
+  {
+    "foodCode": "082301",
+    "foodName": "酱牛肉",
+    "englishName": "Beef，lean and fat，spiced，cooked with soy sauce"
+  },
+  {
+    "foodCode": "082302",
+    "foodName": "煨牛肉（罐头）",
+    "englishName": "Beef，stewed，lean and fat，canned"
+  },
+  {
+    "foodCode": "082303",
+    "foodName": "牛肉干",
+    "englishName": "Beef，dried"
+  },
+  {
+    "foodCode": "082304",
+    "foodName": "咖喱牛肉干",
+    "englishName": "Beef，curried，dried"
+  },
+  {
+    "foodCode": "082305",
+    "foodName": "牛肉松",
+    "englishName": "Beef floss，with salt，soy sauce and sugar"
+  },
+  {
+    "foodCode": "082306",
+    "foodName": "牛蹄筋（熟）",
+    "englishName": "Beef，tendon，cooked"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "foodCode": "104001",
+    "foodName": "奶酪［干酪］",
+    "englishName": "Cheese， white， semisoft"
+  },
+  {
+    "foodCode": "104002",
+    "foodName": "奶豆腐（脱脂）",
+    "englishName": "Milk curd， skimmed"
+  },
+  {
+    "foodCode": "104003",
+    "foodName": "奶豆腐（鲜）",
+    "englishName": "Milk curd， fresh"
+  },
+  {
+    "foodCode": "104004",
+    "foodName": "奶疙瘩［奶酪干、干酸奶］",
+    "englishName": "Cheese， milk lump， sour， dried"
+  },
+  {
+    "foodCode": "104005",
+    "foodName": "乳酪（契达干酪，普通）",
+    "englishName": "Cheese， Cheddar， ordinary"
+  },
+  {
+    "foodCode": "104006",
+    "foodName": "乳酪（契达干酪，脱脂）",
+    "englishName": "Cheese， Cheddar， reduced fat"
+  },
+  {
+    "foodCode": "104007",
+    "foodName": "曲拉（家制粗奶酪，西北牧区）",
+    "englishName": "Qula, Cheddar， homemade, crude product"
+  },
+  {
+    "foodCode": "104008",
+    "foodName": "全脂软酪",
+    "englishName": "Full fat soft cheese"
+  },
+  {
+    "foodCode": "104009",
+    "foodName": "酸酪蛋",
+    "englishName": "Cottage cheese"
+  },
+  {
+    "foodCode": "104010",
+    "foodName": "羊乳酪",
+    "englishName": "Feta"
+  },
+  {
+    "foodCode": "104011",
+    "foodName": "中脂软酪",
+    "englishName": "Medium fat soft cheese"
+  }
+]

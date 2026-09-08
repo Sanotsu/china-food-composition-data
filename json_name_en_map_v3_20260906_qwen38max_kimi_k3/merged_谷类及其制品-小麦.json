@@ -1,0 +1,187 @@
+[
+  {
+    "foodCode": "011101",
+    "foodName": "小麦",
+    "englishName": "Wheat grain"
+  },
+  {
+    "foodCode": "011102",
+    "foodName": "五谷香",
+    "englishName": "Wheat grain，*Fragrant crops*"
+  },
+  {
+    "foodCode": "011201x",
+    "foodName": "小麦粉（代表值）",
+    "englishName": "Wheat flour"
+  },
+  {
+    "foodCode": "011202",
+    "foodName": "小麦粉（富强粉，特一粉）",
+    "englishName": "Wheat flour，refined，special grade1"
+  },
+  {
+    "foodCode": "011203",
+    "foodName": "小麦粉（特二粉）",
+    "englishName": "Wheat flour，refined，special grade2"
+  },
+  {
+    "foodCode": "011204",
+    "foodName": "小麦胚粉",
+    "englishName": "Wheat germ flour"
+  },
+  {
+    "foodCode": "011205",
+    "foodName": "麸皮",
+    "englishName": "Wheat bran"
+  },
+  {
+    "foodCode": "011206",
+    "foodName": "小麦粉（标准粉）",
+    "englishName": "Wheat flour，moderately refined，standard grade"
+  },
+  {
+    "foodCode": "011207",
+    "foodName": "小麦粉（富强粉，特一粉）",
+    "englishName": "Wheat flour，refined，special grade 1"
+  },
+  {
+    "foodCode": "011208",
+    "foodName": "小麦粉（特制）",
+    "englishName": "Wheat flour，specially refined"
+  },
+  {
+    "foodCode": "011301x",
+    "foodName": "挂面（代表值）",
+    "englishName": "Wheat noodle，dried"
+  },
+  {
+    "foodCode": "011302",
+    "foodName": "挂面（标准粉）",
+    "englishName": "Wheat noodle，standard grade wheat flour，dried"
+  },
+  {
+    "foodCode": "011304",
+    "foodName": "挂面（精制龙须面）",
+    "englishName": "Wheat noodle，lysine enriched wheat flour，dried"
+  },
+  {
+    "foodCode": "011305x",
+    "foodName": "面条（生，代表值）",
+    "englishName": "Wheat noodle，fresh"
+  },
+  {
+    "foodCode": "011306",
+    "foodName": "面条（标准粉，切面）",
+    "englishName": "Wheat noodle，standard grade wheat flour，fresh"
+  },
+  {
+    "foodCode": "011308",
+    "foodName": "面条（特粉，切面）",
+    "englishName": "Wheat noodle，special grade 1 wheat flour"
+  },
+  {
+    "foodCode": "011310",
+    "foodName": "面条（干切面）",
+    "englishName": "Wheat noodle，dried"
+  },
+  {
+    "foodCode": "011311",
+    "foodName": "面条（虾蓉面）",
+    "englishName": "Wheat noodle，shrimp flavoured"
+  },
+  {
+    "foodCode": "011312",
+    "foodName": "通心面［通心粉］",
+    "englishName": "Wheat macaroni"
+  },
+  {
+    "foodCode": "011313",
+    "foodName": "挂面（富强粉）",
+    "englishName": "Noodle，from refined wheat flour，dried，raw"
+  },
+  {
+    "foodCode": "011314",
+    "foodName": "龙须面（素）",
+    "englishName": "Vermicelli，from wheat flour，plain or vegetarian，dried，raw"
+  },
+  {
+    "foodCode": "011315",
+    "foodName": "龙须面（鸡蛋）",
+    "englishName": "Vermicelli，from wheat flour，egg powder added，dried，raw"
+  },
+  {
+    "foodCode": "011316",
+    "foodName": "面条（富强粉，切面）",
+    "englishName": "Noodle，from refined wheat flour，fresh，raw"
+  },
+  {
+    "foodCode": "011317",
+    "foodName": "面条（富强粉，煮）",
+    "englishName": "Noodle，from refined wheat flour，boiled，drained"
+  },
+  {
+    "foodCode": "011401",
+    "foodName": "花卷",
+    "englishName": "Wheat bun，leavened，salted and twisted，steamed"
+  },
+  {
+    "foodCode": "011402",
+    "foodName": "空锅饼",
+    "englishName": "Wheat bun，leavened，baked"
+  },
+  {
+    "foodCode": "011403",
+    "foodName": "烙饼（标准粉）",
+    "englishName": "Wheat pancake，standard grade wheat flour，unleavened"
+  },
+  {
+    "foodCode": "011404x",
+    "foodName": "馒头（代表值）",
+    "englishName": "Wheat bun，leavened，steamed"
+  },
+  {
+    "foodCode": "011405",
+    "foodName": "馒头（标准粉）",
+    "englishName": "Wheat bun，leavened，standard grade wheat flour，steamed"
+  },
+  {
+    "foodCode": "011407",
+    "foodName": "烧饼（加糖）",
+    "englishName": "Wheat bread，leavened，baked with sesame seeds and sugar"
+  },
+  {
+    "foodCode": "011408",
+    "foodName": "油饼",
+    "englishName": "Wheat pancake，deep-fried"
+  },
+  {
+    "foodCode": "011409",
+    "foodName": "油条",
+    "englishName": "Wheat dough stick，deep-fried"
+  },
+  {
+    "foodCode": "011410",
+    "foodName": "花卷（加牛奶）",
+    "englishName": "Bun，twisted，form refined wheat flour，milk and salt added，leavened，steamed"
+  },
+  {
+    "foodCode": "011411",
+    "foodName": "馒头（富强粉）",
+    "englishName": "Bun，from refined wheat flour，leavened，steamed"
+  },
+  {
+    "foodCode": "011501",
+    "foodName": "水面筋",
+    "englishName": "Wheat gluten，fresh"
+  },
+  {
+    "foodCode": "011502",
+    "foodName": "油面筋",
+    "englishName": "Wheat gluten，deep-fried"
+  },
+  {
+    "foodCode": "011503",
+    "foodName": "面筋（肉馅）",
+    "englishName": "Wheat gluten，filled with mince pork"
+  }
+]

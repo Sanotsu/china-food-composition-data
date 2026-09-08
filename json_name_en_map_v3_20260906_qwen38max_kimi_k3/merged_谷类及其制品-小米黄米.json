@@ -1,0 +1,32 @@
+[
+  {
+    "foodCode": "015101",
+    "foodName": "小米",
+    "englishName": "Foxtail millet, hulled"
+  },
+  {
+    "foodCode": "015102",
+    "foodName": "小米面",
+    "englishName": "Foxtail millet flour"
+  },
+  {
+    "foodCode": "015103",
+    "foodName": "小米粥",
+    "englishName": "Foxtail millet porridge"
+  },
+  {
+    "foodCode": "015104",
+    "foodName": "小米（黄）",
+    "englishName": "Foxtail millet, hulled, yellow, raw"
+  },
+  {
+    "foodCode": "015201",
+    "foodName": "大黄米黍子］",
+    "englishName": "Broomcorn millet, hulled"
+  },
+  {
+    "foodCode": "015202",
+    "foodName": "黄米",
+    "englishName": "Broomcorn millet, hulled, yellow"
+  }
+]

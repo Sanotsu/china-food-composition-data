@@ -1,0 +1,132 @@
+[
+  {
+    "foodCode": "092101x",
+    "foodName": "鸭",
+    "englishName": "Duck，whole"
+  },
+  {
+    "foodCode": "092102",
+    "foodName": "公麻鸭",
+    "englishName": "Duck，drake，whole"
+  },
+  {
+    "foodCode": "092103",
+    "foodName": "母麻鸭",
+    "englishName": "Duck，hen，whole"
+  },
+  {
+    "foodCode": "092104",
+    "foodName": "鸭胸脯肉",
+    "englishName": "Duck，breast"
+  },
+  {
+    "foodCode": "092105",
+    "foodName": "鸭皮",
+    "englishName": "Duck，skin"
+  },
+  {
+    "foodCode": "092106",
+    "foodName": "鸭翅",
+    "englishName": "Duck，wing"
+  },
+  {
+    "foodCode": "092107",
+    "foodName": "鸭掌",
+    "englishName": "Duck，feet"
+  },
+  {
+    "foodCode": "092201",
+    "foodName": "鸭肠",
+    "englishName": "Duck，intestine"
+  },
+  {
+    "foodCode": "092202",
+    "foodName": "鸭肝",
+    "englishName": "Duck，liver"
+  },
+  {
+    "foodCode": "092203",
+    "foodName": "鸭肝（公麻鸭）",
+    "englishName": "Duck，liver，drake"
+  },
+  {
+    "foodCode": "092204",
+    "foodName": "鸭肝（母麻鸭）",
+    "englishName": "Duck，liver，hen"
+  },
+  {
+    "foodCode": "092205",
+    "foodName": "鸭舌［鸭条］",
+    "englishName": "Duck，tongue"
+  },
+  {
+    "foodCode": "092206",
+    "foodName": "鸭心",
+    "englishName": "Duck，heart"
+  },
+  {
+    "foodCode": "092207",
+    "foodName": "鸭血（白鸭）",
+    "englishName": "Beijing white duck，blood"
+  },
+  {
+    "foodCode": "092208",
+    "foodName": "鸭血（公麻鸭）",
+    "englishName": "Duck，blood，drake"
+  },
+  {
+    "foodCode": "092209",
+    "foodName": "鸭血（母麻鸭）",
+    "englishName": "Duck，blood，hen"
+  },
+  {
+    "foodCode": "092210",
+    "foodName": "鸭胰",
+    "englishName": "Duck，pancreas"
+  },
+  {
+    "foodCode": "092211",
+    "foodName": "鸭肫",
+    "englishName": "Duck，gizzard"
+  },
+  {
+    "foodCode": "092212",
+    "foodName": "鸭肫（公麻鸭）",
+    "englishName": "Duck，gizzard，drake"
+  },
+  {
+    "foodCode": "092213",
+    "foodName": "鸭肫（母麻鸭）",
+    "englishName": "Duck，gizzard，hen"
+  },
+  {
+    "foodCode": "092301",
+    "foodName": "北京烤鸭",
+    "englishName": "Beijing white duck，roasted，whole"
+  },
+  {
+    "foodCode": "092302",
+    "foodName": "北京填鸭",
+    "englishName": "Beijing white duck，fatty，force-fed，whole"
+  },
+  {
+    "foodCode": "092303",
+    "foodName": "红烧鸭（罐头）",
+    "englishName": "Duck，stewed in soy sauce，canned"
+  },
+  {
+    "foodCode": "092304",
+    "foodName": "酱鸭",
+    "englishName": "Duck，cooked with soy sauce and spices，whole"
+  },
+  {
+    "foodCode": "092305",
+    "foodName": "酱鸭（加梅菜，罐头）",
+    "englishName": "Duck，braised，with fermented cabbage，canned"
+  },
+  {
+    "foodCode": "092306",
+    "foodName": "盐水鸭（熟）",
+    "englishName": "Duck，boiled in salted water，whole"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "foodCode": "039101",
+    "foodName": "扁豆（干）",
+    "englishName": "Hyacinth bean, green, dried"
+  },
+  {
+    "foodCode": "039102",
+    "foodName": "扁豆（干，白）",
+    "englishName": "Hyacinth bean, white, dried"
+  },
+  {
+    "foodCode": "039201",
+    "foodName": "眉豆（干）［饭豇豆］",
+    "englishName": "Cowpea, catjang, dried"
+  },
+  {
+    "foodCode": "039202",
+    "foodName": "豇豆（干）",
+    "englishName": "Common cowpea, dried"
+  },
+  {
+    "foodCode": "039203",
+    "foodName": "豇豆（干，紫）",
+    "englishName": "Cowpea, purple, dried"
+  },
+  {
+    "foodCode": "039204",
+    "foodName": "豇豆（煮）",
+    "englishName": "Cowpea, boiled"
+  },
+  {
+    "foodCode": "039301",
+    "foodName": "豌豆（干）",
+    "englishName": "Carden pea, dried"
+  },
+  {
+    "foodCode": "039302",
+    "foodName": "豌豆（花）",
+    "englishName": "Carden pea, variegated"
+  },
+  {
+    "foodCode": "039303",
+    "foodName": "豌豆（煮）",
+    "englishName": "Pea, boiled"
+  },
+  {
+    "foodCode": "039401",
+    "foodName": "鹰嘴豆［桃豆］",
+    "englishName": "Chickpeas, dried, raw"
+  },
+  {
+    "foodCode": "039901",
+    "foodName": "荆豆（干）",
+    "englishName": "Gorse, dried"
+  },
+  {
+    "foodCode": "039902",
+    "foodName": "木豆［扭豆，豆蓉］（干）",
+    "englishName": "Cajan, dried"
+  }
+]

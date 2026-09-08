@@ -1,0 +1,37 @@
+[
+  {
+    "foodCode": "191001",
+    "foodName": "牛油",
+    "englishName": "Beef tallow"
+  },
+  {
+    "foodCode": "191002",
+    "foodName": "牛油（炼）",
+    "englishName": "Beef tallow，rendered"
+  },
+  {
+    "foodCode": "191003",
+    "foodName": "鸭油（炼）",
+    "englishName": "Duck fat，rendered"
+  },
+  {
+    "foodCode": "191004",
+    "foodName": "羊油（板油）",
+    "englishName": "Sheep fat，unrendered，leaf fat"
+  },
+  {
+    "foodCode": "191005",
+    "foodName": "羊油（炼）",
+    "englishName": "Sheep fat，rendered"
+  },
+  {
+    "foodCode": "191006",
+    "foodName": "猪油（板油）",
+    "englishName": "Lard（leaf lard），unrendered"
+  },
+  {
+    "foodCode": "191007",
+    "foodName": "猪油（炼）",
+    "englishName": "Lard，rendered"
+  }
+]

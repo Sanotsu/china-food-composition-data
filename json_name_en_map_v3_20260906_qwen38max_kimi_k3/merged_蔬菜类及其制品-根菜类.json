@@ -1,0 +1,107 @@
+[
+  {
+    "foodCode": "041101",
+    "foodName": "白萝卜（鲜）［莱菔］",
+    "englishName": "Radish，white skin and flesh，raw"
+  },
+  {
+    "foodCode": "041102",
+    "foodName": "卞萝卜［红皮萝卜］",
+    "englishName": "Radish，red skin and white flesh，round，raw"
+  },
+  {
+    "foodCode": "041103",
+    "foodName": "红旦旦萝卜［樱桃萝卜，小水萝卜］",
+    "englishName": "Radish，red skin"
+  },
+  {
+    "foodCode": "041104",
+    "foodName": "红萝卜［卞萝卜］",
+    "englishName": "Red radish"
+  },
+  {
+    "foodCode": "041105",
+    "foodName": "红心萝卜［心里美］",
+    "englishName": "Radish，red flesh"
+  },
+  {
+    "foodCode": "041106",
+    "foodName": "花叶萝卜",
+    "englishName": "radish，Petal leaf"
+  },
+  {
+    "foodCode": "041108",
+    "foodName": "水萝卜［脆萝卜］",
+    "englishName": "Radish，Chinese"
+  },
+  {
+    "foodCode": "041109",
+    "foodName": "小水萝卜［算盘子，红皮萝卜］",
+    "englishName": "Radish，small，red skin"
+  },
+  {
+    "foodCode": "041110",
+    "foodName": "红心萝卜［心里美］",
+    "englishName": "*Beautiful heart *radish，red flesh and green skin"
+  },
+  {
+    "foodCode": "041112",
+    "foodName": "白萝卜（圆）",
+    "englishName": "Radish，white skin and flesh，round，raw"
+  },
+  {
+    "foodCode": "041113",
+    "foodName": "青萝卜",
+    "englishName": "Radish，green skin and flesh，raw"
+  },
+  {
+    "foodCode": "041115",
+    "foodName": "樱桃萝卜",
+    "englishName": "Cherry radish，raw"
+  },
+  {
+    "foodCode": "041201",
+    "foodName": "胡萝卜（红）［金笋，丁香萝卜］",
+    "englishName": "Carrot，red"
+  },
+  {
+    "foodCode": "041202",
+    "foodName": "胡萝卜（黄）",
+    "englishName": "Carrot，yellow"
+  },
+  {
+    "foodCode": "041203",
+    "foodName": "胡萝卜（脱水）",
+    "englishName": "Carrot，dehydrated"
+  },
+  {
+    "foodCode": "041204",
+    "foodName": "胡萝卜",
+    "englishName": "Carrot，yellow，raw"
+  },
+  {
+    "foodCode": "041301",
+    "foodName": "芥菜头［大头菜，水芥］",
+    "englishName": "Horseradish"
+  },
+  {
+    "foodCode": "041302",
+    "foodName": "苤蓝［玉蔓菁，球茎甘蓝，大头菜］",
+    "englishName": "Kohlrabi"
+  },
+  {
+    "foodCode": "041401",
+    "foodName": "甜菜根（鲜）［甜菜头，糖萝卜］",
+    "englishName": "Beetroot"
+  },
+  {
+    "foodCode": "041402",
+    "foodName": "根芹［根洋芹、球根塘蒿］",
+    "englishName": "Celeriac，raw"
+  },
+  {
+    "foodCode": "041403",
+    "foodName": "紫菜头",
+    "englishName": "Garden beet，purple skin and flesh，raw"
+  }
+]

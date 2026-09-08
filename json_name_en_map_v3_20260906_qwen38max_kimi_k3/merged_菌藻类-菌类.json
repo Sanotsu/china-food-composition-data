@@ -1,0 +1,277 @@
+[
+  {
+    "foodCode": "051001",
+    "foodName": "草菇［大黑头细花草］",
+    "englishName": "Straw mushroom"
+  },
+  {
+    "foodCode": "051002",
+    "foodName": "大红菇（干）［草质红菇］",
+    "englishName": "Red mushroom，large，dried"
+  },
+  {
+    "foodCode": "051003",
+    "foodName": "地衣（水浸）",
+    "englishName": "Lichens，soaked in water"
+  },
+  {
+    "foodCode": "051004",
+    "foodName": "冬菇（干）［毛柄金线菌］",
+    "englishName": "Winter mushroom，dried (Flammulina velutipes (Fr.) Sing.2014)"
+  },
+  {
+    "foodCode": "051005",
+    "foodName": "猴头菇（罐装）",
+    "englishName": "*Monkey head* mushroom，canned"
+  },
+  {
+    "foodCode": "051006",
+    "foodName": "黄蘑（干）",
+    "englishName": "Yellow mushroom，dried"
+  },
+  {
+    "foodCode": "051007",
+    "foodName": "黄蘑（水发）",
+    "englishName": "Yellow mushroom，soaked in water"
+  },
+  {
+    "foodCode": "051008",
+    "foodName": "金针菇（鲜）",
+    "englishName": "*Gold needle* mushroom，thin"
+  },
+  {
+    "foodCode": "051009",
+    "foodName": "金针菇（罐装）",
+    "englishName": "*Gold needle* mushroom, thin, canned"
+  },
+  {
+    "foodCode": "051010",
+    "foodName": "口蘑（白蘑）",
+    "englishName": "Mongolian mushroom, white dried"
+  },
+  {
+    "foodCode": "051011",
+    "foodName": "蘑菇（鲜蘑）",
+    "englishName": "Button mushroom"
+  },
+  {
+    "foodCode": "051013",
+    "foodName": "木耳（干）［黑木耳，云耳］",
+    "englishName": "Wood ear fungus, dried"
+  },
+  {
+    "foodCode": "051014",
+    "foodName": "木耳（水发）［黑木耳，云耳］",
+    "englishName": "Wood ear fungus, soaked in water"
+  },
+  {
+    "foodCode": "051015",
+    "foodName": "平菇糙皮侧耳，青蘑］",
+    "englishName": "Oyster mushroom"
+  },
+  {
+    "foodCode": "051016",
+    "foodName": "普中红蘑（干）",
+    "englishName": "Red mushroom, medium sized, dried"
+  },
+  {
+    "foodCode": "051017",
+    "foodName": "双孢蘑菇［洋蘑菇］",
+    "englishName": "*Foreign* double button mushroom"
+  },
+  {
+    "foodCode": "051018",
+    "foodName": "松蘑（干）［松口蘑，松茸］",
+    "englishName": "*Pine* mushroom, dried"
+  },
+  {
+    "foodCode": "051019",
+    "foodName": "香菇（鲜）［香蕈，冬菇］",
+    "englishName": "Shitake mushroom"
+  },
+  {
+    "foodCode": "051020",
+    "foodName": "香菇（干）［香蕈，冬菇］",
+    "englishName": "Shitake mushroom dried"
+  },
+  {
+    "foodCode": "051021",
+    "foodName": "香杏丁蘑（干，大）",
+    "englishName": "*Apricot* mushroom, large sized, dried"
+  },
+  {
+    "foodCode": "051022",
+    "foodName": "香杏片口蘑（干）",
+    "englishName": "*Apricot* Mongolian mushroom, sliced, dried"
+  },
+  {
+    "foodCode": "051023",
+    "foodName": "羊肚菌（干）［干狼肚］",
+    "englishName": "Morel mushroom"
+  },
+  {
+    "foodCode": "051024",
+    "foodName": "银耳（干）［白木耳］",
+    "englishName": "Silver ear fungus, white, dried"
+  },
+  {
+    "foodCode": "051025",
+    "foodName": "珍珠白蘑（干）",
+    "englishName": "*Pearl* mushroom, white, dried"
+  },
+  {
+    "foodCode": "051026",
+    "foodName": "榛蘑（半干）［假蜜环菌］",
+    "englishName": "Bolete mushroom, dried"
+  },
+  {
+    "foodCode": "051027",
+    "foodName": "榛蘑（水发）",
+    "englishName": "Bolete mushroom, soaked in water"
+  },
+  {
+    "foodCode": "051028",
+    "foodName": "白蘑菇［双孢蘑菇、洋蘑菇］",
+    "englishName": "Button mushroom"
+  },
+  {
+    "foodCode": "051029",
+    "foodName": "北风菌［荷叶离褶伞、一窝羊］",
+    "englishName": "Friedchicken mushroom"
+  },
+  {
+    "foodCode": "051030",
+    "foodName": "草菇［大黑头细花草、稻菇］",
+    "englishName": "Straw mushroom, soaked in salted water, canned"
+  },
+  {
+    "foodCode": "051031",
+    "foodName": "茶树菇（干）［柱状田头菇、油茶菇］",
+    "englishName": "Columnar agroc"
+  },
+  {
+    "foodCode": "051032",
+    "foodName": "干巴菌",
+    "englishName": "Ganba fungus"
+  },
+  {
+    "foodCode": "051033",
+    "foodName": "红奶浆菌［多汁乳菇、谷熟菌］",
+    "englishName": "Weeping milk cap"
+  },
+  {
+    "foodCode": "051034",
+    "foodName": "黄蘑（干）",
+    "englishName": "Yellow mushroom, dried"
+  },
+  {
+    "foodCode": "051035",
+    "foodName": "黄伞菇（干）［多脂鳞伞、黄丝菌］",
+    "englishName": "Golden pholiota, dried"
+  },
+  {
+    "foodCode": "051036",
+    "foodName": "鸡腿菇（干）［毛头鬼伞］",
+    "englishName": "Shaggy mane, dried"
+  },
+  {
+    "foodCode": "051037",
+    "foodName": "鸡油菌［黄丝菌、杏菌］",
+    "englishName": "Chanterelle"
+  },
+  {
+    "foodCode": "051038",
+    "foodName": "鸡枞［蚁枞、伞把菇、鸡枞菌］",
+    "englishName": "Termite mushroom"
+  },
+  {
+    "foodCode": "051039",
+    "foodName": "鸡枞（干）",
+    "englishName": "Termite mushroom, dried"
+  },
+  {
+    "foodCode": "051040",
+    "foodName": "鸡枞（油炸）［油鸡枞］",
+    "englishName": "Termite mushroom, steamed, fried, salted, in oil"
+  },
+  {
+    "foodCode": "051041",
+    "foodName": "鸡枞花",
+    "englishName": "Termite mushroom flowers"
+  },
+  {
+    "foodCode": "051042",
+    "foodName": "牛肝菌（白）［美味牛肝菌］",
+    "englishName": "King bolete"
+  },
+  {
+    "foodCode": "051043",
+    "foodName": "牛肝菌（白、干）［美味牛肝菌］",
+    "englishName": "King bolete, dried"
+  },
+  {
+    "foodCode": "051044",
+    "foodName": "牛肝菌（黑）［铜色牛肝菌",
+    "englishName": "Queen bolete"
+  },
+  {
+    "foodCode": "051045",
+    "foodName": "牛肝菌（鲜）［黄皮牛肝菌、黄皮疣柄牛肝菌、黄癞头］",
+    "englishName": "-"
+  },
+  {
+    "foodCode": "051046",
+    "foodName": "乳牛肝菌（干）［粘盖牛肝菌、松树菌］",
+    "englishName": "Cow spunk, dried"
+  },
+  {
+    "foodCode": "051047",
+    "foodName": "牛眼睛菌（鲜）［马勃菌］",
+    "englishName": "Puffball"
+  },
+  {
+    "foodCode": "051048",
+    "foodName": "平菇［糙皮侧耳、青蘑］",
+    "englishName": "Oyster mushroom"
+  },
+  {
+    "foodCode": "051049",
+    "foodName": "青头菌［变绿红菇、绿菇］",
+    "englishName": "Virescent russule"
+  },
+  {
+    "foodCode": "051050",
+    "foodName": "松蘑（干）［松茸、松口蘑］",
+    "englishName": "Matsutake，dried"
+  },
+  {
+    "foodCode": "051051",
+    "foodName": "杏鲍菇",
+    "englishName": "King oyster mushroom"
+  },
+  {
+    "foodCode": "051052",
+    "foodName": "血红菇（干）",
+    "englishName": "Red mushroom，dried"
+  },
+  {
+    "foodCode": "051053",
+    "foodName": "元蘑（干）［亚侧耳、冬蘑、黄蘑］",
+    "englishName": "Late fall oyster，dried"
+  },
+  {
+    "foodCode": "051054",
+    "foodName": "竹荪（干）［竹笙、竹参］",
+    "englishName": "Long net stinkhorn"
+  },
+  {
+    "foodCode": "051055",
+    "foodName": "榛蘑（干）［小蜜环菌］",
+    "englishName": "Honey mushroom，wild，dried"
+  },
+  {
+    "foodCode": "051056",
+    "foodName": "蛹虫草（干）",
+    "englishName": "Cordyceps militaris"
+  }
+]

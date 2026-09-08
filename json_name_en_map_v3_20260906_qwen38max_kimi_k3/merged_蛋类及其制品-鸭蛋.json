@@ -1,0 +1,27 @@
+[
+  {
+    "foodCode": "112101",
+    "foodName": "鸭蛋",
+    "englishName": "Duck，egg，whole"
+  },
+  {
+    "foodCode": "112102",
+    "foodName": "鸭蛋白",
+    "englishName": "Duck，egg white"
+  },
+  {
+    "foodCode": "112103",
+    "foodName": "鸭蛋黄",
+    "englishName": "Duck，egg yolk"
+  },
+  {
+    "foodCode": "112201",
+    "foodName": "松花蛋（鸭蛋）[皮蛋]",
+    "englishName": "Duck, century egg，preserved in powdered lime"
+  },
+  {
+    "foodCode": "112202",
+    "foodName": "鸭蛋（咸鸭蛋，生）",
+    "englishName": "Duck，egg，whole，preserved in salt, raw"
+  }
+]

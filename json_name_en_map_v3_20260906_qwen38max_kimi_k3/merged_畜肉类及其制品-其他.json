@@ -1,0 +1,27 @@
+[
+  {
+    "foodCode": "089001",
+    "foodName": "狗肉",
+    "englishName": "Dog meat"
+  },
+  {
+    "foodCode": "089002",
+    "foodName": "骆驼蹄",
+    "englishName": "Camel leg"
+  },
+  {
+    "foodCode": "089003",
+    "foodName": "骆驼掌",
+    "englishName": "Camel hoof"
+  },
+  {
+    "foodCode": "089004",
+    "foodName": "兔肉",
+    "englishName": "Rabbit meat"
+  },
+  {
+    "foodCode": "089005",
+    "foodName": "兔肉（野）",
+    "englishName": "Hare meat, wild"
+  }
+]

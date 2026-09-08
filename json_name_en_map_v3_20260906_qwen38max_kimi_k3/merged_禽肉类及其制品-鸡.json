@@ -1,0 +1,117 @@
+[
+  {
+    "foodCode": "091101x",
+    "foodName": "鸡",
+    "englishName": "Chicken，whole"
+  },
+  {
+    "foodCode": "091102",
+    "foodName": "鸡（土鸡，家养）",
+    "englishName": "Chicken，free range，whole"
+  },
+  {
+    "foodCode": "091103",
+    "foodName": "母鸡（一年内）",
+    "englishName": "Chicken，young hen，whole"
+  },
+  {
+    "foodCode": "091104",
+    "foodName": "肉鸡（肥）",
+    "englishName": "Chicken，broiler，whole"
+  },
+  {
+    "foodCode": "091105",
+    "foodName": "华青鸡",
+    "englishName": "Chicken, *Huaqing*, whole"
+  },
+  {
+    "foodCode": "091106",
+    "foodName": "沙鸡",
+    "englishName": "Sandgrouse，whole"
+  },
+  {
+    "foodCode": "091107",
+    "foodName": "鸡（乌骨鸡）",
+    "englishName": "Black boned chicken，hole"
+  },
+  {
+    "foodCode": "091108",
+    "foodName": "鸡胸脯肉",
+    "englishName": "Chicken，breast"
+  },
+  {
+    "foodCode": "091109",
+    "foodName": "鸡翅",
+    "englishName": "Chicken，wing"
+  },
+  {
+    "foodCode": "091110",
+    "foodName": "鸡腿",
+    "englishName": "Chicken，leg"
+  },
+  {
+    "foodCode": "091111",
+    "foodName": "鸡爪",
+    "englishName": "Chicken，feet"
+  },
+  {
+    "foodCode": "091201",
+    "foodName": "鸡肝",
+    "englishName": "Chicken，liver"
+  },
+  {
+    "foodCode": "091202",
+    "foodName": "鸡肝（肉鸡）",
+    "englishName": "Chicken，liver，broiler"
+  },
+  {
+    "foodCode": "091203",
+    "foodName": "鸡心",
+    "englishName": "Chicken，heart"
+  },
+  {
+    "foodCode": "091204",
+    "foodName": "鸡血",
+    "englishName": "Chicken，blood"
+  },
+  {
+    "foodCode": "091205",
+    "foodName": "鸡肫［鸡胗］",
+    "englishName": "Chicken，gizzard"
+  },
+  {
+    "foodCode": "091301",
+    "foodName": "扒鸡",
+    "englishName": "Chicken，braised，whole"
+  },
+  {
+    "foodCode": "091302",
+    "foodName": "烤鸡",
+    "englishName": "Chicken，roasted，whole"
+  },
+  {
+    "foodCode": "091303",
+    "foodName": "炸鸡块［肯德基］",
+    "englishName": "Chicken，'Kentucky'，fried"
+  },
+  {
+    "foodCode": "091304",
+    "foodName": "卤煮鸡",
+    "englishName": "Chicken，stewed with soy sauce and sugar，whole"
+  },
+  {
+    "foodCode": "091305",
+    "foodName": "瓦罐鸡汤（肉）",
+    "englishName": "Chicken soup，meat，cooked in clay pot"
+  },
+  {
+    "foodCode": "091306",
+    "foodName": "瓦罐鸡汤（汤）",
+    "englishName": "Chicken soup，broth，cooked in clay pot"
+  },
+  {
+    "foodCode": "091307",
+    "foodName": "鸡肉松",
+    "englishName": "Chicken，floss，with salt，soy sauce and sugar"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "foodCode": "123001",
+    "foodName": "蟹（海蟹）",
+    "englishName": "Crab, marine"
+  },
+  {
+    "foodCode": "123002",
+    "foodName": "蟹（河蟹）",
+    "englishName": "Crab, freshwater"
+  },
+  {
+    "foodCode": "123003",
+    "foodName": "锯缘青蟹青蟹］",
+    "englishName": "Mangrove crab, mud crab"
+  },
+  {
+    "foodCode": "123004",
+    "foodName": "梭子蟹",
+    "englishName": "Blue crab"
+  },
+  {
+    "foodCode": "123005",
+    "foodName": "蟹肉",
+    "englishName": "Crab meat"
+  }
+]

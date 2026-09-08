@@ -1,0 +1,462 @@
+[
+  {
+    "foodCode": "045101x",
+    "foodName": "大白菜（代表值）",
+    "englishName": "*Bok choi*, white"
+  },
+  {
+    "foodCode": "045102",
+    "foodName": "大白菜（白梗）［黄芽白］",
+    "englishName": "*Bok choi*, white"
+  },
+  {
+    "foodCode": "045103",
+    "foodName": "大白菜（青白口）",
+    "englishName": "*Bok choi*, green"
+  },
+  {
+    "foodCode": "045104",
+    "foodName": "大白菜（小白口）",
+    "englishName": "*Bok choi*, white"
+  },
+  {
+    "foodCode": "045105",
+    "foodName": "白菜（脱水）",
+    "englishName": "Cabbage, dehydrated"
+  },
+  {
+    "foodCode": "045108",
+    "foodName": "白菜薹［菜，菜心］",
+    "englishName": "Cabbage flowering stalk"
+  },
+  {
+    "foodCode": "045109",
+    "foodName": "红菜薹［紫菜薹］",
+    "englishName": "Rape flowering stalk, red"
+  },
+  {
+    "foodCode": "045110",
+    "foodName": "瓢儿白［瓢儿菜］",
+    "englishName": "Mustard, broad beaked"
+  },
+  {
+    "foodCode": "045111",
+    "foodName": "乌菜［乌塌菜，塌棵菜］",
+    "englishName": "Broad beaked cabbage"
+  },
+  {
+    "foodCode": "045113",
+    "foodName": "油菜（黑）",
+    "englishName": "Chinese cabbage, pakchoi"
+  },
+  {
+    "foodCode": "045114",
+    "foodName": "油菜（脱水）",
+    "englishName": "Chinese cabbage, dehydrated"
+  },
+  {
+    "foodCode": "045115",
+    "foodName": "油菜（小）",
+    "englishName": "Chinese cabbage, small"
+  },
+  {
+    "foodCode": "045116",
+    "foodName": "油菜薹［菜薹］",
+    "englishName": "Cabbage Rape, Broccoli Raab"
+  },
+  {
+    "foodCode": "045117",
+    "foodName": "大白菜（白口）",
+    "englishName": "Chinese cabbage, *Bok choi*, white leaves and stems, raw"
+  },
+  {
+    "foodCode": "045118",
+    "foodName": "大白菜（青口）",
+    "englishName": "Chinese cabbage, *Bok choi*, green leaves and stems, raw"
+  },
+  {
+    "foodCode": "045119",
+    "foodName": "酸白菜［酸菜］",
+    "englishName": "Chinese cabbage, pickled"
+  },
+  {
+    "foodCode": "045120",
+    "foodName": "小白菜［青菜］",
+    "englishName": "*Bok choy*, petiole, raw"
+  },
+  {
+    "foodCode": "045121",
+    "foodName": "奶白菜",
+    "englishName": "Pak choi, petiole, raw"
+  },
+  {
+    "foodCode": "045122",
+    "foodName": "鸡毛菜",
+    "englishName": "Mini pak choi, leaf and stem, raw"
+  },
+  {
+    "foodCode": "045123",
+    "foodName": "娃娃菜",
+    "englishName": "Mini Chinese cabbage, raw"
+  },
+  {
+    "foodCode": "045124",
+    "foodName": "乌塌菜［塌菜、塌棵菜］",
+    "englishName": "Flat cabbage"
+  },
+  {
+    "foodCode": "045125",
+    "foodName": "油菜",
+    "englishName": "Chinese cabbage, baby choi"
+  },
+  {
+    "foodCode": "045126",
+    "foodName": "油菜心",
+    "englishName": "baby cabbage"
+  },
+  {
+    "foodCode": "045201",
+    "foodName": "圆白菜，卷心菜",
+    "englishName": "Cabbage"
+  },
+  {
+    "foodCode": "045203",
+    "foodName": "菜花（脱水）［脱水花椰菜］",
+    "englishName": "Cauliflower, dehydrated"
+  },
+  {
+    "foodCode": "045205",
+    "foodName": "芥菜（鲜）［雪里红，雪菜］",
+    "englishName": "Crispifolia mustard greens"
+  },
+  {
+    "foodCode": "045206",
+    "foodName": "芥菜（大叶，鲜）［盖菜］",
+    "englishName": "Mustard greens, broad leaf"
+  },
+  {
+    "foodCode": "045207",
+    "foodName": "芥菜（茎用，鲜）［青头菜］",
+    "englishName": "Mustard stem"
+  },
+  {
+    "foodCode": "045208",
+    "foodName": "芥菜（小叶，鲜）［小芥菜］",
+    "englishName": "Mustard greens, small leaf"
+  },
+  {
+    "foodCode": "045210",
+    "foodName": "结球甘蓝（绿）［圆白菜］",
+    "englishName": "Cabbage, green, raw"
+  },
+  {
+    "foodCode": "045211",
+    "foodName": "结球甘蓝（紫）［圆白菜］",
+    "englishName": "Cabbage, purple, raw"
+  },
+  {
+    "foodCode": "045212",
+    "foodName": "抱子甘蓝（小圆白菜）",
+    "englishName": "Brussels sprouts, raw"
+  },
+  {
+    "foodCode": "045213",
+    "foodName": "羽衣甘蓝",
+    "englishName": "Brassica, oleracea"
+  },
+  {
+    "foodCode": "045214",
+    "foodName": "盖菜",
+    "englishName": "Mustard greens, broad leaf, raw"
+  },
+  {
+    "foodCode": "045215",
+    "foodName": "芥蓝［甘蓝菜、盖蓝菜］",
+    "englishName": "Kale, raw"
+  },
+  {
+    "foodCode": "045216",
+    "foodName": "菜花（白色）［花椰菜］",
+    "englishName": "Cauliflower, white, raw"
+  },
+  {
+    "foodCode": "045217",
+    "foodName": "西兰花［绿菜花］",
+    "englishName": "Broccoli, raw"
+  },
+  {
+    "foodCode": "045301",
+    "foodName": "菠菜（鲜）［赤根菜］",
+    "englishName": "Spinach"
+  },
+  {
+    "foodCode": "045302",
+    "foodName": "菠菜（脱水）",
+    "englishName": "Spinach, dehydrated"
+  },
+  {
+    "foodCode": "045303",
+    "foodName": "冬寒菜（鲜）［冬苋菜，冬葵］",
+    "englishName": "Mallow"
+  },
+  {
+    "foodCode": "045305",
+    "foodName": "胡萝卜缨（红，鲜）",
+    "englishName": "Carrot leaf"
+  },
+  {
+    "foodCode": "045306",
+    "foodName": "苦菜［节节花，拒马菜］",
+    "englishName": "Common sowthistle"
+  },
+  {
+    "foodCode": "045307",
+    "foodName": "萝卜缨（白）",
+    "englishName": "Radish leaf, white root"
+  },
+  {
+    "foodCode": "045308",
+    "foodName": "萝卜缨（青）",
+    "englishName": "Radish leaf, green root"
+  },
+  {
+    "foodCode": "045309",
+    "foodName": "萝卜缨（小萝卜）",
+    "englishName": "Radish leaf, red root, small"
+  },
+  {
+    "foodCode": "045310",
+    "foodName": "落葵［木耳菜，软浆菜］",
+    "englishName": "Vinespinach, red"
+  },
+  {
+    "foodCode": "045312",
+    "foodName": "芹菜茎",
+    "englishName": "Celery stem"
+  },
+  {
+    "foodCode": "045313",
+    "foodName": "芹菜叶（鲜）",
+    "englishName": "Celery leaf"
+  },
+  {
+    "foodCode": "045316",
+    "foodName": "甜菜叶（鲜）",
+    "englishName": "Beta vulgaris"
+  },
+  {
+    "foodCode": "045317",
+    "foodName": "香菜（鲜）［芫荽］",
+    "englishName": "Coriander leaf"
+  },
+  {
+    "foodCode": "045318",
+    "foodName": "香菜（脱水）",
+    "englishName": "Coriander leaf, dehydrated"
+  },
+  {
+    "foodCode": "045319",
+    "foodName": "苋菜（绿，鲜）",
+    "englishName": "Amaranth, pale green"
+  },
+  {
+    "foodCode": "045320",
+    "foodName": "苋菜（紫，鲜）［红苋］",
+    "englishName": "Amaranth, purple"
+  },
+  {
+    "foodCode": "045321",
+    "foodName": "蒿（鲜）［蓬蒿菜，艾菜］",
+    "englishName": "Chrysanthemum crown daisy, greens"
+  },
+  {
+    "foodCode": "045322",
+    "foodName": "茴香（鲜）［小茴香",
+    "englishName": "Fennel"
+  },
+  {
+    "foodCode": "045323",
+    "foodName": "荠菜（鲜）［蓟菜，菱角菜］",
+    "englishName": "Shepherd's purse"
+  },
+  {
+    "foodCode": "045324",
+    "foodName": "莴笋（鲜）莴苣］",
+    "englishName": "Lettuce stem"
+  },
+  {
+    "foodCode": "045327",
+    "foodName": "番杏［新西兰菠菜、夏菠菜］",
+    "englishName": "Common tetragonia, raw"
+  },
+  {
+    "foodCode": "045328",
+    "foodName": "樱桃萝卜缨",
+    "englishName": "Cherry radish leaf and stem, raw"
+  },
+  {
+    "foodCode": "045329",
+    "foodName": "白凤菜",
+    "englishName": "Green Gynura, raw"
+  },
+  {
+    "foodCode": "045330",
+    "foodName": "紫背天葵［红风菜、血皮菜］",
+    "englishName": "Gynura, raw"
+  },
+  {
+    "foodCode": "045331",
+    "foodName": "芹菜（茎）［旱芹，药芹］",
+    "englishName": "Chinese celery stem, raw"
+  },
+  {
+    "foodCode": "045332",
+    "foodName": "西芹［西洋芹菜，美芹］",
+    "englishName": "Celery stem, raw"
+  },
+  {
+    "foodCode": "045333",
+    "foodName": "生菜［叶用莴苣］",
+    "englishName": "Endive lettuce, curl leafed, raw"
+  },
+  {
+    "foodCode": "045334",
+    "foodName": "油麦菜",
+    "englishName": "Romaine lettuce, raw"
+  },
+  {
+    "foodCode": "045335",
+    "foodName": "叶甜菜（白梗）",
+    "englishName": "Beta cicla, raw"
+  },
+  {
+    "foodCode": "045336",
+    "foodName": "莴笋叶［莴苣菜］",
+    "englishName": "Lettuce, leaf, raw"
+  },
+  {
+    "foodCode": "045337",
+    "foodName": "蕹菜［空心菜、藤藤菜］",
+    "englishName": "Water spinach, raw"
+  },
+  {
+    "foodCode": "045338",
+    "foodName": "观达菜［根达菜、牛皮菜］",
+    "englishName": "Swiss chard, leaf and stem, raw"
+  },
+  {
+    "foodCode": "045339",
+    "foodName": "球茎茴香［甜茴香、意大利茴香］",
+    "englishName": "Anise, raw"
+  },
+  {
+    "foodCode": "045401",
+    "foodName": "竹笋（鲜）",
+    "englishName": "Bamboo shoot, whole"
+  },
+  {
+    "foodCode": "045402",
+    "foodName": "白笋（干）",
+    "englishName": "bamboo shoot , dried"
+  },
+  {
+    "foodCode": "045403",
+    "foodName": "鞭笋（鲜）［马鞭笋］",
+    "englishName": "Summer bamboo shoot"
+  },
+  {
+    "foodCode": "045404",
+    "foodName": "春笋（鲜）",
+    "englishName": "Spring bamboo shoot"
+  },
+  {
+    "foodCode": "045405",
+    "foodName": "冬笋（鲜）",
+    "englishName": "Winter bamboo shoot"
+  },
+  {
+    "foodCode": "045406",
+    "foodName": "黑笋（干）",
+    "englishName": "bamboo shoot, dried"
+  },
+  {
+    "foodCode": "045407",
+    "foodName": "毛笋（鲜）［毛竹笋］",
+    "englishName": "baby bamboo shoot"
+  },
+  {
+    "foodCode": "045408",
+    "foodName": "玉兰片（白笋）",
+    "englishName": "Bamboo shoot, sliced, soaked in water"
+  },
+  {
+    "foodCode": "045409",
+    "foodName": "百合（鲜）",
+    "englishName": "Lily"
+  },
+  {
+    "foodCode": "045411",
+    "foodName": "百合（脱水）",
+    "englishName": "Lily, dehydrated"
+  },
+  {
+    "foodCode": "045412",
+    "foodName": "金针菜（鲜）［黄花菜］",
+    "englishName": "Daylily flower"
+  },
+  {
+    "foodCode": "045413",
+    "foodName": "菊苣",
+    "englishName": "Endive, Chicory"
+  },
+  {
+    "foodCode": "045415",
+    "foodName": "芦笋（绿）［石刁柏、龙须菜］",
+    "englishName": "Asparagus stem，raw"
+  },
+  {
+    "foodCode": "045416",
+    "foodName": "芦笋（紫）",
+    "englishName": "Asparagus stem，purple，raw"
+  },
+  {
+    "foodCode": "045417",
+    "foodName": "结球菊苣（红）",
+    "englishName": "Radicchio Chicory，red，raw"
+  },
+  {
+    "foodCode": "045418",
+    "foodName": "软化白菊苣",
+    "englishName": "Chicory witloof，raw"
+  },
+  {
+    "foodCode": "045419",
+    "foodName": "穿心莲",
+    "englishName": "Andrographis paniculata，leaf"
+  },
+  {
+    "foodCode": "045420",
+    "foodName": "红薯叶",
+    "englishName": "Sweet potato leaves"
+  },
+  {
+    "foodCode": "045421",
+    "foodName": "南瓜藤",
+    "englishName": "Pumpkin Tender leaves"
+  },
+  {
+    "foodCode": "045422",
+    "foodName": "三七尖",
+    "englishName": "Sanqi Tender leaves"
+  },
+  {
+    "foodCode": "045423",
+    "foodName": "棠梨花",
+    "englishName": "Tangli flower"
+  },
+  {
+    "foodCode": "045424",
+    "foodName": "洋丝瓜苗",
+    "englishName": "Towel gourd green shoots"
+  }
+]

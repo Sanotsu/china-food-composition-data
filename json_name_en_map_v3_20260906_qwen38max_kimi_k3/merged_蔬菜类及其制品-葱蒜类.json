@@ -1,0 +1,102 @@
+[
+  {
+    "foodCode": "044101",
+    "foodName": "大蒜（白皮，鲜）［蒜头］",
+    "englishName": "Garlic bulb"
+  },
+  {
+    "foodCode": "044102",
+    "foodName": "大蒜（脱水）",
+    "englishName": "Garlic bulb，dehydrated"
+  },
+  {
+    "foodCode": "044103",
+    "foodName": "大蒜（紫皮，鲜）［蒜头］",
+    "englishName": "Garlic bulb，purple skin"
+  },
+  {
+    "foodCode": "044104",
+    "foodName": "青蒜（青葱）",
+    "englishName": "Leeks，young leaf"
+  },
+  {
+    "foodCode": "044105",
+    "foodName": "蒜黄（黄色）",
+    "englishName": "Garlic greens，yellow leaf"
+  },
+  {
+    "foodCode": "044106",
+    "foodName": "蒜苗（绿色，青蒜）",
+    "englishName": "Garlic stalk"
+  },
+  {
+    "foodCode": "044107",
+    "foodName": "蒜薹（圆）",
+    "englishName": "Garlic scapes"
+  },
+  {
+    "foodCode": "044202",
+    "foodName": "大葱（红皮）",
+    "englishName": "Scallion，red skin"
+  },
+  {
+    "foodCode": "044203",
+    "foodName": "分葱［四季葱，菜葱］",
+    "englishName": "Fistular onion，chire"
+  },
+  {
+    "foodCode": "044205",
+    "foodName": "葱（小葱，鲜）",
+    "englishName": "Scallion，spring onion"
+  },
+  {
+    "foodCode": "044206",
+    "foodName": "大葱",
+    "englishName": "Scallion，raw，Green chinese onion"
+  },
+  {
+    "foodCode": "044207",
+    "foodName": "细香葱［香葱、四季葱］",
+    "englishName": "Chive，raw"
+  },
+  {
+    "foodCode": "044301",
+    "foodName": "洋葱（鲜）［葱头］",
+    "englishName": "Onion bulb"
+  },
+  {
+    "foodCode": "044302",
+    "foodName": "洋葱（白皮，脱水）",
+    "englishName": "Onion bulb，white skin，dehydrated"
+  },
+  {
+    "foodCode": "044303",
+    "foodName": "洋葱（紫皮，脱水）",
+    "englishName": "Onion bulb，purple skin，dehydrated"
+  },
+  {
+    "foodCode": "044402",
+    "foodName": "韭黄（韭芽，黄色）",
+    "englishName": "Chives，yellow"
+  },
+  {
+    "foodCode": "044403",
+    "foodName": "韭薹",
+    "englishName": "Chives flowering stalk"
+  },
+  {
+    "foodCode": "044404",
+    "foodName": "韭菜",
+    "englishName": "Chinese chive，raw"
+  },
+  {
+    "foodCode": "044501",
+    "foodName": "薤［皎头］",
+    "englishName": "Longstamen onion bulb"
+  },
+  {
+    "foodCode": "044502",
+    "foodName": "薤白（鲜）［小根蒜，山蒜，团蒜］",
+    "englishName": "Longstamen onion bulb"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "foodCode": "066101",
+    "foodName": "白金瓜",
+    "englishName": "Conomon, white-skinned"
+  },
+  {
+    "foodCode": "066102",
+    "foodName": "白兰瓜",
+    "englishName": "Honeydew, white-skinned, light green pulp"
+  },
+  {
+    "foodCode": "066103",
+    "foodName": "哈密瓜",
+    "englishName": "*Hami* cantaloup"
+  },
+  {
+    "foodCode": "066104",
+    "foodName": "黄河蜜瓜",
+    "englishName": "*Yellow River* honey melon"
+  },
+  {
+    "foodCode": "066105",
+    "foodName": "金塔寺瓜",
+    "englishName": "*Jintasi* melon"
+  },
+  {
+    "foodCode": "066106",
+    "foodName": "灵蜜瓜",
+    "englishName": "*Lingmi* melon"
+  },
+  {
+    "foodCode": "066107",
+    "foodName": "麻醉瓜",
+    "englishName": "*Chamring* melon"
+  },
+  {
+    "foodCode": "066108",
+    "foodName": "甜瓜［香瓜］",
+    "englishName": "Casaba"
+  },
+  {
+    "foodCode": "066201x",
+    "foodName": "西瓜（代表值）",
+    "englishName": "Watermelon"
+  },
+  {
+    "foodCode": "066202",
+    "foodName": "西瓜（京欣一号）",
+    "englishName": "Watermelon, *Jingxin #1*"
+  },
+  {
+    "foodCode": "066203",
+    "foodName": "西瓜（郑州三号）",
+    "englishName": "Watermelon, *Zhengzhou #3*"
+  },
+  {
+    "foodCode": "066204",
+    "foodName": "西瓜（忠于6号，黑皮）",
+    "englishName": "Watermelon, *Zhongyu #6*, dark green-skinned"
+  },
+  {
+    "foodCode": "066205",
+    "foodName": "子瓜",
+    "englishName": "Seed-watermelon"
+  },
+  {
+    "foodCode": "066206",
+    "foodName": "小西瓜［地雷瓜］",
+    "englishName": "Water melon, small"
+  }
+]

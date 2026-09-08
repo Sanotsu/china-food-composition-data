@@ -1,0 +1,57 @@
+[
+  {
+    "foodCode": "111101x",
+    "foodName": "鸡蛋",
+    "englishName": "Chicken，egg"
+  },
+  {
+    "foodCode": "111102",
+    "foodName": "鸡蛋（白皮）",
+    "englishName": "Chicken，egg，white shell，whole"
+  },
+  {
+    "foodCode": "111103",
+    "foodName": "鸡蛋（红皮）",
+    "englishName": "Chicken，egg，brown shell，whole"
+  },
+  {
+    "foodCode": "111104",
+    "foodName": "鸡蛋（土鸡）",
+    "englishName": "Chicken，egg，free range chicken，whole"
+  },
+  {
+    "foodCode": "111105",
+    "foodName": "鸡蛋白",
+    "englishName": "Chicken，egg white"
+  },
+  {
+    "foodCode": "111106",
+    "foodName": "鸡蛋白（乌骨鸡）",
+    "englishName": "Chicken，egg white，black-boned chicken"
+  },
+  {
+    "foodCode": "111107",
+    "foodName": "鸡蛋黄",
+    "englishName": "Chicken，egg yolk"
+  },
+  {
+    "foodCode": "111108",
+    "foodName": "鸡蛋黄（乌骨鸡）",
+    "englishName": "Chicken，egg yolk，black boned chicken"
+  },
+  {
+    "foodCode": "111201",
+    "foodName": "鸡蛋粉［全蛋粉］",
+    "englishName": "Chicken，egg powder，whole"
+  },
+  {
+    "foodCode": "111202",
+    "foodName": "鸡蛋黄粉",
+    "englishName": "Chicken，egg yolk powder"
+  },
+  {
+    "foodCode": "111203",
+    "foodName": "松花蛋（鸡蛋）",
+    "englishName": "*Chicken，century egg， preserved in lime"
+  }
+]

@@ -1,0 +1,187 @@
+[
+  {
+    "foodCode": "062101x",
+    "foodName": "桃（代表值）",
+    "englishName": "Peach"
+  },
+  {
+    "foodCode": "062102",
+    "foodName": "白粉桃",
+    "englishName": "White peach"
+  },
+  {
+    "foodCode": "062103",
+    "foodName": "高山白桃",
+    "englishName": "*Mountain* peach，white"
+  },
+  {
+    "foodCode": "062104",
+    "foodName": "早久保桃",
+    "englishName": "*Jiubao* peach，early maturing"
+  },
+  {
+    "foodCode": "062105",
+    "foodName": "桃（黄桃）",
+    "englishName": "Yellow peach"
+  },
+  {
+    "foodCode": "062106",
+    "foodName": "金红桃",
+    "englishName": "*Golden red* peach"
+  },
+  {
+    "foodCode": "062107",
+    "foodName": "桃（久保桃）",
+    "englishName": "*Jiubao* Peach"
+  },
+  {
+    "foodCode": "062109",
+    "foodName": "蒲桃",
+    "englishName": "*Pu* peach"
+  },
+  {
+    "foodCode": "062110",
+    "foodName": "庆丰桃",
+    "englishName": "*Celebrate Harvest* peach"
+  },
+  {
+    "foodCode": "062111",
+    "foodName": "晚桃（黄）",
+    "englishName": "Peach，yellow，late maturing"
+  },
+  {
+    "foodCode": "062112",
+    "foodName": "五月鲜桃",
+    "englishName": "*May fresh* peach"
+  },
+  {
+    "foodCode": "062113",
+    "foodName": "早桃（黄）",
+    "englishName": "Peach，yellow，early maturing"
+  },
+  {
+    "foodCode": "062115",
+    "foodName": "蜜桃",
+    "englishName": "Peach，*Honey* type"
+  },
+  {
+    "foodCode": "062116",
+    "foodName": "桃（糖水罐头）",
+    "englishName": "Peach，canned in syrup"
+  },
+  {
+    "foodCode": "062201",
+    "foodName": "李子",
+    "englishName": "*Apricot* plum"
+  },
+  {
+    "foodCode": "062202",
+    "foodName": "李子杏",
+    "englishName": "*Plum* apricot"
+  },
+  {
+    "foodCode": "062203",
+    "foodName": "梅［青梅］",
+    "englishName": "Stellatehair vatica"
+  },
+  {
+    "foodCode": "062204",
+    "foodName": "杏",
+    "englishName": "Apricot"
+  },
+  {
+    "foodCode": "062205",
+    "foodName": "杏（罐头）",
+    "englishName": "Apricot，canned"
+  },
+  {
+    "foodCode": "062206",
+    "foodName": "杏干",
+    "englishName": "Apricot，dried"
+  },
+  {
+    "foodCode": "062207",
+    "foodName": "布朗",
+    "englishName": "American plum or hog plum"
+  },
+  {
+    "foodCode": "062208",
+    "foodName": "西梅",
+    "englishName": "Prune or garden plum"
+  },
+  {
+    "foodCode": "062301",
+    "foodName": "枣（鲜）",
+    "englishName": "Date"
+  },
+  {
+    "foodCode": "062302",
+    "foodName": "枣（干）",
+    "englishName": "Date，dried"
+  },
+  {
+    "foodCode": "062303",
+    "foodName": "枣（干，大）",
+    "englishName": "Date，large，dried"
+  },
+  {
+    "foodCode": "062304",
+    "foodName": "枣（金丝小枣）",
+    "englishName": "Date，*Jinsi* small"
+  },
+  {
+    "foodCode": "062305",
+    "foodName": "乐陵枣",
+    "englishName": "Date，*Leling*，small"
+  },
+  {
+    "foodCode": "062306",
+    "foodName": "密云小枣",
+    "englishName": "*Miyun* date，small"
+  },
+  {
+    "foodCode": "062307",
+    "foodName": "黑枣（无核）［乌枣］",
+    "englishName": "Dateplum persimmon，seeds removed，dried"
+  },
+  {
+    "foodCode": "062308",
+    "foodName": "黑枣（有核）",
+    "englishName": "Date，black，smoked"
+  },
+  {
+    "foodCode": "062309",
+    "foodName": "酒枣",
+    "englishName": "Date，preserved in liquor"
+  },
+  {
+    "foodCode": "062310",
+    "foodName": "蜜枣（椰枣）",
+    "englishName": "*Honey* date，deglet noor"
+  },
+  {
+    "foodCode": "062312",
+    "foodName": "冬枣",
+    "englishName": "Winter jujube"
+  },
+  {
+    "foodCode": "062313",
+    "foodName": "小枣（干）",
+    "englishName": "Date，dried"
+  },
+  {
+    "foodCode": "062901",
+    "foodName": "酸枣",
+    "englishName": "Spine date"
+  },
+  {
+    "foodCode": "062902",
+    "foodName": "樱桃",
+    "englishName": "False sour cherry"
+  },
+  {
+    "foodCode": "062903",
+    "foodName": "樱桃（野，白刺）",
+    "englishName": "Downy cherry，wild，white prickle"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "foodCode": "109001",
+    "foodName": "炼乳（甜，罐头）",
+    "englishName": "Condensed milk，pasteurized，sweetened，canned"
+  },
+  {
+    "foodCode": "109002",
+    "foodName": "奶皮子",
+    "englishName": "Milk skin，fresh"
+  },
+  {
+    "foodCode": "109003",
+    "foodName": "奶片",
+    "englishName": "Milk tablet，sugar added"
+  }
+]

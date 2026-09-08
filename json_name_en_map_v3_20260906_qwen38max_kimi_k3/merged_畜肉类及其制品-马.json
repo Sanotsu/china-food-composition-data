@@ -1,0 +1,17 @@
+[
+  {
+    "foodCode": "085101",
+    "foodName": "马肉",
+    "englishName": "Horse meat"
+  },
+  {
+    "foodCode": "085201",
+    "foodName": "马心",
+    "englishName": "Horse heart"
+  },
+  {
+    "foodCode": "085301",
+    "foodName": "马肉（卤）",
+    "englishName": "Horse meat，stewed"
+  }
+]

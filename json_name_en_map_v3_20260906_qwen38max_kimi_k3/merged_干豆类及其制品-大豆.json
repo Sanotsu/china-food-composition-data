@@ -1,0 +1,242 @@
+[
+  {
+    "foodCode": "031101",
+    "foodName": "黄豆［大豆］",
+    "englishName": "Soybean"
+  },
+  {
+    "foodCode": "031102",
+    "foodName": "黑豆（干）［黑大豆］",
+    "englishName": "Black soybean"
+  },
+  {
+    "foodCode": "031103",
+    "foodName": "青豆（干）［青大豆］",
+    "englishName": "Green soybean"
+  },
+  {
+    "foodCode": "031104",
+    "foodName": "黄豆",
+    "englishName": "Soybean，yellow"
+  },
+  {
+    "foodCode": "031201",
+    "foodName": "黄豆粉",
+    "englishName": "Soybean flour"
+  },
+  {
+    "foodCode": "031202",
+    "foodName": "豆腐花［豆腐粉］",
+    "englishName": "Soybean milk powder"
+  },
+  {
+    "foodCode": "031203",
+    "foodName": "豆浆粉",
+    "englishName": "Soybean milk powder"
+  },
+  {
+    "foodCode": "031206",
+    "foodName": "豆奶粉（维维牌）",
+    "englishName": "Soybean milk powder，WEIWEI，cow's milk and sugar added"
+  },
+  {
+    "foodCode": "031207",
+    "foodName": "豆奶粉（多力牌）",
+    "englishName": "Soybean milk powder，DUOLI，cow's milk powder，egg powder and sugar added，calcium fortified"
+  },
+  {
+    "foodCode": "031208",
+    "foodName": "豆奶粉（大磨牌）",
+    "englishName": "Soybean milk powder，DAMO，cow's milk added，calcium and iron fortified，unsweetened"
+  },
+  {
+    "foodCode": "031301x",
+    "foodName": "豆腐（代表值）",
+    "englishName": "Tofu，Soybean curd，semisoft"
+  },
+  {
+    "foodCode": "031304",
+    "foodName": "豆腐（内酯）",
+    "englishName": "Tofu，Soybean curd，coagulated with gluconalactone，soft"
+  },
+  {
+    "foodCode": "031305",
+    "foodName": "豆腐脑［老豆腐］",
+    "englishName": "Soybean curd，soft，cooked with pickled vegetables"
+  },
+  {
+    "foodCode": "031306",
+    "foodName": "豆腐（北豆腐）",
+    "englishName": "Tofu，Soybean curd，semisoft，Northern style"
+  },
+  {
+    "foodCode": "031307",
+    "foodName": "豆腐（南豆腐）",
+    "englishName": "Tofu，Soybean curd，soft，Southern style"
+  },
+  {
+    "foodCode": "031402",
+    "foodName": "豆奶［豆乳］",
+    "englishName": "Soybean milk，mixed with bovine milk"
+  },
+  {
+    "foodCode": "031403",
+    "foodName": "豆汁（生）",
+    "englishName": "*Sour soybean drink*，fermented ground beans"
+  },
+  {
+    "foodCode": "031404",
+    "foodName": "酸豆奶",
+    "englishName": "Sour soybean milk，fermented"
+  },
+  {
+    "foodCode": "031405",
+    "foodName": "豆浆",
+    "englishName": "Soybean milk ，unsweetened"
+  },
+  {
+    "foodCode": "031406",
+    "foodName": "豆浆（甜）",
+    "englishName": "Soybean milk ，sweetened"
+  },
+  {
+    "foodCode": "031501",
+    "foodName": "豆腐丝",
+    "englishName": "Soybean curd sheet，thin strip，semisoft"
+  },
+  {
+    "foodCode": "031502",
+    "foodName": "豆腐丝（干）",
+    "englishName": "Soybean curd sheet，thin strip，dried"
+  },
+  {
+    "foodCode": "031503",
+    "foodName": "豆腐丝（油）",
+    "englishName": "Soybean curd sheet，thin strip，deep fried"
+  },
+  {
+    "foodCode": "031504",
+    "foodName": "豆腐卷",
+    "englishName": "Soybean curd sheet，rolled"
+  },
+  {
+    "foodCode": "031506",
+    "foodName": "油豆腐",
+    "englishName": "Soybean curd, diced, deep fried"
+  },
+  {
+    "foodCode": "031507",
+    "foodName": "腐竹",
+    "englishName": "Soybean milk film, stick shaped, skimmed from soy milk, dried"
+  },
+  {
+    "foodCode": "031508",
+    "foodName": "枝竹",
+    "englishName": "*Soy bamboo* film, skimmed from soy milk, rolled"
+  },
+  {
+    "foodCode": "031509",
+    "foodName": "千张［百页］",
+    "englishName": "Soybean curd sheet, semisoft"
+  },
+  {
+    "foodCode": "031510x",
+    "foodName": "豆腐干（代表值）",
+    "englishName": "Soybean curd slab, semisoft"
+  },
+  {
+    "foodCode": "031511",
+    "foodName": "豆腐干（菜干）",
+    "englishName": "Soybean curd slab, salted, semisoft"
+  },
+  {
+    "foodCode": "031512",
+    "foodName": "豆腐干（臭干）",
+    "englishName": "Fermented soybean curd slab, semisoft, pungent"
+  },
+  {
+    "foodCode": "031513",
+    "foodName": "豆腐干（酱油干）",
+    "englishName": "Soybean curd slab, with soy sauce, semisoft"
+  },
+  {
+    "foodCode": "031514",
+    "foodName": "豆腐干（卤干）",
+    "englishName": "Soybean curd slab, cooked in soy sauce, semisoft"
+  },
+  {
+    "foodCode": "031515",
+    "foodName": "豆腐干（蒲包干）",
+    "englishName": "Soybean curd slab, semisoft"
+  },
+  {
+    "foodCode": "031516",
+    "foodName": "豆腐干（香干）",
+    "englishName": "Soybean curd slab, cooked with spices, semisoft"
+  },
+  {
+    "foodCode": "031517",
+    "foodName": "豆腐干（小香干）",
+    "englishName": "Soybean curd slab, spiced, semisoft"
+  },
+  {
+    "foodCode": "031518",
+    "foodName": "豆腐干（熏干）",
+    "englishName": "Soybean curd slab, smoked, semisoft"
+  },
+  {
+    "foodCode": "031519",
+    "foodName": "豆肝尖",
+    "englishName": "Soybean curd pieces, cooked with spices, semisoft"
+  },
+  {
+    "foodCode": "031520",
+    "foodName": "素大肠",
+    "englishName": "*Soy intestine*, rolled sheet, cooked with spices, semisoft"
+  },
+  {
+    "foodCode": "031521",
+    "foodName": "素火腿",
+    "englishName": "*Soy ham*, rolled sheet, cooked with spices, semisoft"
+  },
+  {
+    "foodCode": "031522",
+    "foodName": "素鸡",
+    "englishName": "*Soy chicken *, rolled sheet, cooked with spices, semisoft"
+  },
+  {
+    "foodCode": "031523",
+    "foodName": "素鸡丝卷",
+    "englishName": "*Soy chicken shreds*, thin strip of rolled sheet, with spices"
+  },
+  {
+    "foodCode": "031524",
+    "foodName": "素什锦",
+    "englishName": "Mixed soybean curd, cooked with soy sauce, semisoft"
+  },
+  {
+    "foodCode": "031525",
+    "foodName": "炸素虾",
+    "englishName": "*Soy shrimp*, spices, deep fried"
+  },
+  {
+    "foodCode": "031526",
+    "foodName": "烤麸",
+    "englishName": "Wheat gluten, cooked with soy sauce and sugar"
+  },
+  {
+    "foodCode": "031527",
+    "foodName": "豆腐皮",
+    "englishName": "Soybean sheet, dried, skimmed from soybean milk"
+  },
+  {
+    "foodCode": "031528",
+    "foodName": "腐竹",
+    "englishName": "Soybean stick, dried, skimmed from soybean milk"
+  },
+  {
+    "foodCode": "031529",
+    "foodName": "豆腐干",
+    "englishName": "Soybean curd slab, semisoft"
+  }
+]

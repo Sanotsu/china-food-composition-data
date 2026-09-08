@@ -1,0 +1,57 @@
+[
+  {
+    "foodCode": "021101",
+    "foodName": "马铃薯［土豆、洋芋］",
+    "englishName": "Potato，white"
+  },
+  {
+    "foodCode": "021102",
+    "foodName": "马铃薯丁（脱水）",
+    "englishName": "Potato，slab，dehydrated"
+  },
+  {
+    "foodCode": "021105",
+    "foodName": "马铃薯（烤）",
+    "englishName": "Potato，baked，peeled"
+  },
+  {
+    "foodCode": "021106",
+    "foodName": "马铃薯（蒸）",
+    "englishName": "Potato，steamed，peeled"
+  },
+  {
+    "foodCode": "021107",
+    "foodName": "马铃薯（煮）",
+    "englishName": "Potato，boiled，peeled"
+  },
+  {
+    "foodCode": "021108",
+    "foodName": "马铃薯全粉",
+    "englishName": "Potato flour"
+  },
+  {
+    "foodCode": "021201",
+    "foodName": "甘薯（白心）［红皮山芋］",
+    "englishName": "Sweet potato，white flesh"
+  },
+  {
+    "foodCode": "021203",
+    "foodName": "甘薯片［白薯干］",
+    "englishName": "Sweet potato slice，dried"
+  },
+  {
+    "foodCode": "021204",
+    "foodName": "甘薯粉［地瓜粉］",
+    "englishName": "Sweet potato flour"
+  },
+  {
+    "foodCode": "021205",
+    "foodName": "甘薯（红心）［山芋、红薯］",
+    "englishName": "Sweet potato，red flesh，raw"
+  },
+  {
+    "foodCode": "021301",
+    "foodName": "木薯",
+    "englishName": "Cassava"
+  }
+]

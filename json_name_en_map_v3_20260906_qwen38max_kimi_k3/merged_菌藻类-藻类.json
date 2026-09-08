@@ -1,0 +1,57 @@
+[
+  {
+    "foodCode": "052001",
+    "foodName": "发菜（干）［仙菜］",
+    "englishName": "Black-moss, dried"
+  },
+  {
+    "foodCode": "052002",
+    "foodName": "海带（鲜）［江白菜］",
+    "englishName": "Kelp"
+  },
+  {
+    "foodCode": "052003",
+    "foodName": "海带［江白菜，昆布",
+    "englishName": "Kelp"
+  },
+  {
+    "foodCode": "052004",
+    "foodName": "海带（浸）［江白菜，昆布］",
+    "englishName": "Kelp, soaked in water"
+  },
+  {
+    "foodCode": "052005",
+    "foodName": "海冻菜（干）［石花菜，冻菜",
+    "englishName": "Agar agar, dried"
+  },
+  {
+    "foodCode": "052006",
+    "foodName": "琼脂［紫菜胶洋粉",
+    "englishName": "Agar agar powder"
+  },
+  {
+    "foodCode": "052007",
+    "foodName": "苔菜（干）［苔条，条浒苔］",
+    "englishName": "Sea grass, dried"
+  },
+  {
+    "foodCode": "052008",
+    "foodName": "紫菜（干）",
+    "englishName": "Laver, dried"
+  },
+  {
+    "foodCode": "052009",
+    "foodName": "螺旋藻（干）",
+    "englishName": "Spirulina, dried"
+  },
+  {
+    "foodCode": "052010",
+    "foodName": "裙带菜（干）［海芥菜、海木耳］",
+    "englishName": "Sea water fungus, dried"
+  },
+  {
+    "foodCode": "052011",
+    "foodName": "海带菜（鲜）",
+    "englishName": "Kelp sliver, with sugar, sesame and salt"
+  }
+]

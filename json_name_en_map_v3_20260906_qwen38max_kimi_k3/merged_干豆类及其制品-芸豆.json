@@ -1,0 +1,32 @@
+[
+  {
+    "foodCode": "034101",
+    "foodName": "花豆（干，红）",
+    "englishName": "Kidney bean, red, dried"
+  },
+  {
+    "foodCode": "034102",
+    "foodName": "花豆（干，紫）",
+    "englishName": "Kidney bean, purple, dried"
+  },
+  {
+    "foodCode": "034103",
+    "foodName": "芸豆（干，白）",
+    "englishName": "Kidney bean, white, dried"
+  },
+  {
+    "foodCode": "034104",
+    "foodName": "芸豆（干，红）",
+    "englishName": "Kidney bean, red, dried"
+  },
+  {
+    "foodCode": "034105",
+    "foodName": "芸豆（干，虎皮）",
+    "englishName": "Kidney bean, variegated, dried"
+  },
+  {
+    "foodCode": "034106",
+    "foodName": "芸豆（干，杂，带皮）",
+    "englishName": "Kidney bean, multi colored, dried"
+  }
+]

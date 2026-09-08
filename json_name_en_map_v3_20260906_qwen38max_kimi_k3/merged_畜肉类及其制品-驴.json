@@ -1,0 +1,27 @@
+[
+  {
+    "foodCode": "084101",
+    "foodName": "驴肉（瘦）",
+    "englishName": "Donkey meat, lean"
+  },
+  {
+    "foodCode": "084201",
+    "foodName": "驴鞭",
+    "englishName": "Donkey penis"
+  },
+  {
+    "foodCode": "084301",
+    "foodName": "驴肉（酱）",
+    "englishName": "Donkey meat, spiced, with soy sauce"
+  },
+  {
+    "foodCode": "084302",
+    "foodName": "驴肉（卤）",
+    "englishName": "Donkey meat, stewed"
+  },
+  {
+    "foodCode": "084303",
+    "foodName": "驴肉（煮）",
+    "englishName": "Donkey meat, cooked"
+  }
+]

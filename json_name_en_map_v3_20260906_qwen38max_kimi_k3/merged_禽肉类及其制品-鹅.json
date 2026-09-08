@@ -1,0 +1,22 @@
+[
+  {
+    "foodCode": "093101",
+    "foodName": "鹅",
+    "englishName": "Goose, whole"
+  },
+  {
+    "foodCode": "093201",
+    "foodName": "鹅肝",
+    "englishName": "Goose, liver"
+  },
+  {
+    "foodCode": "093202",
+    "foodName": "鹅肫",
+    "englishName": "Goose, gizzard"
+  },
+  {
+    "foodCode": "093301",
+    "foodName": "烧鹅",
+    "englishName": "Goose, stewed in soy sauce, whole"
+  }
+]
